@@ -1,0 +1,193 @@
+{
+  "Thirst": {
+    "Enabled": true,
+    "MaxThirst": 2000.0,
+    "ThirstDecayRate": 9.0,
+    "ThirstDecayRateMax": 5.0,
+    "HydrationLossDelayMultiplierNormalized": 1.0,
+    "SprintThirstMultiplier": 1.7,
+    "IdleThirstModifier": 0.25,
+    "ThirstDamage": 0.1,
+    "BoilingWaterDamage": 5.0,
+    "MaxMovementSpeedPenalty": 0.1,
+    "MovementSpeedPenaltyThreshold": 600.0,
+    "ThirstPercentageOnRespawn": 0.5,
+    "ThirstRateAtStoryLocations": 1.0,
+    "NutritionDeficitMultiplier": 3.0,
+    "AntiThirstScumming": false
+  },
+  "Satiety": {
+    "ItemSatietyMapping": {
+      "game:waterportion-brainfreeze": -100.0,
+      "game:waterportion": -100.0,
+      "game:boilingwaterportion": 0.0,
+      "game:saltwaterportion": -100.0,
+      "hydrateordiedrate:waterportion-boiled-natural-clean": 0.0,
+      "hydrateordiedrate:waterportion-fresh-well-clean": 0.0,
+      "hydrateordiedrate:waterportion-salt-well-clean": -100.0,
+      "hydrateordiedrate:waterportion-fresh-rain-clean": -50.0,
+      "hydrateordiedrate:waterportion-boiled-rain-clean": 0.0,
+      "hydrateordiedrate:waterportion-fresh-distilled-clean": 0.0,
+      "hydrateordiedrate:waterportion-fresh-well-muddy": -75.0,
+      "hydrateordiedrate:waterportion-salt-well-muddy": -75.0,
+      "hydrateordiedrate:waterportion-fresh-well-tainted": -400.0,
+      "hydrateordiedrate:waterportion-salt-well-tainted": -400.0,
+      "hydrateordiedrate:waterportion-fresh-well-poisoned": 0.0,
+      "hydrateordiedrate:waterportion-salt-well-poisoned": -100.0,
+      "hydrateordiedrate:waterportion-boiled-natural-clean-brainfreeze": 0.0,
+      "hydrateordiedrate:waterportion-fresh-well-clean-brainfreeze": 0.0,
+      "hydrateordiedrate:waterportion-salt-well-clean-brainfreeze": -100.0,
+      "hydrateordiedrate:waterportion-fresh-rain-clean-brainfreeze": -50.0,
+      "hydrateordiedrate:waterportion-boiled-rain-clean-brainfreeze": 0.0,
+      "hydrateordiedrate:waterportion-fresh-distilled-clean-brainfreeze": 0.0,
+      "hydrateordiedrate:waterportion-fresh-well-muddy-brainfreeze": -75.0,
+      "hydrateordiedrate:waterportion-salt-well-muddy-brainfreeze": -75.0,
+      "hydrateordiedrate:waterportion-fresh-well-tainted-brainfreeze": -400.0,
+      "hydrateordiedrate:waterportion-salt-well-tainted-brainfreeze": -400.0,
+      "hydrateordiedrate:waterportion-fresh-well-poisoned-brainfreeze": 0.0,
+      "hydrateordiedrate:waterportion-salt-well-poisoned-brainfreeze": -100.0
+    }
+  },
+  "PerishRates": {
+    "Enabled": true,
+    "TransitionConfig": {
+      "hydrateordiedrate:waterportion-boiled-natural-clean": {
+        "FreshHours": 75.0,
+        "TransitionHours": 18.0
+      },
+      "hydrateordiedrate:waterportion-fresh-well-clean": {
+        "FreshHours": 150.0,
+        "TransitionHours": 36.0
+      },
+      "hydrateordiedrate:waterportion-salt-well-clean": {
+        "FreshHours": 150.0,
+        "TransitionHours": 36.0
+      },
+      "hydrateordiedrate:waterportion-fresh-rain-clean": {
+        "FreshHours": 150.0,
+        "TransitionHours": 36.0
+      },
+      "hydrateordiedrate:waterportion-boiled-rain-clean": {
+        "FreshHours": 75.0,
+        "TransitionHours": 18.0
+      },
+      "hydrateordiedrate:waterportion-fresh-distilled-clean": {
+        "FreshHours": 150.0,
+        "TransitionHours": 36.0
+      },
+      "hydrateordiedrate:waterportion-fresh-well-muddy": {
+        "FreshHours": 150.0,
+        "TransitionHours": 36.0
+      },
+      "hydrateordiedrate:waterportion-salt-well-muddy": {
+        "FreshHours": 150.0,
+        "TransitionHours": 36.0
+      },
+      "hydrateordiedrate:waterportion-boiled-natural-clean-brainfreeze": {
+        "FreshHours": 75.0,
+        "TransitionHours": 18.0
+      },
+      "hydrateordiedrate:waterportion-fresh-well-clean-brainfreeze": {
+        "FreshHours": 150.0,
+        "TransitionHours": 36.0
+      },
+      "hydrateordiedrate:waterportion-salt-well-clean-brainfreeze": {
+        "FreshHours": 150.0,
+        "TransitionHours": 36.0
+      },
+      "hydrateordiedrate:waterportion-fresh-rain-clean-brainfreeze": {
+        "FreshHours": 150.0,
+        "TransitionHours": 36.0
+      },
+      "hydrateordiedrate:waterportion-boiled-rain-clean-brainfreeze": {
+        "FreshHours": 75.0,
+        "TransitionHours": 18.0
+      },
+      "hydrateordiedrate:waterportion-fresh-distilled-clean-brainfreeze": {
+        "FreshHours": 150.0,
+        "TransitionHours": 36.0
+      },
+      "hydrateordiedrate:waterportion-fresh-well-muddy-brainfreeze": {
+        "FreshHours": 150.0,
+        "TransitionHours": 36.0
+      },
+      "hydrateordiedrate:waterportion-salt-well-muddy-brainfreeze": {
+        "FreshHours": 150.0,
+        "TransitionHours": 36.0
+      }
+    }
+  },
+  "LiquidEncumbrance": {
+    "Enabled": false,
+    "EncumbranceLimit": 4.0,
+    "EncumbranceMovementSpeedDebuff": 0.4
+  },
+  "HeatAndCooling": {
+    "HarshHeat": true,
+    "TemperatureThreshold": 27.0,
+    "ThirstIncreasePerDegreeMultiplier": 5.0,
+    "HarshHeatExponentialGainMultiplier": 0.2,
+    "UnequippedSlotCooling": 1.0,
+    "WetnessCoolingBonus": 8.0,
+    "RoomCoolingBonus": 8.0,
+    "ShadeCoolingBonus": 8.0,
+    "CoolingTempOffsetPerPoint": 0.5,
+    "LowSunlightThreshold": 16,
+    "LowSunlightCoolingBonus": 8.0
+  },
+  "GroundWater": {
+    "ShallowWellLitersPerDay": 4.0,
+    "WellSpringOutputMultiplier": 1.0,
+    "WellwaterDepthMaxBase": 5,
+    "WellwaterDepthMaxClay": 7,
+    "WellwaterDepthMaxStone": 10,
+    "WinchRaiseSpeed": 0.8,
+    "WinchLowerSpeed": 0.8,
+    "WinchOutputInfo": true,
+    "AquiferRandomMultiplierChance": 0.019999999552965164,
+    "AquiferWaterBlockMultiplier": 4.0,
+    "AquiferSaltWaterMultiplier": 4.0,
+    "AquiferBoilingWaterMultiplier": 100,
+    "AquiferRatingCeilingAboveSeaLevel": 30,
+    "AquiferDepthMultiplierScale": 1.0,
+    "AquiferMinimumWaterBlockThreshold": 5,
+    "CrossChunkColumnSmoothing": true,
+    "ProspectingRadius": 3,
+    "AquiferDataOnProspectingNodeMode": false,
+    "ShowAquiferProspectingDataOnMap": true
+  },
+  "Rain": {
+    "EnableRainGathering": true,
+    "RainMultiplier": 1.0,
+    "EnableParticleTicking": true
+  },
+  "Pump": {
+    "HandPumpEnablePriming": true,
+    "HandPumpOutputInfo": true,
+    "HandPumpPrimingBlocksPerStroke": 3
+  },
+  "WorldGen": {
+    "PondChance": 1.0
+  },
+  "Containers": {
+    "KegCapacityLitres": 100.0,
+    "SpoilRateUntapped": 0.15,
+    "SpoilRateTapped": 0.75,
+    "KegIronHoopDropChance": 0.8,
+    "KegTapDropChance": 0.9,
+    "KegDropWithLiquid": true,
+    "TunCapacityLitres": 950.0,
+    "TunSpoilRateMultiplier": 1.0,
+    "TunDropWithLiquid": true
+  },
+  "XLib": {
+    "DromedaryMultiplierPerLevel": 0.3,
+    "EquatidianCoolingMultipliers": [
+      1.25,
+      1.5,
+      2.0
+    ]
+  },
+  "DisableDrunkSway": true,
+  "SprintToDrink": true
+}

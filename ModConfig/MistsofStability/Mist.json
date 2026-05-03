@@ -1,0 +1,25 @@
+{
+  "Version": 1,
+  "Brown": {
+    "Help": "Brown mist = Low stability areas.",
+    "FogDensityHelp": "How thick the brown mist is.",
+    "FogDensity": 0.35,
+    "SmoothSpeedHelp": "How fast the mist fades in/out.",
+    "SmoothSpeed": 0.3,
+    "UnstableThresholdHelp": "Brown mist triggers when stability is below this threshold. Default: 1.0.",
+    "UnstableThreshold": 1.0,
+    "UnstableFinishThresholdHelp": "Hard cap. If stability goes below this value, brown mist intensity will NOT increase further.",
+    "UnstableFinishThreshold": 0.6
+  },
+  "Teal": {
+    "Help": "Teal mist = High stability areas.",
+    "FogDensityHelp": "How thick the teal mist is.",
+    "FogDensity": 0.1,
+    "SmoothSpeedHelp": "How fast the mist fades in/out.",
+    "SmoothSpeed": 0.3,
+    "StableThresholdHelp": "Teal mist triggers when stability is above this threshold. Default: 1.30.",
+    "StableThreshold": 1.3,
+    "StableFinishThresholdHelp": "Hard cap. If stability goes above this value, teal mist intensity will NOT increase further.",
+    "StableFinishThreshold": 1.5
+  }
+}

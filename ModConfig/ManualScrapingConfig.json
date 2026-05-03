@@ -1,0 +1,8 @@
+{
+  "Comment": "Hold durations for different hide types. Values in milliseconds.",
+  "SmallHideDuration": 2000,
+  "MediumHideDuration": 3500,
+  "LargeHideDuration": 4500,
+  "HugeHideDuration": 6000,
+  "DisableScrapingRecipes": true
+}

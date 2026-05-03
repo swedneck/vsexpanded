@@ -1,0 +1,9 @@
+{
+  "FreezingTemperature": -4.0,
+  "MeltingTemperature": 4.0,
+  "MeasurementType": "Daily average",
+  "AverageIntervalHours": 3.0,
+  "SpecificHour": 9.0,
+  "FixSnowAccum": true,
+  "RespectSnowAccum": true
+}

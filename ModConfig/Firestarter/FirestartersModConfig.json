@@ -1,0 +1,4 @@
+{
+  "EnableLogsComment": "If true, debug logs will be enabled for the Firestarters mod.",
+  "EnableLogs": false
+}

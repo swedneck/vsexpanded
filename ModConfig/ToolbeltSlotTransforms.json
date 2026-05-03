@@ -1,0 +1,735 @@
+{
+  "Version": 1,
+  "SlotTransforms": [
+    {
+      "PosX": -0.352,
+      "PosY": 0.1,
+      "PosZ": 0.099,
+      "RotXDeg": 2.0,
+      "RotYDeg": 93.0,
+      "RotZDeg": -85.0
+    },
+    {
+      "PosX": -0.532,
+      "PosY": 0.1,
+      "PosZ": 0.088,
+      "RotXDeg": 6.0,
+      "RotYDeg": 90.0,
+      "RotZDeg": -83.0
+    },
+    {
+      "PosX": -0.378,
+      "PosY": -0.235,
+      "PosZ": -0.161,
+      "RotXDeg": 2.0,
+      "RotYDeg": 0.0,
+      "RotZDeg": 86.0
+    },
+    {
+      "PosX": 0.042,
+      "PosY": -0.457,
+      "PosZ": -0.041,
+      "RotXDeg": -5.0,
+      "RotYDeg": 90.0,
+      "RotZDeg": 85.0
+    }
+  ],
+  "ToolOverrides": [
+    {
+      "SlotIndex": 0,
+      "Tool": "Pickaxe",
+      "Transform": {
+        "PosX": 0.265,
+        "PosY": -0.398,
+        "PosZ": -0.169,
+        "RotXDeg": 1.0,
+        "RotYDeg": -93.0,
+        "RotZDeg": 87.0
+      }
+    },
+    {
+      "SlotIndex": 0,
+      "Tool": "Knife",
+      "Transform": {
+        "PosX": -0.004,
+        "PosY": 0.173,
+        "PosZ": 0.113,
+        "RotXDeg": -5.0,
+        "RotYDeg": 181.0,
+        "RotZDeg": -93.0
+      }
+    },
+    {
+      "SlotIndex": 0,
+      "Tool": "Axe",
+      "Transform": {
+        "PosX": -0.592,
+        "PosY": -0.48,
+        "PosZ": -0.073,
+        "RotXDeg": -3.0,
+        "RotYDeg": 124.0,
+        "RotZDeg": 94.0
+      }
+    },
+    {
+      "SlotIndex": 0,
+      "Tool": "Sword",
+      "Transform": {
+        "PosX": 0.202,
+        "PosY": 0.199,
+        "PosZ": -0.263,
+        "RotXDeg": 12.0,
+        "RotYDeg": 275.0,
+        "RotZDeg": -97.0
+      }
+    },
+    {
+      "SlotIndex": 0,
+      "Tool": "Shovel",
+      "Transform": {
+        "PosX": -0.001,
+        "PosY": 0.525,
+        "PosZ": 0.036,
+        "RotXDeg": 18.0,
+        "RotYDeg": 171.0,
+        "RotZDeg": -89.0
+      }
+    },
+    {
+      "SlotIndex": 0,
+      "Tool": "Hammer",
+      "Transform": {
+        "PosX": -0.101,
+        "PosY": -0.412,
+        "PosZ": 0.099,
+        "RotXDeg": -8.0,
+        "RotYDeg": -95.0,
+        "RotZDeg": 87.0
+      }
+    },
+    {
+      "SlotIndex": 0,
+      "Tool": "Spear",
+      "Transform": {
+        "PosX": 0.002,
+        "PosY": 0.1,
+        "PosZ": 0.262,
+        "RotXDeg": 24.0,
+        "RotYDeg": 189.0,
+        "RotZDeg": 95.0
+      }
+    },
+    {
+      "SlotIndex": 0,
+      "Tool": "Bow",
+      "Transform": {
+        "PosX": -0.612,
+        "PosY": 0.071,
+        "PosZ": -0.183,
+        "RotXDeg": -36.0,
+        "RotYDeg": 93.0,
+        "RotZDeg": -88.0
+      }
+    },
+    {
+      "SlotIndex": 0,
+      "Tool": "Shears",
+      "Transform": {
+        "PosX": -0.569,
+        "PosY": 0.308,
+        "PosZ": -0.135,
+        "RotXDeg": 2.0,
+        "RotYDeg": 95.0,
+        "RotZDeg": -84.0
+      }
+    },
+    {
+      "SlotIndex": 0,
+      "Tool": "Hoe",
+      "Transform": {
+        "PosX": 0.242,
+        "PosY": 0.1,
+        "PosZ": -0.252,
+        "RotXDeg": 0.0,
+        "RotYDeg": 271.0,
+        "RotZDeg": -92.0
+      }
+    },
+    {
+      "SlotIndex": 0,
+      "Tool": "Chisel",
+      "Transform": {
+        "PosX": -0.335,
+        "PosY": 0.236,
+        "PosZ": -0.132,
+        "RotXDeg": -3.0,
+        "RotYDeg": 93.0,
+        "RotZDeg": -84.0
+      }
+    },
+    {
+      "SlotIndex": 0,
+      "Tool": "Scythe",
+      "Transform": {
+        "PosX": -0.052,
+        "PosY": 0.339,
+        "PosZ": -0.158,
+        "RotXDeg": 29.0,
+        "RotYDeg": 0.0,
+        "RotZDeg": -92.0
+      }
+    },
+    {
+      "SlotIndex": 0,
+      "Tool": "Sling",
+      "Transform": {
+        "PosX": -0.577,
+        "PosY": 0.293,
+        "PosZ": -0.223,
+        "RotXDeg": 2.0,
+        "RotYDeg": 90.0,
+        "RotZDeg": -90.0
+      }
+    },
+    {
+      "SlotIndex": 0,
+      "Tool": "Wrench",
+      "Transform": {
+        "PosX": -0.592,
+        "PosY": -0.449,
+        "PosZ": -0.255,
+        "RotXDeg": 2.0,
+        "RotYDeg": 93.0,
+        "RotZDeg": 94.0
+      }
+    },
+    {
+      "SlotIndex": 1,
+      "Tool": "Pickaxe",
+      "Transform": {
+        "PosX": -0.058,
+        "PosY": -0.423,
+        "PosZ": -0.252,
+        "RotXDeg": -3.0,
+        "RotYDeg": -81.0,
+        "RotZDeg": 84.0
+      }
+    },
+    {
+      "SlotIndex": 1,
+      "Tool": "Knife",
+      "Transform": {
+        "PosX": -0.335,
+        "PosY": 0.176,
+        "PosZ": 0.131,
+        "RotXDeg": -8.0,
+        "RotYDeg": -188.0,
+        "RotZDeg": -92.0
+      }
+    },
+    {
+      "SlotIndex": 1,
+      "Tool": "Axe",
+      "Transform": {
+        "PosX": 0.153,
+        "PosY": -0.506,
+        "PosZ": -0.041,
+        "RotXDeg": -8.0,
+        "RotYDeg": -120.0,
+        "RotZDeg": 90.0
+      }
+    },
+    {
+      "SlotIndex": 1,
+      "Tool": "Sword",
+      "Transform": {
+        "PosX": 0.005,
+        "PosY": 0.1,
+        "PosZ": -0.32,
+        "RotXDeg": -12.0,
+        "RotYDeg": -74.0,
+        "RotZDeg": -97.0
+      }
+    },
+    {
+      "SlotIndex": 1,
+      "Tool": "Shovel",
+      "Transform": {
+        "PosX": 0.279,
+        "PosY": 0.253,
+        "PosZ": -0.255,
+        "RotXDeg": 0.0,
+        "RotYDeg": -80.0,
+        "RotZDeg": -97.0
+      }
+    },
+    {
+      "SlotIndex": 1,
+      "Tool": "Hammer",
+      "Transform": {
+        "PosX": -0.078,
+        "PosY": -0.318,
+        "PosZ": -0.492,
+        "RotXDeg": 171.0,
+        "RotYDeg": -180.0,
+        "RotZDeg": -92.0
+      }
+    },
+    {
+      "SlotIndex": 1,
+      "Tool": "Spear",
+      "Transform": {
+        "PosX": 0.122,
+        "PosY": 0.1,
+        "PosZ": 0.139,
+        "RotXDeg": 12.0,
+        "RotYDeg": -144.94057,
+        "RotZDeg": 100.0
+      }
+    },
+    {
+      "SlotIndex": 1,
+      "Tool": "Bow",
+      "Transform": {
+        "PosX": -0.641,
+        "PosY": 0.296,
+        "PosZ": -0.181,
+        "RotXDeg": 0.0,
+        "RotYDeg": -266.0,
+        "RotZDeg": -90.0
+      }
+    },
+    {
+      "SlotIndex": 1,
+      "Tool": "Shears",
+      "Transform": {
+        "PosX": -0.323,
+        "PosY": 0.273,
+        "PosZ": 0.191,
+        "RotXDeg": -4.0,
+        "RotYDeg": -183.0,
+        "RotZDeg": -85.0
+      }
+    },
+    {
+      "SlotIndex": 1,
+      "Tool": "Hoe",
+      "Transform": {
+        "PosX": -0.05,
+        "PosY": -0.018,
+        "PosZ": -0.332,
+        "RotXDeg": -7.0,
+        "RotYDeg": -68.0,
+        "RotZDeg": -94.0
+      }
+    },
+    {
+      "SlotIndex": 1,
+      "Tool": "Chisel",
+      "Transform": {
+        "PosX": -0.324,
+        "PosY": 0.219,
+        "PosZ": 0.246,
+        "RotXDeg": -11.0,
+        "RotYDeg": 180.0,
+        "RotZDeg": -90.0
+      }
+    },
+    {
+      "SlotIndex": 1,
+      "Tool": "Scythe",
+      "Transform": {
+        "PosX": -0.052,
+        "PosY": 0.396,
+        "PosZ": -0.255,
+        "RotXDeg": 19.0,
+        "RotYDeg": 0.0,
+        "RotZDeg": -90.0
+      }
+    },
+    {
+      "SlotIndex": 1,
+      "Tool": "Sling",
+      "Transform": {
+        "PosX": -0.383,
+        "PosY": 0.282,
+        "PosZ": 0.171,
+        "RotXDeg": -2.0,
+        "RotYDeg": 180.0,
+        "RotZDeg": -90.0
+      }
+    },
+    {
+      "SlotIndex": 1,
+      "Tool": "Wrench",
+      "Transform": {
+        "PosX": -0.398,
+        "PosY": -0.452,
+        "PosZ": -0.415,
+        "RotXDeg": 177.0,
+        "RotYDeg": 190.0,
+        "RotZDeg": -92.0
+      }
+    },
+    {
+      "SlotIndex": 2,
+      "Tool": "Pickaxe",
+      "Transform": {
+        "PosX": -0.092,
+        "PosY": -0.486,
+        "PosZ": 0.276,
+        "RotXDeg": -8.0,
+        "RotYDeg": -94.0,
+        "RotZDeg": 95.0
+      }
+    },
+    {
+      "SlotIndex": 2,
+      "Tool": "Knife",
+      "Transform": {
+        "PosX": -0.38,
+        "PosY": 0.182,
+        "PosZ": -0.106,
+        "RotXDeg": -3.0,
+        "RotYDeg": 9.0,
+        "RotZDeg": -99.0
+      }
+    },
+    {
+      "SlotIndex": 2,
+      "Tool": "Axe",
+      "Transform": {
+        "PosX": 0.138,
+        "PosY": -0.51,
+        "PosZ": 0.01,
+        "RotXDeg": -7.0,
+        "RotYDeg": -40.0,
+        "RotZDeg": 91.0
+      }
+    },
+    {
+      "SlotIndex": 2,
+      "Tool": "Sword",
+      "Transform": {
+        "PosX": -0.018,
+        "PosY": 0.1,
+        "PosZ": 0.105000004,
+        "RotXDeg": -7.0,
+        "RotYDeg": -80.0,
+        "RotZDeg": -86.0
+      }
+    },
+    {
+      "SlotIndex": 2,
+      "Tool": "Shovel",
+      "Transform": {
+        "PosX": 0.133,
+        "PosY": 0.259,
+        "PosZ": -0.081,
+        "RotXDeg": -2.0,
+        "RotYDeg": -38.0,
+        "RotZDeg": -88.0
+      }
+    },
+    {
+      "SlotIndex": 2,
+      "Tool": "Hammer",
+      "Transform": {
+        "PosX": -0.126,
+        "PosY": -0.286,
+        "PosZ": -0.209,
+        "RotXDeg": 5.0,
+        "RotYDeg": 14.676397,
+        "RotZDeg": 91.0
+      }
+    },
+    {
+      "SlotIndex": 2,
+      "Tool": "Spear",
+      "Transform": {
+        "PosX": 0.027500011,
+        "PosY": 0.248,
+        "PosZ": -0.246,
+        "RotXDeg": 28.0,
+        "RotYDeg": -2.0,
+        "RotZDeg": 91.0
+      }
+    },
+    {
+      "SlotIndex": 2,
+      "Tool": "Bow",
+      "Transform": {
+        "PosX": -0.617,
+        "PosY": -0.309,
+        "PosZ": 0.176,
+        "RotXDeg": -4.0,
+        "RotYDeg": 83.0,
+        "RotZDeg": 88.0
+      }
+    },
+    {
+      "SlotIndex": 2,
+      "Tool": "Shears",
+      "Transform": {
+        "PosX": 0.022,
+        "PosY": 0.302,
+        "PosZ": 0.191,
+        "RotXDeg": 2.0,
+        "RotYDeg": -93.0,
+        "RotZDeg": -86.0
+      }
+    },
+    {
+      "SlotIndex": 2,
+      "Tool": "Hoe",
+      "Transform": {
+        "PosX": -0.021,
+        "PosY": -0.004,
+        "PosZ": 0.248,
+        "RotXDeg": -4.0,
+        "RotYDeg": -104.0,
+        "RotZDeg": -89.0
+      }
+    },
+    {
+      "SlotIndex": 2,
+      "Tool": "Chisel",
+      "Transform": {
+        "PosX": -0.352,
+        "PosY": 0.165,
+        "PosZ": -0.238,
+        "RotXDeg": -17.0,
+        "RotYDeg": 0.0,
+        "RotZDeg": -93.0
+      }
+    },
+    {
+      "SlotIndex": 2,
+      "Tool": "Scythe",
+      "Transform": {
+        "PosX": 0.019,
+        "PosY": 0.328,
+        "PosZ": 0.225,
+        "RotXDeg": 16.0,
+        "RotYDeg": 180.0,
+        "RotZDeg": -90.0
+      }
+    },
+    {
+      "SlotIndex": 2,
+      "Tool": "Wrench",
+      "Transform": {
+        "PosX": -0.378,
+        "PosY": -0.466,
+        "PosZ": -0.161,
+        "RotXDeg": 2.0,
+        "RotYDeg": 0.0,
+        "RotZDeg": 86.0
+      }
+    },
+    {
+      "SlotIndex": 2,
+      "Tool": "Saw",
+      "Transform": {
+        "PosX": -0.101,
+        "PosY": -0.449,
+        "PosZ": -0.161,
+        "RotXDeg": 2.0,
+        "RotYDeg": 0.0,
+        "RotZDeg": 86.0
+      }
+    },
+    {
+      "SlotIndex": 2,
+      "Tool": "Sling",
+      "Transform": {
+        "PosX": -0.387,
+        "PosY": -0.235,
+        "PosZ": -0.161,
+        "RotXDeg": 2.0,
+        "RotYDeg": 0.0,
+        "RotZDeg": 86.0
+      }
+    },
+    {
+      "SlotIndex": 3,
+      "Tool": "Pickaxe",
+      "Transform": {
+        "PosX": 0.242,
+        "PosY": -0.409,
+        "PosZ": 0.233,
+        "RotXDeg": -3.0,
+        "RotYDeg": -89.0,
+        "RotZDeg": 92.0
+      }
+    },
+    {
+      "SlotIndex": 3,
+      "Tool": "Knife",
+      "Transform": {
+        "PosX": -0.089,
+        "PosY": 0.182,
+        "PosZ": -0.106,
+        "RotXDeg": -3.0,
+        "RotYDeg": 9.0,
+        "RotZDeg": -99.0
+      }
+    },
+    {
+      "SlotIndex": 3,
+      "Tool": "Axe",
+      "Transform": {
+        "PosX": -0.56,
+        "PosY": -0.483,
+        "PosZ": -0.015,
+        "RotXDeg": 0.0,
+        "RotYDeg": 55.0,
+        "RotZDeg": 88.0
+      }
+    },
+    {
+      "SlotIndex": 3,
+      "Tool": "Sword",
+      "Transform": {
+        "PosX": 0.248,
+        "PosY": 0.165,
+        "PosZ": 0.173,
+        "RotXDeg": 0.0,
+        "RotYDeg": -95.0,
+        "RotZDeg": -85.0
+      }
+    },
+    {
+      "SlotIndex": 3,
+      "Tool": "Shovel",
+      "Transform": {
+        "PosX": -0.112,
+        "PosY": 0.562,
+        "PosZ": -0.044,
+        "RotXDeg": 34.0,
+        "RotYDeg": 22.0,
+        "RotZDeg": -80.0
+      }
+    },
+    {
+      "SlotIndex": 3,
+      "Tool": "Hammer",
+      "Transform": {
+        "PosX": -0.627,
+        "PosY": -0.318,
+        "PosZ": -0.083,
+        "RotXDeg": 7.0,
+        "RotYDeg": 90.0,
+        "RotZDeg": 88.0
+      }
+    },
+    {
+      "SlotIndex": 3,
+      "Tool": "Spear",
+      "Transform": {
+        "PosX": -0.001,
+        "PosY": 0.1,
+        "PosZ": -0.232,
+        "RotXDeg": 14.0,
+        "RotYDeg": 5.0,
+        "RotZDeg": 87.0
+      }
+    },
+    {
+      "SlotIndex": 3,
+      "Tool": "Bow",
+      "Transform": {
+        "PosX": -0.243,
+        "PosY": -0.352,
+        "PosZ": 0.216,
+        "RotXDeg": -36.0,
+        "RotYDeg": 91.0,
+        "RotZDeg": 88.0
+      }
+    },
+    {
+      "SlotIndex": 3,
+      "Tool": "Shears",
+      "Transform": {
+        "PosX": -0.309,
+        "PosY": 0.333,
+        "PosZ": 0.388,
+        "RotXDeg": 171.0,
+        "RotYDeg": -2.0,
+        "RotZDeg": 96.0
+      }
+    },
+    {
+      "SlotIndex": 3,
+      "Tool": "Hoe",
+      "Transform": {
+        "PosX": 0.262,
+        "PosY": 0.065,
+        "PosZ": 0.148,
+        "RotXDeg": -3.0,
+        "RotYDeg": -88.0,
+        "RotZDeg": -86.0
+      }
+    },
+    {
+      "SlotIndex": 3,
+      "Tool": "Chisel",
+      "Transform": {
+        "PosX": -0.34,
+        "PosY": 0.248,
+        "PosZ": 0.196,
+        "RotXDeg": -2.0,
+        "RotYDeg": 90.0,
+        "RotZDeg": -95.0
+      }
+    },
+    {
+      "SlotIndex": 3,
+      "Tool": "Scythe",
+      "Transform": {
+        "PosX": -0.009,
+        "PosY": 0.382,
+        "PosZ": 0.151,
+        "RotXDeg": 155.0,
+        "RotYDeg": 0.0,
+        "RotZDeg": 90.0
+      }
+    },
+    {
+      "SlotIndex": 3,
+      "Tool": "Sling",
+      "Transform": {
+        "PosX": -0.566,
+        "PosY": -0.28,
+        "PosZ": 0.239,
+        "RotXDeg": -5.0,
+        "RotYDeg": 90.0,
+        "RotZDeg": 90.0
+      }
+    },
+    {
+      "SlotIndex": 3,
+      "Tool": "Wrench",
+      "Transform": {
+        "PosX": -0.606,
+        "PosY": -0.457,
+        "PosZ": 0.242,
+        "RotXDeg": 4.0,
+        "RotYDeg": 90.0,
+        "RotZDeg": 85.0
+      }
+    },
+    {
+      "SlotIndex": 3,
+      "Tool": "Saw",
+      "Transform": {
+        "PosX": -0.38,
+        "PosY": -0.457,
+        "PosZ": -0.041,
+        "RotXDeg": -5.0,
+        "RotYDeg": 90.0,
+        "RotZDeg": 85.0
+      }
+    }
+  ]
+}

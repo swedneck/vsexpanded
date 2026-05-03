@@ -1,0 +1,10 @@
+{
+  "Version": 1,
+  "Help": "Misc settings.",
+  "RegisterToggleTemporalMistHotkeyHelp": "If true, registers the 'Toggle Temporal Mist' hotkey, a key to toggle mist effects on/off.",
+  "RegisterToggleTemporalMistHotkey": true,
+  "EnableNecklaceMechanicHelp": "If true, mist effects are gated by gear necklaces.",
+  "EnableNecklaceMechanic": true,
+  "EnableTemporalDoctorModeHelp": "If true and the mod 'temporaldoctor' is loaded, enables Doctor Mode: ignores the hotkey + necklace gating, and lets the doctor mask reduce mist density.",
+  "EnableTemporalDoctorMode": true
+}

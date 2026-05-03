@@ -1,0 +1,5 @@
+{
+  "Help": "Set FollowPlayerSlots to false to stop slots rendering on the player, and make it render on top of the toolbar. Increase ToolbeltGapAboveHotbarPx to move the slots higher. Decrease it to move them closer to the hotbar. ",
+  "ToolbeltGapAboveHotbarPx": 50.0,
+  "FollowPlayerSlots": true
+}

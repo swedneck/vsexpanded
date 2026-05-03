@@ -1,0 +1,52 @@
+{
+  "direction": {
+    "allowed": true,
+    "threshold": 3
+  },
+  "marker": {
+    "allowed": true,
+    "threshold": 16
+  },
+  "densityMode": {
+    "enabled": true,
+    "simplified": false,
+    "durabilityCost": 1
+  },
+  "nodeMode": {
+    "enabled": false,
+    "durabilityCost": 2
+  },
+  "rockMode": {
+    "enabled": true,
+    "durabilityCost": 1,
+    "sampleSize": 128
+  },
+  "columnMode": {
+    "enabled": true,
+    "durabilityCost": 2,
+    "sampleSize": 32
+  },
+  "distanceMode": {
+    "enabledShort": true,
+    "durabilityCostShort": 1,
+    "sampleSizeShort": 32,
+    "enabledMedium": true,
+    "durabilityCostMedium": 2,
+    "sampleSizeMedium": 32,
+    "enabledLong": true,
+    "durabilityCostLong": 2,
+    "sampleSizeLong": 256
+  },
+  "quantityMode": {
+    "enabledShort": true,
+    "durabilityCostShort": 1,
+    "sampleSizeShort": 16,
+    "enabledMedium": true,
+    "durabilityCostMedium": 2,
+    "sampleSizeMedium": 32,
+    "enabledLong": true,
+    "durabilityCostLong": 3,
+    "sampleSizeLong": 64
+  },
+  "version": "22.0.0-rc.1"
+}

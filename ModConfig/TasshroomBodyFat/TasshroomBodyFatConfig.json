@@ -1,0 +1,13 @@
+{
+  "MaxBodyFat": 10000,
+  "DailyFatLimit": 100,
+  "FatConversionPercent": 10,
+  "EnableDebugLogging": false,
+  "MaxSaturationOverride": 0,
+  "FatConversionThreshold": 1.0,
+  "StarvationConversionPercent": 10,
+  "DeathFatPenalty": true,
+  "DeathFatLossPercent": 100,
+  "BarPosX": 927.1111,
+  "BarPosY": 842.55554
+}

@@ -1,0 +1,5 @@
+{
+  "FallThroughFrames": true,
+  "SimpleSelectionBoxesWhileBuilding": false,
+  "ChiselBlockAlwaysInsulates": false
+}

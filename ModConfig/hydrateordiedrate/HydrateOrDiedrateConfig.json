@@ -1,0 +1,32 @@
+{
+  "MaxThirst": 4000.0,
+  "ThirstDamage": 0.1,
+  "ThirstDecayRate": 10.0,
+  "ThirstIncreasePerDegreeMultiplier": 5.0,
+  "ThirstDecayRateMax": 5.0,
+  "HydrationLossDelayMultiplier": 0.05,
+  "EnableThirstMechanics": true,
+  "MaxMovementSpeedPenalty": 0.3,
+  "MovementSpeedPenaltyThreshold": 600.0,
+  "HarshHeat": true,
+  "TemperatureThreshold": 27.0,
+  "HarshHeatExponentialGainMultiplier": 0.2,
+  "BoilingWaterDamage": 5.0,
+  "EnableBoilingWaterDamage": true,
+  "UnequippedSlotCooling": 1.0,
+  "WetnessCoolingFactor": 1.5,
+  "ShelterCoolingFactor": 1.5,
+  "SunlightCoolingFactor": 1.0,
+  "DiurnalVariationAmplitude": 18.0,
+  "RefrigerationCooling": 20.0,
+  "SprintThirstMultiplier": 1.4,
+  "EnableLiquidEncumbrance": true,
+  "EncumbranceLimit": 4.0,
+  "LiquidEncumbranceMovementSpeedDebuff": 0.4,
+  "DromedaryMultiplierPerLevel": 0.3,
+  "EquatidianCoolingMultipliers": [
+    1.25,
+    1.5,
+    2.0
+  ]
+}

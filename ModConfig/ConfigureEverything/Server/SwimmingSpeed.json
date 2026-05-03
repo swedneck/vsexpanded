@@ -1,0 +1,6 @@
+{
+  "Enabled": false,
+  "AutoFill": false,
+  "Description": "Configure how fast rafts and boats can swim",
+  "SpeedMultiplier": {}
+}

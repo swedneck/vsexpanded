@@ -1,0 +1,33 @@
+{
+  "Enabled": false,
+  "AutoFill": false,
+  "Description": "Configure how fast a tool can break blocks",
+  "Examples": {
+    "EnumBlockMaterial": [
+      "0 = Air",
+      "1 = Soil",
+      "2 = Gravel",
+      "3 = Sand",
+      "4 = Wood",
+      "5 = Leaves",
+      "6 = Stone",
+      "7 = Ore",
+      "8 = Liquid",
+      "9 = Snow",
+      "10 = Ice",
+      "11 = Metal",
+      "12 = Mantle",
+      "13 = Plant",
+      "14 = Glass",
+      "15 = Ceramic",
+      "16 = Cloth",
+      "17 = Lava",
+      "18 = Brick",
+      "19 = Fire",
+      "20 = Meta",
+      "21 = Other"
+    ]
+  },
+  "Blocks": {},
+  "Items": {}
+}
