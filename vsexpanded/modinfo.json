@@ -3,7 +3,7 @@
   "type": "Content",
   "name": "VS Expanded modpack",
   "modid": "vsexpandedmodpack",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "description": "A 'hardcore' but hopefully not punishing modpack that expands upon the survival gameplay while minimally interfering with the story.",
   "authors": [
     "Swedneck"
@@ -302,7 +302,7 @@
     "waterfall": "1.2.1",
     "watergatemod": "1.0.0",
     "wateringcanfill": "1.0.2",
-    "watersheds": "6.1.0",
+    "watersheds": "6.2.0",
     "waterweathersimulationredux": "1.2.0",
     "wblockadj": "1.0.4",
     "wethology": "1.0.2",
