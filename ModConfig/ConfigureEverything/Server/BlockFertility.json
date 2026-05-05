@@ -1,0 +1,6 @@
+{
+  "Enabled": false,
+  "AutoFill": false,
+  "Description": "Configure what can grow on a block. 0 = nothing can grow, 10 = some tallgrass and small trees can be grow on it, 100 = all grass and trees can grow on it",
+  "Blocks": {}
+}

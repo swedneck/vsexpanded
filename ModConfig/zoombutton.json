@@ -1,0 +1,9 @@
+{
+  "zoomInTimeSec": 1,
+  "zoomOutTimeSec": 0.2,
+  "fieldOfView": 70,
+  "mouseSensitivityFactor": 0.5,
+  "changeMouseSmoothing": false,
+  "mouseSmoothing": 0.0,
+  "vignetteShaderEnabled": true
+}

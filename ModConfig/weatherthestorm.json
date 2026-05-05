@@ -1,0 +1,6 @@
+{
+  "AddLightCheck": true,
+  "MaxStormDrifterSpawnLight": 7,
+  "AddDistanceCheck": true,
+  "MinStormDrifterSpawnDistance": 12.0
+}

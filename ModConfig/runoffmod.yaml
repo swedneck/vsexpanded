@@ -1,0 +1,61 @@
+version: 1
+
+
+###############################
+## runoffmod:Runoff Settings ##
+###############################
+
+
+
+###############################
+## runoffmod:Wall Attachment ##
+###############################
+
+
+# Base distance the runoff sits off the wall.
+face-clearance: 0.020000001
+ # from 0 to 0.08 with step of 0.001 (default: 0.02) 
+
+# Extra outward push for drips peeling off top and terminal edges.
+topedge-extra-out: 0.080000006
+ # from 0 to 0.2 with step of 0.001 (default: 0.08) 
+
+
+############################
+## runoffmod:Wall Streaks ##
+############################
+
+
+# How many particles each wall streak uses. Higher looks fuller but costs more.
+trail-segments: 10
+ # from 1 to 20 with step of 1 (default: 10) 
+
+# How far down each streak extends on the wall.
+trail-length: 1.18
+ # from 0.2 to 2 with step of 0.01 (default: 1.18) 
+
+# Minimum wall streak quad size.
+trail-min-size: 0.13
+ # from 0.02 to 0.5 with step of 0.01 (default: 0.13) 
+
+# Maximum wall streak quad size.
+trail-max-size: 0.16999999
+ # from 0.02 to 0.7 with step of 0.01 (default: 0.17) 
+
+# Side-to-side variation for wall streak tracks.
+trail-side-jitter: 0.025
+ # from 0 to 0.1 with step of 0.001 (default: 0.025) 
+
+
+########################
+## runoffmod:Droplets ##
+########################
+
+
+# Minimum falling droplet size.
+drop-min-size: 0.17999999
+ # from 0.05 to 0.6 with step of 0.01 (default: 0.18) 
+
+# Maximum falling droplet size.
+drop-max-size: 0.22999999
+ # from 0.05 to 0.8 with step of 0.01 (default: 0.23) 

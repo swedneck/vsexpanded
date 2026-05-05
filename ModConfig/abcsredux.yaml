@@ -1,0 +1,97 @@
+version: 2
+
+# abcsredux:mini_leather_backpack_comment
+mini_leather_backpack: 8
+ # from 0 to 100 (default: 8) 
+
+# abcsredux:tall_leather_backpack_comment
+tall_leather_backpack: 10
+ # from 0 to 100 (default: 10) 
+
+# abcsredux:basic_leather_backpack_comment
+basic_leather_backpack: 12
+ # from 0 to 100 (default: 12) 
+
+# abcsredux:super_leather_backpack_comment
+super_leather_backpack: 16
+ # from 0 to 100 (default: 16) 
+
+# abcsredux:mega_leather_backpack_comment
+mega_leather_backpack: 18
+ # from 0 to 100 (default: 18) 
+
+# abcsredux:ultra_leather_backpack_comment
+ultra_leather_backpack: 20
+ # from 0 to 100 (default: 20) 
+
+# abcsredux:mini_leather_lantern_backpack_comment
+mini_leather_lantern_backpack: 8
+ # from 0 to 100 (default: 8) 
+
+# abcsredux:tall_leather_lantern_backpack_comment
+tall_leather_lantern_backpack: 10
+ # from 0 to 100 (default: 10) 
+
+# abcsredux:basic_leather_lantern_backpack_comment
+basic_leather_lantern_backpack: 12
+ # from 0 to 100 (default: 12) 
+
+# abcsredux:super_leather_lantern_backpack_comment
+super_leather_lantern_backpack: 16
+ # from 0 to 100 (default: 16) 
+
+# abcsredux:mega_leather_lantern_backpack_comment
+mega_leather_lantern_backpack: 18
+ # from 0 to 100 (default: 18) 
+
+# abcsredux:ultra_leather_lantern_backpack_comment
+ultra_leather_lantern_backpack: 20
+ # from 0 to 100 (default: 20) 
+
+# abcsredux:mini_sturdy_leather_backpack_comment
+mini_sturdy_leather_backpack: 10
+ # from 0 to 100 (default: 10) 
+
+# abcsredux:tall_sturdy_leather_backpack_comment
+tall_sturdy_leather_backpack: 12
+ # from 0 to 100 (default: 12) 
+
+# abcsredux:basic_sturdy_leather_backpack_comment
+basic_sturdy_leather_backpack: 14
+ # from 0 to 100 (default: 14) 
+
+# abcsredux:super_sturdy_leather_backpack_comment
+super_sturdy_leather_backpack: 18
+ # from 0 to 100 (default: 18) 
+
+# abcsredux:mega_sturdy_leather_backpack_comment
+mega_sturdy_leather_backpack: 22
+ # from 0 to 100 (default: 22) 
+
+# abcsredux:ultra_sturdy_leather_backpack_comment
+ultra_sturdy_leather_backpack: 26
+ # from 0 to 100 (default: 26) 
+
+# abcsredux:mini_sturdy_leather_lantern_backpack_comment
+mini_sturdy_leather_lantern_backpack: 10
+ # from 0 to 100 (default: 10) 
+
+# abcsredux:tall_sturdy_leather_lantern_backpack_comment
+tall_sturdy_leather_lantern_backpack: 12
+ # from 0 to 100 (default: 12) 
+
+# abcsredux:basic_sturdy_leather_lantern_backpack_comment
+basic_sturdy_leather_lantern_backpack: 14
+ # from 0 to 100 (default: 14) 
+
+# abcsredux:super_sturdy_leather_lantern_backpack_comment
+super_sturdy_leather_lantern_backpack: 18
+ # from 0 to 100 (default: 18) 
+
+# abcsredux:mega_sturdy_leather_lantern_backpack_comment
+mega_sturdy_leather_lantern_backpack: 22
+ # from 0 to 100 (default: 22) 
+
+# abcsredux:ultra_sturdy_leather_lantern_backpack_comment
+ultra_sturdy_leather_lantern_backpack: 26
+ # from 0 to 100 (default: 26) 

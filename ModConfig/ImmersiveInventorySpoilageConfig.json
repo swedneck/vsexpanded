@@ -1,0 +1,25 @@
+{
+  // Default: True
+  "AllowNegativeDryMultiplier": true,
+
+  // If set to true, items such as slush will be considered 'wet' and will make the player wetter when in inventory
+  // Default: True
+  "ItemWetness": true,
+
+  // If set to true, items such as slush can fully melt into water (at which point the inventory can no longer contain it)
+  // Default: True
+  "StuffCanFullyMelt": true,
+
+  // Multiplier relative to Wetness that increases spoil rate
+  // You can remove a food category (or set it to 0) to disable the effect on it
+  // (rate = originalRate * (1 + (WetnessPercentage * WetnessSpoilIncreaseByFoodCat))
+  "WetnessSpoilIncreaseByFoodCat": {
+    "NoNutrition": 0.2,
+    "Fruit": 0.2,
+    "Vegetable": 0.2,
+    "Protein": 0.4,
+    "Grain": 0.8,
+    "Dairy": 1.0,
+    "Unknown": 0.2
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "animationName": "hammerhit",
+  "rightClickEnabled": false,
+  "leftClickEnabled": true,
+  "leftClickSneakRequired": false,
+  "doublePackingEnabled": false,
+  "packingCooldownEnabled": true,
+  "packingCooldownSeconds": 2,
+  "shouldConsumeDurability": true,
+  "enableMakePathsOnSandGravel": true,
+  "enableSandGravelPathIngredient": false,
+  "toolModeEnabled": true,
+  "onlyAllowModeAction": true,
+  "rammingModeEnabled": true,
+  "existingToolModesCompatibilityFix": true,
+  "additionalShovelModNames": "",
+  "additionalShovelFullPaths": ""
+}

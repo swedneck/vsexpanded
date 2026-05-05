@@ -1,0 +1,12 @@
+{
+  "RainSoundComment": "Rain sound settings",
+  "RainSoundVolume": 0.6,
+  "RainSoundVolumeComment": "Volume of rain sound (0.0 to 1.0, 0.0 = silent)",
+  "RainSoundRange": 10.0,
+  "RainSoundRangeComment": "Hearing distance in blocks",
+  "EnableRainSound": true,
+  "EnableRainSoundComment": "Enable or disable rain sounds",
+  "GameplayComment": "Food preservation settings",
+  "PerishRate": 0.8,
+  "PerishRateComment": "Food spoilage rate (0.8 = 20% slower)"
+}

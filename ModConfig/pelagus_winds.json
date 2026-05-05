@@ -1,0 +1,28 @@
+{
+  "Version_Description": "Config file version - please do not edit this value",
+  "Version": 2,
+  "Wind_Description": "=== WIND DIRECTION RANDOMIZER SETTINGS ===",
+  "Wind": {
+    "StableTimeMin_Description": "Minimum time (seconds) the wind stays constant",
+    "StableTimeMin": 30,
+    "StableTimeMax_Description": "Maximum time (seconds) the wind stays constant",
+    "StableTimeMax": 90,
+    "ChangeTimeMin_Description": "Minimum time (seconds) for gradual wind direction changes",
+    "ChangeTimeMin": 20,
+    "ChangeTimeMax_Description": "Maximum time (seconds) for gradual wind direction changes",
+    "ChangeTimeMax": 40
+  },
+  "Clouds_Description": "=== CLOUD DIRECTION RANDOMIZER SETTINGS ===",
+  "Clouds": {
+    "SyncType_Description": "Cloud sync mode: 0=disabled, 1=follow wind, 2=independent",
+    "SyncType": 2,
+    "StableTimeMin_Description": "Minimum time (seconds) clouds stay in direction (when SyncType=2)",
+    "StableTimeMin": 300,
+    "StableTimeMax_Description": "Maximum time (seconds) clouds stay in same direction (when SyncType=2)",
+    "StableTimeMax": 1500,
+    "ChangeTimeMin_Description": "Minimum time (seconds) for cloud direction changes (when SyncType=2)",
+    "ChangeTimeMin": 30,
+    "ChangeTimeMax_Description": "Maximum time (seconds) for cloud direction changes (when SyncType=2)",
+    "ChangeTimeMax": 70
+  }
+}

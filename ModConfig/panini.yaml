@@ -1,0 +1,26 @@
+version: 1
+
+
+# No need to restart the world to apply changes.
+# Alternative config GUI available with the command .paniniconfig
+
+
+# Enables or disables the panini projection
+enabled: true
+ #  (default: True) 
+
+# Strength of the panini projection effect. 0 = off, 1 = max
+strength: 1
+ # from 0 to 1 with step of 0.01 (default: 1) 
+
+# Rendering resolution multiplier. Has a notable performance cost.
+resolution-scale: 1.3000001
+ # from 0.1 to 2 with step of 0.1 (default: 1) 
+
+# Field of view in degrees.
+fov: 120
+ # from 30 to 150 with step of 1 (default: 70) 
+
+# Blends panini with rectilinear at screen center. 0 = full panini, 1 = full rectilinear
+projection-blend: 0
+ # from 0 to 1 with step of 0.01 (default: 0) 

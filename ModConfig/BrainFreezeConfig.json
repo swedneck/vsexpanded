@@ -1,0 +1,48 @@
+{
+  // Mapping of itemcode to freezing temperature (only checks on base code so you can't do per variant registration right now).
+  "AutoRegFrozenVariants": {
+    "waterportion": -0.0,
+    "distilledwaterportion": -0.0,
+    "rainwaterportion": -0.0,
+    "juiceportion": -2.0,
+    "vegetablejuiceportion": -2.0,
+    "yogurt": -3.0,
+    "vinegarportion": -2.0,
+    "ciderportion": -4.0,
+    "finewineportion": -5.0,
+    "strongwineportion": -8.0,
+    "milkportion": -0.5,
+    "curdledmilkportion": -0.5,
+    "dilutedalum": -1.5,
+    "dilutedborax": -1.5,
+    "dilutedcassiterite": -1.5,
+    "dilutedchromite": -1.5,
+    "dye": -2.0,
+    "weaktanninportion": -1.0,
+    "strongtanninportion": -3.0,
+    "eggwhiteportion": -0.5,
+    "eggyolkportion": -0.5,
+    "eggyolkfullportion": -0.5,
+    "brothportion": -2.0,
+    "clarifiedbrothportion": -2.0,
+    "fishsauce": -6.0,
+    "dressing": -2.5,
+    "soymilk": -2.0,
+    "soysauce": -8.0,
+    "yeastwaterportion": -3.0,
+    "breadstarter": -3.0,
+    "bloodportion": -2.0,
+    "wellwaterportion": -0.0
+  },
+
+  // How much damage is taken every time you take damage from freezing.
+  // Base game value is 0.2
+  // Range: 0 ~ ∞
+  // Default: 1
+  "FreezingDamage": 1.0,
+
+  // How much you can be slowed down when you are frozen.
+  // Range: 0 ~ 1
+  // Default: 0.3
+  "FreezingMaxSpeedPenalty": 0.3
+}

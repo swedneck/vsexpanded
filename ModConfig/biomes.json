@@ -1,0 +1,27 @@
+{
+  "AutoMigrateOldData": true,
+  "Debug": false,
+  "EntitySpawnWhiteList": [],
+  "RealmGenerationConfig": {
+    "ChunkHorizontalBlendThreshold": 0.001,
+    "ChunkLatBlendThreshold": 0.01,
+    "NorthernRealms": [
+      "pacific nearctic",
+      "atlantic nearctic",
+      "atlantic palearctic",
+      "central palearctic",
+      "eastern palearctic",
+      "pacific palearctic"
+    ],
+    "SouthernRealms": [
+      "pacific neotropic",
+      "atlantic neotropic",
+      "atlantic afrotropic",
+      "eastern afrotropic",
+      "australasian",
+      "oceanic"
+    ],
+    "type": "blended"
+  },
+  "SpawnMode": "AllowButWarn"
+}

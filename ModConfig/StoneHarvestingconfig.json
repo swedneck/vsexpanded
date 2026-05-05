@@ -1,0 +1,4 @@
+{
+  "Comment": "Set to false to disable chisel durability loss.",
+  "ChiselDurabilityEnabled": true
+}

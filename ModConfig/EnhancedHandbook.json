@@ -1,0 +1,19 @@
+{
+  "onlyGridPages": false,
+  "disableTutorialTab": false,
+  "disableBlocksAndItemsTab": false,
+  "disableGuidesTab": false,
+  "disableOriginalSearchButton": true,
+  "disableDragAndDrop": false,
+  "usesEnglishDefaults": false,
+  "categories": [
+    {
+      "name": "Bookmarks",
+      "matchWords": [],
+      "matchTitleWords": [],
+      "forbiddenWords": [],
+      "forbiddenTitleWords": [],
+      "tabBackgroundColor": "default"
+    }
+  ]
+}

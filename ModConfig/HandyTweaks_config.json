@@ -1,0 +1,31 @@
+{
+  "_ModName": "Handy Tweaks — Settings",
+  "FastPickup": {
+    "Enabled": true,
+    "FreshDropRadiusBlocks": 1.75,
+    "PickupDelayMs": 150
+  },
+  "RightClickPickup": {
+    "Enabled": true,
+    "PickupWithoutMatchingStack": true,
+    "AllowWhenActiveSlotEmpty": true,
+    "IncludeHandbookAlternates": true
+  },
+  "ThrowFar": {
+    "Enabled": true,
+    "ThrowVelocityMultiplier": 3.0
+  },
+  "OffhandConditionalHunger": {
+    "Enabled": false,
+    "PenaltyPercent": 40,
+    "PenaltyDurationSeconds": 5.0,
+    "TriggerOnSprint": true,
+    "TriggerOnLeftClick": true,
+    "TriggerOnRightClick": true,
+    "RequireOffhandItem": true
+  },
+  "DiscardMode": {
+    "AllowSneakBypass": true,
+    "Enabled": false
+  }
+}

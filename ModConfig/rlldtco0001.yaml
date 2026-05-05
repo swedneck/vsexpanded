@@ -1,0 +1,107 @@
+version: 1
+
+
+#################
+## Rot Compost ##
+#################
+
+
+# How many in-game hours vanilla rot compost must stay sealed after CompostTweak's recipe patch.
+rot-compost-seal-hours: 120
+ # from 1 to 720 with step of 1 (default: 120) 
+
+# How many compost items this barrel recipe produces.
+rot-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+
+###################
+## Plant Compost ##
+###################
+
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+dry-grass-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many compost items this barrel recipe produces.
+dry-grass-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+thatch-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many compost items this barrel recipe produces.
+thatch-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+leaves-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many compost items this barrel recipe produces.
+leaves-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+cinnamon-fern-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many compost items this barrel recipe produces.
+cinnamon-fern-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+deer-fern-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many compost items this barrel recipe produces.
+deer-fern-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+eagle-fern-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many compost items this barrel recipe produces.
+eagle-fern-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+harts-tongue-fern-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many compost items this barrel recipe produces.
+harts-tongue-fern-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+
+############################
+## Soil and Earth Compost ##
+############################
+
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+low-fertility-soil-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many compost items this barrel recipe produces.
+low-fertility-soil-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+medium-fertility-soil-compost-seal-hours: 192
+ # from 1 to 720 with step of 1 (default: 192) 
+
+# How many compost items this barrel recipe produces.
+medium-fertility-soil-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+rammed-earth-compost-seal-hours: 192
+ # from 1 to 720 with step of 1 (default: 192) 
+
+# How many compost items this barrel recipe produces.
+rammed-earth-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 

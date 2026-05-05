@@ -1,0 +1,10 @@
+{
+  "Comment_SearchRadius": "How far the mod looks for nearby dropped items to combine.",
+  "SearchRadius": 3.0,
+  "Comment_InitializeRecoveryDelayMs": "How long the mod waits before checking dropped items when initialized (loading world, etc..) .",
+  "InitializeRecoveryDelayMs": 10000,
+  "Comment_CollisionRetryDelayMs": "How long the mod waits before trying again if an item landed but was still moving.",
+  "CollisionRetryDelayMs": 10000,
+  "Comment_BlacklistedItemCodes": "Full collectible codes that should never be clumped.",
+  "BlacklistedItemCodes": []
+}

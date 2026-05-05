@@ -1,0 +1,10 @@
+{
+  "WormEscapeDamagePercentPerSeconds": 0.01,
+  "WormTempDamagePercentPerSeconds": 0.1,
+  "WormHP": 100.0,
+  "WormMinTemp": 0.0,
+  "WormMaxTemp": 35.0,
+  "WormTickTimer": 5.0,
+  "WormBonusNutPerSeconds": 0.1,
+  "WormEscapeChance": 0.2
+}

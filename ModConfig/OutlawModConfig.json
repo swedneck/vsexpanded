@@ -1,0 +1,19 @@
+{
+  "EnableLooters": true,
+  "EnablePoachers": true,
+  "EnableBrigands": true,
+  "EnableYeomen": true,
+  "EnableDeserters": true,
+  "EnableBannermen": true,
+  "EnableFeralHounds": true,
+  "EnableHuntingHounds": true,
+  "StartingSpawnSafeZoneRadius": 500.0,
+  "StartingSafeZoneHasLifetime": true,
+  "StartingSafeZoneShrinksOverLifetime": true,
+  "StartingSpawnSafeZoneLifetimeInDays": 45.0,
+  "ClaimedLandBlocksOutlawSpawns": true,
+  "OutlawsUseClassicVintageStoryVoices": false,
+  "SneakAttackDamageMultRanged": 3.0,
+  "SneakAttackDamageMultMelee": 5.0,
+  "DevMode": false
+}
