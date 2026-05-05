@@ -34,7 +34,7 @@ ramp-time: 5
  # from 0.1 to 60 with step of 1 (default: 15) 
 
 # Brightness boost when fully adapted. 0 = no boost, 1 = full bright.
-max-brightness: 0.32999998
+max-brightness: 0.099999994
  # from 0 to 1 with step of 0.01 (default: 0.2) 
 
 # How often to check light levels at the player position.
@@ -86,11 +86,11 @@ max-desaturation-strength: 1
  # from 0 to 1 with step of 0.01 (default: 0.7) 
 
 # At this light level or above, desaturation is 0. Desaturation is also based on the light source strength, so at dawn, even with strength 1, full desaturation won't be reached.
-desat-start-light: 8
+desat-start-light: 9
  # from 0 to 32 with step of 1 (default: 8) 
 
 # At this light level, desaturation reaches full strength.
-desat-end-light: 3
+desat-end-light: 2
  # from 0 to 32 with step of 1 (default: 3) 
 
 # Duration of the exposure effect when leaving darkness. 0 = disabled.
@@ -102,7 +102,7 @@ max-exposure-at-adaptation: 0.5
  # from 0 to 1 with step of 0.01 (default: 0.5) 
 
 # Strength of exposure effect. 0 = disabled.
-exposure-multiplier: 1
+exposure-multiplier: 2
  # from 0 to 2 with step of 0.1 (default: 1) 
 
 # Controls how strong light streaks coming from light sources are. Set to 0 to disable.
