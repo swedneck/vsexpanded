@@ -1,0 +1,87 @@
+version: 1
+
+
+############################
+## Archimedes Water Screw ##
+############################
+
+
+# Tick rate while source conversion or source cleanup is still active.
+fast-tick-ms: 250
+ # from 50 to 5000 with step of 50 (default: 250) 
+
+# Tick rate once the Archimedes source network is stable.
+idle-tick-ms: 2000
+ # from 100 to 10000 with step of 100 (default: 2000) 
+
+# How often the server scans intake controllers (each scan processes up to maxControllersPerGlobalTick due intakes).
+global-tick-ms: 50
+ # from 10 to 500 with step of 10 (default: 50) 
+
+# Caps work per global tick when many screws are loaded.
+max-controllers-per-global-tick: 48
+ # from 1 to 512 with step of 1 (default: 48) 
+
+# Reuse screw stack scan results within this window to avoid duplicate analysis.
+assembly-analysis-cache-ms: 120
+ # from 0 to 2000 with step of 20 (default: 120) 
+
+# Archimedes sources removed per fast tick when draining (farthest from the screw first). Use 1 for one source every fastTickMs.
+max-blocks-per-step: 1
+ # from 1 to 128 with step of 1 (default: 4) 
+
+# Safety cap for how many screw blocks are scanned upward to locate the outlet.
+max-screw-length: 32
+ # from 1 to 128 with step of 1 (default: 32) 
+
+# Enable relay source creation logic for long aqueducts.
+enable-relay-sources: true
+ #  (default: True) 
+
+# Maximum vanilla traversal depth from managed frontier when evaluating whether to claim a vanilla source.
+vanilla-claim-halo-depth: 2
+ # from 0 to 8 with step of 1 (default: 2) 
+
+# Maximum queued conversion intents processed each global water tick.
+intent-queue-max-per-global-tick: 96
+ # from 1 to 512 with step of 1 (default: 96) 
+
+# Maximum relay source creations/removals per controller tick.
+max-relay-promotions-per-tick: 1
+ # from 1 to 32 with step of 1 (default: 12) 
+
+# Upper bound of relay-created sources a controller may own at full power.
+max-relay-sources-per-controller: 12
+ # from 0 to 2048 with step of 1 (default: 48) 
+
+# Mechanical network speed below this value counts as unpowered.
+minimum-network-speed: 0.001
+ # from 0.0001 to 1 with step of 0.0001 (default: 0.001) 
+
+# Mechanical power needed to unlock full relay source cap.
+required-mech-power-for-max-relay: 0.5
+ # from 0.001 to 1 with step of 0.001 (default: 0.5) 
+
+# Fractional hysteresis around relay cap thresholds to prevent source thrash.
+relay-power-hysteresis-pct: 0.05
+ # from 0 to 0.5 with step of 0.01 (default: 0.05) 
+
+# Relay candidate ordering mode: deterministic or randomWithinDistanceBucket.
+relay-candidate-ordering-mode: deterministic
+ # value from: deterministic, randomWithinDistanceBucket (default: deterministic) 
+
+# If enabled, right-clicking an intake controller logs detailed controller stats to server console.
+debug-controller-stats-on-interact: false
+ #  (default: False) 
+
+# Enable compatibility hook for the Waterfall mod when installed.
+enable-waterfall-compat: true
+ #  (default: True) 
+
+# Verbose logging for Waterfall compatibility hook decisions.
+waterfall-compat-debug: false
+ #  (default: False) 
+
+# When enabled, non-essential Archimedes diagnostics are emitted as [VerboseDebug] entries.
+verbose-debug: false
+ #  (default: False) 

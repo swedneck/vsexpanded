@@ -1,0 +1,17 @@
+{
+  "HandsNeeded": 0  /* [Default: 0, Min: 0, Max: 2] Number of empty hands required to perform a Doff, Don, or Swap. The greatest value between the client and server configs will be used. */,
+  "SaturationCost": 0.0  /* [Default: 0, Min: 0] Amount of satiety consumed when performing a Doff, Don, or Swap. The greatest value between the client and server configs will be used. */,
+  "DoffArmorToGround": true  /* [Default: True] If disabled, equipped armor will not be dropped to the ground when doffing without a target. If enabled, follows the Server's settings. */,
+  "DoffClothingToGround": false  /* [Default: False] If disabled, equipped clothing will not be dropped to the ground when doffing without a target. If enabled, follows the Server's settings. */,
+  "DoffArmorToEntities": true  /* [Default: True] If disabled, equipped armor will not be doffed to entities. If enabled, follows the Server's settings. */,
+  "DoffClothingToEntities": true  /* [Default: True] If disabled, equipped clothing will not be doffed to entities. If enabled, follows the Server's settings. */,
+  "DropUnplaceableArmor": false  /* [Default: False] If disabled, equipped armor that cannot be doffed to an entity will be dropped onto the ground. If enabled, follows the Server's settings. */,
+  "DropUnplaceableClothing": false  /* [Default: False] If disabled, equipped clothing that cannot be doffed to an entity will be dropped onto the ground. If enabled, follows the Server's settings. */,
+  "DonArmorFromEntities": true  /* [Default: True] If disabled, armor will not be donned from entities. If enabled, follows the Server's settings. */,
+  "DonClothingFromEntities": true  /* [Default: True] If disabled, clothing will not be donned from entities. If enabled, follows the Server's settings. */,
+  "DonMiscFromEntities": true  /* [Default: True] If disabled, misc. items will not be donned from entities. If enabled, follows the Server's settings. */,
+  "DonMiscOnlyToActiveHotbar": false  /* [Default: False] If enabled, misc. items donned from entities can only be placed in the currently active hotbar slot. */,
+  "DonMiscOnlyToHotbar": true  /* [Default: True] If enabled, misc. items donned from entities can only be placed in an available hotbar slot. */,
+  "SwapArmorWithEntities": true  /* [Default: True] If disabled, armor will not be swapped targeted entities. If enabled, follows the Server's settings. */,
+  "SwapClothingWithEntities": true  /* [Default: True] If disabled, clothing will not be swapped with targeted entities. If enabled, follows the Server's settings. */
+}

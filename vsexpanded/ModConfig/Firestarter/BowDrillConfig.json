@@ -1,0 +1,14 @@
+{
+  "CheckTemperatureComment": "If true, the bowdrill will check for temperature conditions.",
+  "CheckTemperature": false,
+  "MinTemperatureComment": "The minimum temperature required for the bowdrill to start a fire.",
+  "MinTemperature": -4,
+  "CheckRainComment": "If true, bowdrill will check for rain conditions.",
+  "CheckRain": false,
+  "CheckWindComment": "If true, bowdrill will check for wind conditions.",
+  "CheckWind": false,
+  "ShowRedNotificationComment": "Displays warning messages for failed attempts.",
+  "ShowRedNotification": true,
+  "EnableDebugLoggingComment": "If true, debug logs will be enabled.",
+  "EnableDebugLogging": false
+}

@@ -1,0 +1,22 @@
+{
+  "IceRatioThreshold": 0.5,
+  "TemperatureBonus": 5.0,
+  "MinPerishRate": 0.1,
+  "LightPenaltyMultiplier": 0.5,
+  "CoolingBlockCodes": [
+    "iceiscellar:icebricks",
+    "game:packedglacierice"
+  ],
+  "CoolingBlockCodePatterns": [
+    "game:agedwallpaperplanks-*",
+    "game:log-*",
+    "game:carvedlog-*",
+    "game:debarkedlog-*",
+    "game:logquad-placed-*",
+    "game:logquad-debarked-*",
+    "game:logquad-barkedcorner-*",
+    "game:logquad-debarkedcorner-*",
+    "game:logsection-*",
+    "game:planks-*"
+  ]
+}

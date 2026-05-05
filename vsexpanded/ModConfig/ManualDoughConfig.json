@@ -1,0 +1,6 @@
+{
+  "Comment": "HoldDuration is the time it takes to produce one dough while holding right click. CooldownDuration is the cool down that triggers for every dough created to prevent spamming. Values in milliseconds. 1000 ms = 1 second.",
+  "HoldDuration": 1000,
+  "CooldownDuration": 1000,
+  "DisableDoughRecipes": true
+}

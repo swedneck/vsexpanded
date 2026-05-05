@@ -1,0 +1,14 @@
+{
+  "OpenStorageBaseSpeed": 1.0,
+  "EntityStorageBaseSpeed": 0.5,
+  "ClosedStorageBaseSpeed": 0.25,
+  "IdealDryingTemperature": 60.0,
+  "MinDryingTemperature": 0.0,
+  "TemperatureEffectScale": 1.0,
+  "RoomInsulationBonus": 8.0,
+  "SmallRoomInsulationBonus": 12.0,
+  "HeatSourceEffectScale": 0.15,
+  "RainPenaltyScale": -2.0,
+  "WindBonusScale": 1.0,
+  "SlotsPerRack": 1
+}

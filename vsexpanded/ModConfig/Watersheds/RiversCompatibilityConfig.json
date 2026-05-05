@@ -1,0 +1,11 @@
+{
+  "Description": "Settings for Watersheds compatability with the Rivers mod's rivers.",
+  "RiverConnectionDownstreamOffset": 15.0,
+  "RiverConnectionDownstreamOffsetDescription": "How many blocks downstream along the river centerline the stream mouth connection point is moved.<br>This makes the connections streams that join rivers run downstream the river, not against it.",
+  "RiverDrainFadeOffset": 30.0,
+  "RiverDrainFadeOffsetDescription": "How far away the fade circle is from the stream mouth at river drain connections.<br>Uses a gradient circle to fade out the stream mouth into the river.",
+  "RiverDrainFadeRadius": 40.0,
+  "RiverDrainFadeRadiusDescription": "How big the fade circle is at river drain connections.<br>Uses a gradient circle to fade out the stream mouth into the river.>",
+  "MinRiverWidthForStreamDrain": 10.0,
+  "MinRiverWidthForStreamDrainDescription": "Minimum river channel width in blocks at the connection point for a stream to drain into the river.<br>This makes sure big+wide streams dont flow into thin river sources."
+}

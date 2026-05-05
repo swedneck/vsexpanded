@@ -1,0 +1,31 @@
+{
+  "Features": {
+    "WeatherEffects": {
+      "RaindropsEnabled": true,
+      "HailstonesEnabled": true,
+      "SnowflakesEnabled": true,
+      "DustParticlesEnabled": true,
+      "LightningEnabled": true,
+      "CloudsEnabled": true,
+      "FogEnabled": true,
+      "MistEnabled": true
+    },
+    "TextAlteration": {
+      "DuringTemporalStorm": true,
+      "WhileDrunk": true,
+      "WhileStarving": true
+    },
+    "SoundEffects": {
+      "MuteAll": false,
+      "SoundAssets": {}
+    },
+    "SceneBrightness": {
+      "Enabled": false,
+      "Brightness": 0.1
+    },
+    "CameraMovement": {
+      "PerceptionWarpMultiplier": 1.0,
+      "InvoluntaryMouseMovement": true
+    }
+  }
+}

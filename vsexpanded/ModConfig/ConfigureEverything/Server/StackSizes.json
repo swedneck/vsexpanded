@@ -1,0 +1,8 @@
+{
+  "Enabled": false,
+  "AutoFill": false,
+  "Description": "Configure max amount of item that one default inventory slot can hold",
+  "Multiplier": 1.0,
+  "Blocks": {},
+  "Items": {}
+}

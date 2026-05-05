@@ -1,0 +1,10 @@
+{
+  "SpeedOfElectricity": 4,
+  "TimeBeforeBurnout": 30,
+  "MultiThreading": 4,
+  "CacheTimeoutCleanupMinutes": 2,
+  "MaxDistanceForFinding": 200,
+  "EnergyLossFactor": 1.0,
+  "EnableLossCompensation": false,
+  "EnableFlyingArmor": true
+}

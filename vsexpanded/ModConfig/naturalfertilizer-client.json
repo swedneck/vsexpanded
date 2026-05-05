@@ -1,0 +1,13 @@
+{
+  "FlyItemCodeRegexSelectors": [
+    "naturalfertilizer:manure"
+  ],
+  "FlyBlockCodeRegexSelectors": [
+    "naturalfertilizer:(manurepile|manurestack)"
+  ],
+  "FlySpawnMinTemperature": 10.0,
+  "FlySpawnMaxTemperature": 50.0,
+  "MaxExtraFlyCloudCount": 150,
+  "MaxFlyCloudSpawnPerSimTick": 6,
+  "MinFlyCountPerCloud": 5
+}

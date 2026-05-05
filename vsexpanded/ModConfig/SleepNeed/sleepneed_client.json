@@ -1,0 +1,23 @@
+{
+  "Energy_Bar_X": "                                        POSITION X-AXIS (ENERGY BAR)            -  Enter a positive value in increments at +2 to move the bar to the right. Enter a negative value ´to move the bar to the left",
+  "EnergyBarX": 0.0,
+  "Energy_Bar_Y": "                                        POSITION Y-AXIS (ENERGY BAR)            -  Enter a positive value in increments at +2 to move the bar down. Enter a negative value ´to move the bar upwards",
+  "EnergyBarY": 0.0,
+  "Sleepiness_Bar_X": "                                    POSITION X-AXIS (SLEEPINESS BAR)        -  Enter a positive value in increments at +2 to move the bar to the right. Enter a negative value ´to move the bar to the left",
+  "SleepinessBarX": 0.0,
+  "Sleepiness_Bar_Y": "                                    POSITION Y-AXIS (SLEEPINESS BAR)        -  Enter a positive value in increments at +2 to move the bar to the right. Enter a negative value ´to move the bar to the left",
+  "SleepinessBarY": 0.0,
+  "Energy_Bar_Fill_Direction_Right_To_Left": "             FILL DIRECTION (ENERGY BAR)             -  False = Bar will fill the opposite direction of (Right To Left) right side of the bar towards the left side.",
+  "EnergyBarFillDirectionRightToLeft": false,
+  "Sleepiness_Bar_Fill_Direction_Right_To_Left": "         FILL DIRECTION (SLEEPINESS BAR)         -  true = Bar will fill from right side of the bar towards the left side.",
+  "SleepinessBarFillDirectionRightToLeft": true,
+  "Sleepiness_Bar_Visible": "                              HIDE SLEEPINESS BAR                     -  Should the Sleepiness bar be vissible?",
+  "SleepinessBarVisible": true,
+  "Hide_Sleepiness_Bar_At": "                              HIDE VALUE                              -  If sleepiness is below set value, then the bar hides. (If set to 3, the bar will hide when sleepiness is below 3. Default is 0 so it never hides.)",
+  "HideSleepinessBarAt": 0.0,
+  "Energy_Bar_Color": "                                    COLOR                                   -  Change the color of the HUD bars, by entering a new Hexidecimal ¨HEX¨ value of a color you'd like. Google it when in doubt how to, and it dosn't matter if it's upper or lower case letters in the config file.",
+  "EnergyBarColor": "#57FF6C",
+  "SleepinessBarColor": "#9D2A66",
+  "SleepinessOverloadColor": "#770023",
+  "InvigorationBarColor": "#00B3B2"
+}

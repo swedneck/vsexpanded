@@ -1,0 +1,5 @@
+{
+  "MaximumPreGeneratedMeshes": 120  /* [Default: 120, Min: 8] Maximum number of meshes to use for animating needle movement of held compasses. */,
+  "ThirdPersonRenderUpdateTickIntervalMs": 1  /* [Default: 1, Min: 1] Milliseconds between updates to compasses rendered in another player's hand. Only updates on game ticks. */,
+  "PlacedCompassRenderUpdateTickIntervalMs": 500  /* [Default: 500, Min: 1] Milliseconds between updates to compasses which are placed as blocks or displayed inside another. Only affects compasses with moving targets and only updates on game ticks. */
+}

@@ -1,0 +1,16 @@
+{
+  "CooldownComment": "Cooldown duration in seconds between item pickups.",
+  "Cooldown": 0.2,
+  "PickNearbyItemsComment": "Enable or disable the ability to pick up nearby items of the same type.",
+  "PickNearbyItems": true,
+  "NearbyPickupRadiusComment": "Radius in blocks for picking up nearby items of the same type when enabled.",
+  "NearbyPickupRadius": 2,
+  "AllowPickupWithFullHandComment": "Allow players to pick up items even if their hand is not empty.",
+  "AllowPickupWithFullHand": true,
+  "RestrictToMatchingHandItemComment": "Restrict item pickup to match the item in the players main hand.",
+  "RestrictToMatchingHandItem": false,
+  "RemoveSneakRequirementComment": "Removes the pick up while sneaking feature from Only Pick Up sneaking vanilla config.",
+  "RemoveSneakRequirement": false,
+  "EnableLoggingComment": "Enable or disable debug logging for the mod.",
+  "EnableLogging": false
+}

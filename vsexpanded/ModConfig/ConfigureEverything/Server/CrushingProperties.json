@@ -1,0 +1,7 @@
+{
+  "Enabled": false,
+  "AutoFill": false,
+  "Description": "Configure whether item can be crushed into something else in pulverizer",
+  "Blocks": {},
+  "Items": {}
+}
