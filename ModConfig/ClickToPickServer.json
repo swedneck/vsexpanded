@@ -1,6 +1,0 @@
-{
-  "RemoveSneakRequirementComment": "If true, disables vanilla passive auto collect for players.",
-  "RemoveSneakRequirement": false,
-  "RequireEmptyHandComment": "If true, players must have empty main hand to pick up with RMB.",
-  "RequireEmptyHand": false
-}
