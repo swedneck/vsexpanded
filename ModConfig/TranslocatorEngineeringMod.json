@@ -1,6 +1,0 @@
-{
-  "MaximumLinkRange": 8000,
-  "AlwaysDropAllCrystalShards": true,
-  "RecoveryChanceGateArray": 0.8,
-  "RecoveryChanceParticulationComponent": 0.8
-}

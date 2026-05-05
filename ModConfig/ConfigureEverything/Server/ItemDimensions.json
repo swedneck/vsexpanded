@@ -1,7 +1,0 @@
-{
-  "Enabled": false,
-  "AutoFill": false,
-  "Description": "Some containers (e.g. crucible) can fit only items with certain dimensions. Default dimensions are { 0.5, 0.5, 0.5 }",
-  "Blocks": {},
-  "Items": {}
-}

@@ -1,8 +1,0 @@
-{
-  "HowToUse": "IdleTimeout: Time in ms before the game auto pauses. UseMovementInput: Reset idle timer when movement keys are pressed. UseSlotChangeInput: Reset idle timer when changing inventory slot. UseMouseLookInput: Reset idle timer when looking around. UseMouseClickInput: Reset idle timer when left or right mouse button is clicked.",
-  "IdleTimeout": 120000,
-  "UseMovementInput": true,
-  "UseSlotChangeInput": true,
-  "UseMouseLookInput": true,
-  "UseMouseClickInput": true
-}

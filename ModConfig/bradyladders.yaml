@@ -1,5 +1,0 @@
-version: 0
-
-# Restores the old ladder height. Ladders will clip through trapdoors.
-ladder-tradoor: false
- #  (default: False) 

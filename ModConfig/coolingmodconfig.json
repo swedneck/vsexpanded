@@ -1,6 +1,0 @@
-{
-  "IceRatioThreshold": 0.5,
-  "TemperatureBonus": 5.0,
-  "MinPerishRate": 0.1,
-  "LightPenaltyMultiplier": 0.5
-}

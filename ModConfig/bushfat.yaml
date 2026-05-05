@@ -1,5 +1,0 @@
-version: 1
-
-# amount of raw bushmeat required
-bushmeat_quantity: 3
- # from 1 to 3 with step of 1 (default: 3) 

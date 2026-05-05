@@ -1,6 +1,0 @@
-{
-  "_flaxComment": "Enable the crafting of Dry grass bundles, into flax fibers. true/false. Default: false",
-  "flaxEnabled": false,
-  "_firepitComment": "Enable the use of Dry grass bundles in the creation of firepits, for convenience, in place of normal dry grass. true/false. Default: false",
-  "usedAsFirePitStarter": false
-}

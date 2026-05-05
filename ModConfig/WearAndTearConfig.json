@@ -1,6 +1,0 @@
-{
-  "MinDurability": 0.0,
-  "DurabilityLeeway": 0.98,
-  "DurabilityUpdateFrequencyInMs": 2500,
-  "DamageHelveHammerEvenIfNothingOnAnvil": true
-}

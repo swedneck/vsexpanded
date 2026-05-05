@@ -1,9 +1,0 @@
-{
-  "showDebugParticles": false,
-  "dedicatedCrawlKey": false,
-  "combinationCrawlKeys": true,
-  "standOnJump": true,
-  "doubleTapSneakToCrawl": false,
-  "doubleTapSpeed": 500,
-  "holdCrawl": false
-}
