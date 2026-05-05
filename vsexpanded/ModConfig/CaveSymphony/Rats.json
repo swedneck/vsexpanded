@@ -1,0 +1,18 @@
+{
+  "RatChanceComment": "chance (0-1) to roll for rat spawn each interval",
+  "RatChance": 0.1,
+  "MinDepthForRatComment": "min vertical blocks below sea level to allow rats",
+  "MinDepthForRat": 20,
+  "MaxDistanceComment": "distance beyond which rat/sniff sounds stop",
+  "MaxDistance": 25,
+  "CloseDistanceComment": "distance at which to switch to sniff loop",
+  "CloseDistance": 5,
+  "RatAssetPathsComment": "prefixes for rats loop asset(s)",
+  "RatAssetPaths": [
+    "sounds/animals/rats"
+  ],
+  "SniffAssetPathsComment": "prefixes for rat-sniff loop asset(s)",
+  "SniffAssetPaths": [
+    "sounds/animals/ratsniff"
+  ]
+}

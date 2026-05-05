@@ -1,0 +1,14 @@
+{
+  "GenerateDensity": 1.0,
+  "GenerateDensityPerSpecies": {
+    "wildgrass:switchgrass": 1.0,
+    "wildgrass:ryegrass-perennial": 1.0,
+    "wildgrass:bluegrass": 1.0,
+    "wildgrass:bushgrass": 1.0,
+    "wildgrass:fescue-meadow": 1.0,
+    "wildgrass:buttongrass": 1.0,
+    "wildgrass:bermudagrass": 1.0,
+    "wildgrass:buffalograss": 1.0
+  },
+  "SeedMultiplier": 1.0
+}

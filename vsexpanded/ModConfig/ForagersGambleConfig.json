@@ -1,0 +1,102 @@
+{
+  "Main": {
+    "UnknownAll": false,
+    "UnknownMushrooms": true,
+    "UnknownPlants": true,
+    "UnknownFruits": true,
+    "UnknownVegetables": true,
+    "UnknownGrains": true,
+    "ForgetOnDeath": true,
+    "HideNutritionInfo": true,
+    "HideCraftingInfo": true,
+    "HideMealSafety": true,
+    "EnableNibbling": true,
+    "NibbleFactor": 0.1,
+    "PoisonOnset": true,
+    "PoisonOnsetMinHours": 12.0,
+    "PoisonOnsetMaxHours": 24.0,
+    "InstantDeathThreshold": 30.0,
+    "ShowFoodInWarning": true,
+    "PoisonDeadJimChance": 0.001,
+    "LearnAmountPerEat": 0.35,
+    "JournalConsumeOnLearn": true,
+    "PreventHandbookOnUnidentified": true,
+    "ShuffleDamagingItems": false,
+    "ShuffleHealingItems": false,
+    "ShufflePsychedelicItems": false,
+    "PoisonOnsetClassScales": {
+      "weak": {
+        "MinMul": 0.5,
+        "MaxMul": 0.75,
+        "MinAdd": 0.0,
+        "MaxAdd": 0.0
+      },
+      "moderate": {
+        "MinMul": 1.0,
+        "MaxMul": 1.0,
+        "MinAdd": 0.0,
+        "MaxAdd": 0.0
+      },
+      "strong": {
+        "MinMul": 1.25,
+        "MaxMul": 1.5,
+        "MinAdd": 0.0,
+        "MaxAdd": 0.0
+      },
+      "severe": {
+        "MinMul": 1.75,
+        "MaxMul": 2.0,
+        "MinAdd": 0.0,
+        "MaxAdd": 0.0
+      },
+      "fatal": {
+        "MinMul": 2.5,
+        "MaxMul": 3.0,
+        "MinAdd": 0.0,
+        "MaxAdd": 0.0
+      },
+      "lethal": {
+        "MinMul": 3.5,
+        "MaxMul": 4.0,
+        "MinAdd": 0.0,
+        "MaxAdd": 0.0
+      }
+    },
+    "PoisonClassByDamage": [
+      {
+        "MinDamage": 0.0,
+        "MaxDamage": 1.0,
+        "Class": "weak"
+      },
+      {
+        "MinDamage": 1.01,
+        "MaxDamage": 5.0,
+        "Class": "moderate"
+      },
+      {
+        "MinDamage": 5.01,
+        "MaxDamage": 10.0,
+        "Class": "strong"
+      },
+      {
+        "MinDamage": 10.01,
+        "MaxDamage": 15.0,
+        "Class": "severe"
+      },
+      {
+        "MinDamage": 15.01,
+        "MaxDamage": 49.999,
+        "Class": "fatal"
+      },
+      {
+        "MinDamage": 50.0,
+        "MaxDamage": 3.4028235E+38,
+        "Class": "lethal"
+      }
+    ],
+    "PoisonClassByItemKey": {},
+    "PsychedelicOnset": true,
+    "PsychedelicOnsetMinHours": 0.5,
+    "PsychedelicOnsetMaxHours": 2.0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Enabled": true,
+  "MaxViewDistance": 16384,
+  "LodGrid": 0,
+  "FaceLighting": true,
+  "SkyTint": 10.0,
+  "ColorTintR": 0.0,
+  "ColorTintG": 0.0,
+  "ColorTintB": 0.0,
+  "ColorTintA": 0.0,
+  "LightLevelBias": 0.12,
+  "FadeBias": 0.44,
+  "GlobeEffect": 0.0
+}

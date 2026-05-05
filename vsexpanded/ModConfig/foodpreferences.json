@@ -1,0 +1,11 @@
+{
+  "FavoriteNutritionModifier": 0.15,
+  "LikedNutritionModifier": 0.075,
+  "DislikedNutritionModifier": -0.0625,
+  "HatedNutritionModifier": -0.125,
+  "EnableAcquiredTaste": true,
+  "HatedToDislikedSaturation": 12780.0,
+  "DislikedToNeutralSaturation": 9540.0,
+  "AcquiredTasteWindowHours": 30.0,
+  "AcquiredTasteWindowProgressRatio": 0.1
+}

@@ -1,0 +1,49 @@
+{
+  "Enabled": true,
+  "ForceExactSpawnLatitude": false,
+  "SpawnLatitude": 44.0,
+  "EnablePostSpawnRelocation": true,
+  "RelocateOnRespawn": true,
+  "PreserveVanillaRespawnOffsetOnRelocation": true,
+  "LockPlayerDuringRelocation": true,
+  "ShowRelocationCountdown": true,
+  "RelocationTimeoutSeconds": 180,
+  "LandSearchRadiusBlocks": 3000,
+  "LandSearchStepBlocks": 64,
+  "RelocationHeight": 380,
+  "RestoreSurvivalDelaySeconds": 40,
+  "TemperatureJitter": 6,
+  "RainfallJitter": 12,
+  "EquatorToPoleBands": [
+    {
+      "Name": "Desert",
+      "Temperature": 240,
+      "Rainfall": 20
+    },
+    {
+      "Name": "Tropic",
+      "Temperature": 212,
+      "Rainfall": 190
+    },
+    {
+      "Name": "Subtropic",
+      "Temperature": 178,
+      "Rainfall": 160
+    },
+    {
+      "Name": "Temperate",
+      "Temperature": 132,
+      "Rainfall": 175
+    },
+    {
+      "Name": "Subarctic",
+      "Temperature": 82,
+      "Rainfall": 205
+    },
+    {
+      "Name": "Arctic",
+      "Temperature": 26,
+      "Rainfall": 160
+    }
+  ]
+}

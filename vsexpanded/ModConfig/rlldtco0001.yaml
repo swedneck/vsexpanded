@@ -1,0 +1,187 @@
+version: 7
+
+
+#################
+## Rot Compost ##
+#################
+
+
+# How many in-game hours vanilla rot compost must stay sealed after CompostTweak's recipe patch.
+rot-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many litres of rot are consumed per compost batch. Increase this to get less compost from a stack.
+rot-compost-input-litres: 2
+ # from 1 to 64 with step of 1 (default: 2) 
+
+# How many compost items this barrel recipe produces per completed batch.
+rot-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+
+###################
+## Plant Compost ##
+###################
+
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+dry-grass-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many items or blocks are consumed per compost batch. Increase this to get less compost from a stack.
+dry-grass-compost-input-quantity: 4
+ # from 1 to 64 with step of 1 (default: 4) 
+
+# How many compost items this barrel recipe produces per completed batch.
+dry-grass-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+plant-debris-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many items or blocks are consumed per compost batch. Increase this to get less compost from a stack.
+plant-debris-compost-input-quantity: 4
+ # from 1 to 64 with step of 1 (default: 4) 
+
+# How many compost items this barrel recipe produces per completed batch.
+plant-debris-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+pressed-mash-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many items or blocks are consumed per compost batch. Increase this to get less compost from a stack.
+pressed-mash-compost-input-quantity: 4
+ # from 1 to 64 with step of 1 (default: 4) 
+
+# How many compost items this barrel recipe produces per completed batch.
+pressed-mash-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+thatch-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many items or blocks are consumed per compost batch. Increase this to get less compost from a stack.
+thatch-compost-input-quantity: 4
+ # from 1 to 64 with step of 1 (default: 4) 
+
+# How many compost items this barrel recipe produces per completed batch.
+thatch-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+cattails-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many items or blocks are consumed per compost batch. Increase this to get less compost from a stack.
+cattails-compost-input-quantity: 4
+ # from 1 to 64 with step of 1 (default: 4) 
+
+# How many compost items this barrel recipe produces per completed batch.
+cattails-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+leaves-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many items or blocks are consumed per compost batch. Increase this to get less compost from a stack.
+leaves-compost-input-quantity: 8
+ # from 1 to 64 with step of 1 (default: 8) 
+
+# How many compost items this barrel recipe produces per completed batch.
+leaves-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+flowers-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many items or blocks are consumed per compost batch. Increase this to get less compost from a stack.
+flowers-compost-input-quantity: 4
+ # from 1 to 64 with step of 1 (default: 4) 
+
+# How many compost items this barrel recipe produces per completed batch.
+flowers-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+water-lily-flowers-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many items or blocks are consumed per compost batch. Increase this to get less compost from a stack.
+water-lily-flowers-compost-input-quantity: 4
+ # from 1 to 64 with step of 1 (default: 4) 
+
+# How many compost items this barrel recipe produces per completed batch.
+water-lily-flowers-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+cinnamon-fern-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many items or blocks are consumed per compost batch. Increase this to get less compost from a stack.
+cinnamon-fern-compost-input-quantity: 4
+ # from 1 to 64 with step of 1 (default: 4) 
+
+# How many compost items this barrel recipe produces per completed batch.
+cinnamon-fern-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+deer-fern-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many items or blocks are consumed per compost batch. Increase this to get less compost from a stack.
+deer-fern-compost-input-quantity: 4
+ # from 1 to 64 with step of 1 (default: 4) 
+
+# How many compost items this barrel recipe produces per completed batch.
+deer-fern-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+eagle-fern-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many items or blocks are consumed per compost batch. Increase this to get less compost from a stack.
+eagle-fern-compost-input-quantity: 4
+ # from 1 to 64 with step of 1 (default: 4) 
+
+# How many compost items this barrel recipe produces per completed batch.
+eagle-fern-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+harts-tongue-fern-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many items or blocks are consumed per compost batch. Increase this to get less compost from a stack.
+harts-tongue-fern-compost-input-quantity: 4
+ # from 1 to 64 with step of 1 (default: 4) 
+
+# How many compost items this barrel recipe produces per completed batch.
+harts-tongue-fern-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 
+
+
+############################
+## Soil and Earth Compost ##
+############################
+
+
+# How many in-game hours this barrel compost recipe must stay sealed.
+rammed-earth-compost-seal-hours: 240
+ # from 1 to 720 with step of 1 (default: 240) 
+
+# How many items or blocks are consumed per compost batch. Increase this to get less compost from a stack.
+rammed-earth-compost-input-quantity: 8
+ # from 1 to 64 with step of 1 (default: 8) 
+
+# How many compost items this barrel recipe produces per completed batch.
+rammed-earth-compost-yield: 1
+ # from 1 to 64 with step of 1 (default: 1) 

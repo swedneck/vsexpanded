@@ -1,0 +1,131 @@
+{
+  "Enabled": true,
+  "DebugLog": false,
+  "AttackDuringTemporalStorms": true,
+  "AttackAtNight": false,
+  "AttackInCaves": true,
+  "AttackDayAndNight": true,
+  "NightStartHour": 20.0,
+  "NightEndHour": 5.0,
+  "TickIntervalSeconds": 1.0,
+  "PlayerActivationRange": 50.0,
+  "IgnoreNonSurvivalPlayers": true,
+  "ForcePursuitAtAllCosts": false,
+  "PursuitRange": 50.0,
+  "PursuitLockSeconds": 8.0,
+  "PursuitDropDistance": 70.0,
+  "PursuitSteerIntervalSeconds": 0.06,
+  "PursuitAllowJump": true,
+  "PursuitJumpCooldownSeconds": 2.0,
+  "EnableStuckBreakAssist": true,
+  "StuckBreakAfterSeconds": 5.0,
+  "StuckMovementThreshold": 0.015,
+  "OpenDoors": true,
+  "DoorOpenRange": 1,
+  "DamageBlocks": true,
+  "DamageRange": 1,
+  "BlockDamagePerTick": 0.6,
+  "ForceBreakAfterHits": 40,
+  "DamageAnySolidFallback": false,
+  "TargetLockTicks": 12,
+  "PlayerShellSearchRadius": 4,
+  "UsePlayerShellFallback": false,
+  "MaxAttackDistance": 3.0,
+  "ContactAttackDistance": 1.9,
+  "BreakingHoldSeconds": 0.45,
+  "AttackAnimationCooldownSeconds": 0.75,
+  "AttackAnimationCodes": [
+    "standattack",
+    "attack",
+    "meleeattack"
+  ],
+  "PlayBlockHitSounds": true,
+  "BlockHitSoundRange": 24.0,
+  "BlockHitSoundVolume": 1.0,
+  "BlockHitSoundRandomizePitch": true,
+  "CreatureCodePatterns": [
+    "drifter-*",
+    "shiver-*"
+  ],
+  "ExcludedCreatureCodePatterns": [
+    "bowtorn-*"
+  ],
+  "DoorBlockPatterns": [
+    "door-*",
+    "trapdoor-*",
+    "fencegate-*"
+  ],
+  "DamageBlockPatterns": [
+    "*"
+  ],
+  "BlockBreakRules": [
+    {
+      "Pattern": "*soil*",
+      "HitsToBreak": 10,
+      "DamageMultiplier": 1.4
+    },
+    {
+      "Pattern": "*dirt*",
+      "HitsToBreak": 10,
+      "DamageMultiplier": 1.3
+    },
+    {
+      "Pattern": "*sand*",
+      "HitsToBreak": 10,
+      "DamageMultiplier": 1.4
+    },
+    {
+      "Pattern": "*mud*",
+      "HitsToBreak": 10,
+      "DamageMultiplier": 1.25
+    },
+    {
+      "Pattern": "*door*",
+      "HitsToBreak": 40,
+      "DamageMultiplier": 1.0
+    },
+    {
+      "Pattern": "*trapdoor*",
+      "HitsToBreak": 40,
+      "DamageMultiplier": 1.0
+    },
+    {
+      "Pattern": "*fencegate*",
+      "HitsToBreak": 20,
+      "DamageMultiplier": 1.0
+    },
+    {
+      "Pattern": "*planks*",
+      "HitsToBreak": 20,
+      "DamageMultiplier": 0.9
+    },
+    {
+      "Pattern": "*wood*",
+      "HitsToBreak": 25,
+      "DamageMultiplier": 0.85
+    },
+    {
+      "Pattern": "*cob*",
+      "HitsToBreak": 32,
+      "DamageMultiplier": 0.7
+    },
+    {
+      "Pattern": "*stone*",
+      "HitsToBreak": 40,
+      "DamageMultiplier": 0.6
+    },
+    {
+      "Pattern": "*",
+      "HitsToBreak": 14,
+      "DamageMultiplier": 0.8
+    }
+  ],
+  "NeverTouchBlockPatterns": [
+    "supportbeam-*",
+    "*wooden*beam*",
+    "*grass*",
+    "*flower*",
+    "*fern*",
+    "*mushroom*"
+  ]
+}

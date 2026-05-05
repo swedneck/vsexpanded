@@ -1,0 +1,9 @@
+{
+  "MaxStamina": 200,
+  "climbingEnabled": true,
+  "crawlingEnabled": true,
+  "autoStepEnabled": true,
+  "metalBlockClimbable": true,
+  "stoneBlockClimbable": true,
+  "woodBlockClimbable": true
+}

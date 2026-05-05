@@ -1,0 +1,36 @@
+{
+  "Enabled": false,
+  "AutoFill": false,
+  "Description": "Configure spawn conditions for creatures. Documentation: https://wiki.vintagestory.at/index.php/Modding:Entity_Json_Properties#p_spawnconditions",
+  "Examples": {
+    "ClimateValueMode": [
+      "0 = WorldGenValues",
+      "1 = NowValues",
+      "2 = ForSuppliedDateValues",
+      "3 = ForSuppliedDate_TemperatureOnly",
+      "4 = ForSuppliedDate_TemperatureRainfallOnly"
+    ],
+    "LightLevelType": [
+      "0 = OnlyBlockLight",
+      "1 = OnlySunLight",
+      "2 = MaxLight",
+      "3 = MaxTimeOfDayLight",
+      "4 = TimeOfDaySunLight",
+      "5 = Sunbrightness"
+    ],
+    "dist": [
+      "0 = UNIFORM",
+      "1 = TRIANGLE",
+      "2 = GAUSSIAN",
+      "3 = NARROWGAUSSIAN",
+      "4 = INVERSEGAUSSIAN",
+      "5 = NARROWINVERSEGAUSSIAN",
+      "6 = INVEXP",
+      "7 = STRONGINVEXP",
+      "8 = STRONGERINVEXP",
+      "9 = DIRAC",
+      "10 = VERYNARROWGAUSSIAN"
+    ]
+  },
+  "EntityTypes": {}
+}

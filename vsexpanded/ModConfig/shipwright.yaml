@@ -1,0 +1,123 @@
+version: 6
+
+
+#################
+## Ship Speeds ##
+#################
+
+
+
+# Catboat
+
+catboatSpeedMultiplier: 2.5
+ # from 0 to 5 with step of 0.1 (default: 2.5) 
+catboatForwardAcceleration: 0.08
+ # from 0 to 1 with step of 0.01 (default: 0.08) 
+catboatTurnSpeed: 0.3
+ # from 0 to 2 with step of 0.01 (default: 0.3) 
+catboatTurnAcceleration: 0.6
+ # from 0 to 2 with step of 0.01 (default: 0.6) 
+
+
+# Drakkar
+
+drakkarSpeedMultiplier: 2.5
+ # from 0 to 5 with step of 0.1 (default: 2.5) 
+drakkarForwardAcceleration: 0.02
+ # from 0 to 1 with step of 0.01 (default: 0.02) 
+drakkarTurnSpeed: 0.2
+ # from 0 to 2 with step of 0.01 (default: 0.2) 
+drakkarTurnAcceleration: 0.1
+ # from 0 to 2 with step of 0.01 (default: 0.1) 
+
+
+# Coracle
+
+coracleSpeedMultiplier: 1.3
+ # from 0 to 5 with step of 0.1 (default: 1.3) 
+coracleForwardAcceleration: 0.4
+ # from 0 to 1 with step of 0.01 (default: 0.4) 
+coracleTurnSpeed: 0.8
+ # from 0 to 2 with step of 0.01 (default: 0.8) 
+coracleTurnAcceleration: 0.8
+ # from 0 to 2 with step of 0.01 (default: 0.8) 
+
+
+# Kayak
+
+kayakSpeedMultiplier: 1.8
+ # from 0 to 5 with step of 0.1 (default: 1.8) 
+kayakForwardAcceleration: 0.5
+ # from 0 to 1 with step of 0.01 (default: 0.5) 
+kayakTurnSpeed: 2
+ # from 0 to 2 with step of 0.01 (default: 2) 
+kayakTurnAcceleration: 2
+ # from 0 to 2 with step of 0.01 (default: 2) 
+
+
+# Punter
+
+punterSpeedMultiplier: 1.5
+ # from 0 to 5 with step of 0.1 (default: 1.5) 
+punterForwardAcceleration: 0.2
+ # from 0 to 1 with step of 0.01 (default: 0.2) 
+punterTurnSpeed: 1
+ # from 0 to 2 with step of 0.01 (default: 1) 
+punterTurnAcceleration: 0.5
+ # from 0 to 2 with step of 0.01 (default: 0.5) 
+
+
+# Caballito de totora
+
+totoraSpeedMultiplier: 1.6
+ # from 0 to 5 with step of 0.1 (default: 1.6) 
+totoraForwardAcceleration: 0.5
+ # from 0 to 1 with step of 0.01 (default: 0.5) 
+totoraTurnSpeed: 1
+ # from 0 to 2 with step of 0.01 (default: 1) 
+totoraTurnAcceleration: 1
+ # from 0 to 2 with step of 0.01 (default: 1) 
+
+
+# Reed Longboat
+
+reedlongboatSpeedMultiplier: 1.5
+ # from 0 to 5 with step of 0.1 (default: 1.5) 
+reedlongboatForwardAcceleration: 0.2
+ # from 0 to 1 with step of 0.01 (default: 0.2) 
+reedlongboatTurnSpeed: 1
+ # from 0 to 2 with step of 0.01 (default: 1) 
+reedlongboatTurnAcceleration: 0.4
+ # from 0 to 2 with step of 0.01 (default: 0.4) 
+
+
+# Papyrus Sailer
+
+sailedreedboatSpeedMultiplier: 1.2
+ # from 0 to 5 with step of 0.1 (default: 1.2) 
+sailedreedboatForwardAcceleration: 0.05
+ # from 0 to 1 with step of 0.01 (default: 0.05) 
+sailedreedboatTurnSpeed: 0.7
+ # from 0 to 2 with step of 0.01 (default: 0.7) 
+sailedreedboatTurnAcceleration: 0.5
+ # from 0 to 2 with step of 0.01 (default: 0.5) 
+
+
+# Basegame Sailboat
+
+sailboatphysics: false
+ #  (default: False) 
+vanillaboatSpeedMultiplier: 1.2
+ # from 0 to 5 with step of 0.1 (default: 1.2) 
+
+# Shipwright Sailboat physics must be enabled for this setting to work
+vanillaboatForwardAcceleration: 0.05
+ # from 0 to 1 with step of 0.01 (default: 0.05) 
+
+# Shipwright Sailboat physics must be enabled for this setting to work
+vanillaboatTurnSpeed: 0.3
+ # from 0 to 2 with step of 0.01 (default: 0.3) 
+
+# Shipwright Sailboat physics must be enabled for this setting to work
+vanillaboatTurnAcceleration: 0.4
+ # from 0 to 2 with step of 0.01 (default: 0.4) 

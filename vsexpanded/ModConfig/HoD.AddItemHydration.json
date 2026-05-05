@@ -1,0 +1,2415 @@
+{
+  "Priority": 5,
+  "Patches": [
+    {
+      "ItemName": "game:juiceportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:juiceportion-cranberry": 600.0,
+        "game:juiceportion-blueberry": 700.0,
+        "game:juiceportion-pinkapple": 750.0,
+        "game:juiceportion-lychee": 850.0,
+        "game:juiceportion-redcurrant": 800.0,
+        "game:juiceportion-breadfruit": 500.0,
+        "game:juiceportion-pineapple": 950.0,
+        "game:juiceportion-blackcurrant": 800.0,
+        "game:juiceportion-saguaro": 600.0,
+        "game:juiceportion-whitecurrant": 800.0,
+        "game:juiceportion-redapple": 900.0,
+        "game:juiceportion-yellowapple": 900.0,
+        "game:juiceportion-cherry": 800.0,
+        "game:juiceportion-peach": 950.0,
+        "game:juiceportion-pear": 950.0,
+        "game:juiceportion-orange": 1000.0,
+        "game:juiceportion-mango": 950.0,
+        "game:juiceportion-pomegranate": 850.0,
+        "game:juiceportion-redgrapes": 950.0,
+        "game:juiceportion-greengrapes": 950.0,
+        "*": 750.0,
+        "game:juiceportion-apple": 900.0
+      }
+    },
+    {
+      "ItemName": "game:fruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:fruit-cranberry": 10.0,
+        "game:fruit-blueberry": 7.0,
+        "game:fruit-pinkapple": 12.0,
+        "game:fruit-lychee": 20.0,
+        "game:fruit-redcurrant": 15.0,
+        "game:fruit-breadfruit": 5.0,
+        "game:fruit-pineapple": 20.0,
+        "game:fruit-blackcurrant": 15.0,
+        "game:fruit-saguaro": 10.0,
+        "game:fruit-whitecurrant": 15.0,
+        "game:fruit-redapple": 18.0,
+        "game:fruit-yellowapple": 18.0,
+        "game:fruit-cherry": 15.0,
+        "game:fruit-peach": 25.0,
+        "game:fruit-pear": 20.0,
+        "game:fruit-orange": 30.0,
+        "game:fruit-mango": 25.0,
+        "game:fruit-pomegranate": 20.0,
+        "game:fruit-redgrapes": 30.0,
+        "game:fruit-greengrapes": 30.0,
+        "*": 8.0
+      }
+    },
+    {
+      "ItemName": "game:bambooshoot",
+      "hydration": 15.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "game:bread-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:bread-spelt": -5.0,
+        "game:bread-rye": -4.0,
+        "game:bread-flax": -3.0,
+        "game:bread-rice": -6.0,
+        "game:bread-cassava": -5.0,
+        "game:bread-amaranth": -4.0,
+        "game:bread-sunflower": -3.0,
+        "game:bread-spelt-partbaked": -5.0,
+        "game:bread-rye-partbaked": -4.0,
+        "game:bread-flax-partbaked": -3.0,
+        "game:bread-rice-partbaked": -6.0,
+        "game:bread-cassava-partbaked": -5.0,
+        "game:bread-amaranth-partbaked": -4.0,
+        "game:bread-sunflower-partbaked": -3.0,
+        "game:bread-spelt-perfect": -5.0,
+        "game:bread-rye-perfect": -4.0,
+        "game:bread-flax-perfect": -3.0,
+        "game:bread-rice-perfect": -6.0,
+        "game:bread-cassava-perfect": -5.0,
+        "game:bread-amaranth-perfect": -4.0,
+        "game:bread-sunflower-perfect": -3.0,
+        "game:bread-spelt-charred": -10.0,
+        "game:bread-rye-charred": -9.0,
+        "game:bread-flax-charred": -8.0,
+        "game:bread-rice-charred": -11.0,
+        "game:bread-cassava-charred": -10.0,
+        "game:bread-amaranth-charred": -9.0,
+        "game:bread-sunflower-charred": -8.0,
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "game:bushmeat-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:bushmeat-cooked": -5.0,
+        "game:bushmeat-cured": -10.0,
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "game:butter",
+      "hydration": -5.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "game:cheese-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:cheese-blue-1slice": -4.0,
+        "game:cheese-cheddar-1slice": -3.0,
+        "*": -50.0
+      }
+    },
+    {
+      "ItemName": "game:dough-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:dough-spelt": 5.0,
+        "game:dough-rye": 5.0,
+        "game:dough-flax": 5.0,
+        "game:dough-rice": 5.0,
+        "game:dough-cassava": 5.0,
+        "game:dough-amaranth": 5.0,
+        "game:dough-sunflower": 5.0,
+        "*": 5.0
+      }
+    },
+    {
+      "ItemName": "game:fish-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:fish-raw": 5.0,
+        "game:fish-cooked": -2.0,
+        "game:fish-cured": -10.0,
+        "game:fish-smoked": -8.0,
+        "game:fish-cured-smoked": -12.0,
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "game:grain-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:grain-spelt": -3.0,
+        "game:grain-rice": -3.0,
+        "game:grain-flax": -3.0,
+        "game:grain-rye": -3.0,
+        "game:grain-amaranth": -3.0,
+        "game:grain-sunflower": -3.0,
+        "*": -3.0
+      }
+    },
+    {
+      "ItemName": "game:insect-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:insect-grub": 2.0,
+        "game:insect-termite": 2.0,
+        "game:insect-termite-stick": 2.0,
+        "*": 2.0
+      }
+    },
+    {
+      "ItemName": "game:legume-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:legume-peanut": -3.0,
+        "*": -3.0
+      }
+    },
+    {
+      "ItemName": "game:pemmican-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:pemmican-raw-basic": -5.0,
+        "game:pemmican-raw-salted": -7.0,
+        "game:pemmican-dried-basic": -10.0,
+        "game:pemmican-dried-salted": -12.0,
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "game:pickledlegume-soybean",
+      "hydration": 2.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "game:pickledvegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:pickledvegetable-carrot": 3.0,
+        "game:pickledvegetable-cabbage": 3.0,
+        "game:pickledvegetable-onion": 2.0,
+        "game:pickledvegetable-turnip": 3.0,
+        "game:pickledvegetable-parsnip": 3.0,
+        "game:pickledvegetable-pumpkin": 4.0,
+        "game:pickledvegetable-bellpepper": 4.0,
+        "game:pickledvegetable-olive": 1.0,
+        "*": 3.0
+      }
+    },
+    {
+      "ItemName": "game:poultry-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:poultry-cooked": -5.0,
+        "game:poultry-cured": -10.0,
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "game:redmeat-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:redmeat-cooked": -5.0,
+        "game:redmeat-vintage": -8.0,
+        "game:redmeat-cured": -10.0,
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "game:vegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:vegetable-carrot": 8.0,
+        "game:vegetable-cabbage": 10.0,
+        "game:vegetable-onion": 6.0,
+        "game:vegetable-turnip": 8.0,
+        "game:vegetable-parsnip": 7.0,
+        "game:vegetable-cookedcattailroot": 100.0,
+        "game:vegetable-pumpkin": 12.0,
+        "game:vegetable-cassava": 200.0,
+        "game:vegetable-cookedpapyrusroot": 5.0,
+        "game:vegetable-bellpepper": 12.0,
+        "game:vegetable-olive": 4.0,
+        "*": 7.0
+      }
+    },
+    {
+      "ItemName": "game:alcoholportion",
+      "hydration": -20.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "game:boilingwaterportion",
+      "hydration": 600.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:distilledwaterportion",
+      "hydration": 900.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:rainwaterportion",
+      "hydration": 750.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "game:ciderportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:ciderportion-cranberry": 300.0,
+        "game:ciderportion-blueberry": 350.0,
+        "game:ciderportion-pinkapple": 375.0,
+        "game:ciderportion-lychee": 425.0,
+        "game:ciderportion-redcurrant": 400.0,
+        "game:ciderportion-breadfruit": 250.0,
+        "game:ciderportion-pineapple": 475.0,
+        "game:ciderportion-blackcurrant": 400.0,
+        "game:ciderportion-saguaro": 300.0,
+        "game:ciderportion-whitecurrant": 400.0,
+        "game:ciderportion-redapple": 450.0,
+        "game:ciderportion-yellowapple": 450.0,
+        "game:ciderportion-cherry": 400.0,
+        "game:ciderportion-peach": 475.0,
+        "game:ciderportion-pear": 475.0,
+        "game:ciderportion-orange": 500.0,
+        "game:ciderportion-mango": 475.0,
+        "game:ciderportion-pomegranate": 425.0,
+        "game:ciderportion-apple": 450.0,
+        "game:ciderportion-mead": 400.0,
+        "game:ciderportion-spelt": 450.0,
+        "game:ciderportion-rice": 450.0,
+        "game:ciderportion-rye": 450.0,
+        "game:ciderportion-amaranth": 450.0,
+        "game:ciderportion-cassava": 450.0,
+        "game:ciderportion-redgrapes": 500.0,
+        "game:ciderportion-greengrapes": 500.0,
+        "*": 375.0
+      }
+    },
+    {
+      "ItemName": "game:honeyportion",
+      "hydration": 300.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "game:jamhoneyportion",
+      "hydration": 350.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "game:saltwaterportion",
+      "hydration": -600.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "game:vinegarportion",
+      "hydration": 50.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "game:cottagecheeseportion",
+      "hydration": 50.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "game:milkportion",
+      "hydration": 500.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "game:waterportion",
+      "hydration": 600.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "game:mushroom-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:mushroom-flyagaric": -5.0,
+        "game:mushroom-earthball": -6.0,
+        "game:mushroom-deathcap": -15.0,
+        "game:mushroom-elfinsaddle": -6.0,
+        "game:mushroom-jackolantern": -5.0,
+        "game:mushroom-devilbolete": -8.0,
+        "game:mushroom-bitterbolete": -1.0,
+        "game:mushroom-devilstooth": -2.0,
+        "game:mushroom-golddropmilkcap": -2.0,
+        "game:mushroom-beardedtooth": 1.0,
+        "game:mushroom-whiteoyster": 1.0,
+        "game:mushroom-pinkoyster": 1.0,
+        "game:mushroom-dryadsaddle": 1.0,
+        "game:mushroom-tinderhoof": 1.0,
+        "game:mushroom-chickenofthewoods": 1.0,
+        "game:mushroom-reishi": 1.0,
+        "game:mushroom-funeralbell": -20.0,
+        "game:mushroom-livermushroom": 1.0,
+        "game:mushroom-pinkbonnet": -5.0,
+        "game:mushroom-shiitake": 1.0,
+        "game:mushroom-deerear": 1.0,
+        "*": 0.0
+      }
+    },
+    {
+      "ItemName": "game:spiritportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "game:spiritportion-cranberry": 160.0,
+        "game:spiritportion-blueberry": 180.0,
+        "game:spiritportion-pinkapple": 190.0,
+        "game:spiritportion-lychee": 220.0,
+        "game:spiritportion-redcurrant": 210.0,
+        "game:spiritportion-breadfruit": 130.0,
+        "game:spiritportion-pineapple": 250.0,
+        "game:spiritportion-blackcurrant": 210.0,
+        "game:spiritportion-saguaro": 160.0,
+        "game:spiritportion-whitecurrant": 210.0,
+        "game:spiritportion-redapple": 240.0,
+        "game:spiritportion-yellowapple": 240.0,
+        "game:spiritportion-cherry": 210.0,
+        "game:spiritportion-peach": 250.0,
+        "game:spiritportion-pear": 250.0,
+        "game:spiritportion-orange": 270.0,
+        "game:spiritportion-mango": 250.0,
+        "game:spiritportion-pomegranate": 220.0,
+        "game:spiritportion-apple": 240.0,
+        "game:spiritportion-mead": 200.0,
+        "game:spiritportion-spelt": 225.0,
+        "game:spiritportion-rice": 225.0,
+        "game:spiritportion-rye": 225.0,
+        "game:spiritportion-amaranth": 225.0,
+        "game:spiritportion-cassava": 225.0,
+        "game:spiritportion-redgrapes": 270.0,
+        "game:spiritportion-greengrapes": 270.0,
+        "*": 190.0
+      }
+    },
+    {
+      "ItemName": "alchemy:potionportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "alchemy:potionportion-all-medium": -100.0,
+        "alchemy:potionportion-all-strong": -300.0,
+        "alchemy:potionportion-alltick-medium": -100.0,
+        "alchemy:potionportion-alltick-strong": -300.0,
+        "alchemy:potionportion-archer-medium": -100.0,
+        "alchemy:potionportion-archer-strong": -300.0,
+        "alchemy:potionportion-healingeffect-medium": -100.0,
+        "alchemy:potionportion-healingeffect-strong": -300.0,
+        "alchemy:potionportion-hungerenhance-medium": -100.0,
+        "alchemy:potionportion-hungerenhance-strong": -300.0,
+        "alchemy:potionportion-hungersupress-medium": -100.0,
+        "alchemy:potionportion-hungersupress-strong": -300.0,
+        "alchemy:potionportion-hunter-medium": -100.0,
+        "alchemy:potionportion-hunter-strong": -300.0,
+        "alchemy:potionportion-looter-medium": -100.0,
+        "alchemy:potionportion-looter-strong": -300.0,
+        "alchemy:potionportion-melee-medium": -100.0,
+        "alchemy:potionportion-melee-strong": -300.0,
+        "alchemy:potionportion-mining-medium": -100.0,
+        "alchemy:potionportion-mining-strong": -300.0,
+        "alchemy:potionportion-poison-medium": -100.0,
+        "alchemy:potionportion-poison-strong": -300.0,
+        "alchemy:potionportion-predator-medium": -100.0,
+        "alchemy:potionportion-predator-strong": -300.0,
+        "alchemy:potionportion-regen-medium": -100.0,
+        "alchemy:potionportion-regen-strong": -300.0,
+        "alchemy:potionportion-scentmask-medium": -100.0,
+        "alchemy:potionportion-scentmask-strong": -300.0,
+        "alchemy:potionportion-speed-medium": -100.0,
+        "alchemy:potionportion-speed-strong": -300.0,
+        "alchemy:potionportion-vitality-medium": -100.0,
+        "alchemy:potionportion-vitality-strong": -300.0,
+        "*": -200.0
+      }
+    },
+    {
+      "ItemName": "alchemy:potionteaportion",
+      "hydration": 300.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "alchemy:utilitypotionportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "alchemy:utilitypotionportion-recall": -200.0,
+        "alchemy:utilitypotionportion-glow": -200.0,
+        "alchemy:utilitypotionportion-waterbreathe": -200.0,
+        "alchemy:utilitypotionportion-nutrition": -200.0,
+        "alchemy:utilitypotionportion-temporal": -200.0,
+        "*": -200.0
+      }
+    },
+    {
+      "ItemName": "butchering:bloodportion",
+      "hydration": 50.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "butcher:smoked-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "butcher:smoked-none-redmeat": -5.0,
+        "butcher:smoked-cured-redmeat": -8.0,
+        "butcher:smoked-none-bushmeat": -5.0,
+        "butcher:smoked-cured-bushmeat": -8.0,
+        "butcher:smoked-none-fish": -5.0,
+        "butcher:smoked-cured-fish": -8.0,
+        "butcher:smoked-none-primemeat": -5.0,
+        "butcher:smoked-healing-primemeat": -8.0,
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "butchering:sausage-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "butchering:sausage-bloodsausage-raw": -5.0,
+        "butchering:sausage-bloodsausage-cooked": -8.0,
+        "butchering:sausage-blackpudding-raw": -5.0,
+        "butchering:sausage-blackpudding-cooked": -8.0,
+        "*": 0.0
+      }
+    },
+    {
+      "ItemName": "butchering:primemeat-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "butchering:primemeat-raw": -5.0,
+        "butchering:primemeat-curedhealing": -8.0,
+        "butchering:primemeat-cooked": -10.0,
+        "butchering:primemeat-healing": -10.0,
+        "*": 0.0
+      }
+    },
+    {
+      "ItemName": "butchering:offal",
+      "hydration": 3.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "expandedfoods:birchsapportion",
+      "hydration": -20.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "expandedfoods:breadstarter",
+      "hydration": 5.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "expandedfoods:brothportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:brothportion-bone": 400.0,
+        "expandedfoods:brothportion-vegetable": 450.0,
+        "expandedfoods:brothportion-meat": 425.0,
+        "expandedfoods:brothportion-fish": 420.0,
+        "*": 400.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:clarifiedbrothportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:clarifiedbrothportion-bone": 600.0,
+        "expandedfoods:clarifiedbrothportion-vegetable": 650.0,
+        "expandedfoods:clarifiedbrothportion-meat": 625.0,
+        "expandedfoods:clarifiedbrothportion-fish": 620.0,
+        "*": 600.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:dressing-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:dressing-salad": 50.0,
+        "*": 50.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:fishsauce",
+      "hydration": 60.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "expandedfoods:foodoilportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:foodoilportion-flax": -30.0,
+        "expandedfoods:foodoilportion-rice": -30.0,
+        "expandedfoods:foodoilportion-seed": -30.0,
+        "expandedfoods:foodoilportion-soy": -30.0,
+        "expandedfoods:foodoilportion-sunflower": -30.0,
+        "expandedfoods:foodoilportion-peanut": -30.0,
+        "expandedfoods:foodoilportion-olive": -30.0,
+        "*": -30.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:fruitsyrupportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:fruitsyrupportion-apple": 100.0,
+        "expandedfoods:fruitsyrupportion-saguaro": 100.0,
+        "*": 100.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:lard",
+      "hydration": -5.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "expandedfoods:maplesapportion",
+      "hydration": 200.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "expandedfoods:pasteurizedmilkportion",
+      "hydration": 500.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "expandedfoods:peanutliquid-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:peanutliquid-paste": -5.0,
+        "expandedfoods:peanutliquid-butter": -30.0,
+        "expandedfoods:peanutliquid-sauce": -5.0,
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:potentspiritportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:potentspiritportion-apple": 170.0,
+        "expandedfoods:potentspiritportion-mead": 180.0,
+        "expandedfoods:potentspiritportion-spelt": 175.0,
+        "expandedfoods:potentspiritportion-rice": 175.0,
+        "expandedfoods:potentspiritportion-rye": 175.0,
+        "expandedfoods:potentspiritportion-amaranth": 175.0,
+        "expandedfoods:potentspiritportion-cassava": 175.0,
+        "*": 170.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:potentwineportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:potentwineportion-apple": 160.0,
+        "expandedfoods:potentwineportion-mead": 170.0,
+        "expandedfoods:potentwineportion-spelt": 165.0,
+        "expandedfoods:potentwineportion-rice": 165.0,
+        "expandedfoods:potentwineportion-rye": 165.0,
+        "expandedfoods:potentwineportion-amaranth": 165.0,
+        "expandedfoods:potentwineportion-cassava": 165.0,
+        "*": 160.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:softresin",
+      "hydration": -10.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "expandedfoods:soulstormbrew-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:soulstormbrew-slop": 100.0,
+        "expandedfoods:soulstormbrew-refinedslop": 150.0,
+        "expandedfoods:soulstormbrew-basic": 200.0,
+        "*": 100.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:soymilk-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:soymilk-raw": 200.0,
+        "expandedfoods:soymilk-edible": 400.0,
+        "*": 200.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:soysauce",
+      "hydration": -20.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "expandedfoods:strongspiritportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:strongspiritportion-apple": 150.0,
+        "expandedfoods:strongspiritportion-mead": 160.0,
+        "expandedfoods:strongspiritportion-spelt": 155.0,
+        "expandedfoods:strongspiritportion-rice": 155.0,
+        "expandedfoods:strongspiritportion-rye": 155.0,
+        "expandedfoods:strongspiritportion-amaranth": 155.0,
+        "expandedfoods:strongspiritportion-cassava": 155.0,
+        "*": 150.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:strongwineportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:strongwineportion-apple": 150.0,
+        "expandedfoods:strongwineportion-mead": 160.0,
+        "expandedfoods:strongwineportion-spelt": 155.0,
+        "expandedfoods:strongwineportion-rice": 155.0,
+        "expandedfoods:strongwineportion-rye": 155.0,
+        "expandedfoods:strongwineportion-amaranth": 155.0,
+        "expandedfoods:strongwineportion-cassava": 155.0,
+        "*": 150.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:treesyrupportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:treesyrupportion-birch": -20.0,
+        "expandedfoods:treesyrupportion-maple": -20.0,
+        "*": -20.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:vegetablejuiceportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:vegetablejuiceportion-carrot": 200.0,
+        "expandedfoods:vegetablejuiceportion-cabbage": 300.0,
+        "expandedfoods:vegetablejuiceportion-onion": 150.0,
+        "expandedfoods:vegetablejuiceportion-turnip": 150.0,
+        "expandedfoods:vegetablejuiceportion-parsnip": 150.0,
+        "expandedfoods:vegetablejuiceportion-pumpkin": 150.0,
+        "expandedfoods:vegetablejuiceportion-cassava": 150.0,
+        "expandedfoods:vegetablejuiceportion-bellpepper": 150.0,
+        "*": 150.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:yeastwaterportion",
+      "hydration": 50.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "expandedfoods:yogurt-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:yogurt-starter": 50.0,
+        "expandedfoods:yogurt-ferment": 50.0,
+        "expandedfoods:yogurt-plain": 50.0,
+        "expandedfoods:yogurt-birch": 50.0,
+        "expandedfoods:yogurt-maple": 50.0,
+        "expandedfoods:yogurt-honey": 50.0,
+        "expandedfoods:yogurt-huckleberry": 50.0,
+        "expandedfoods:yogurt-snowberry": 50.0,
+        "expandedfoods:yogurt-strawberry": 50.0,
+        "expandedfoods:yogurt-raspberry": 50.0,
+        "expandedfoods:yogurt-honeysuckle": 50.0,
+        "expandedfoods:yogurt-gooseberry": 50.0,
+        "expandedfoods:yogurt-brambleberry": 50.0,
+        "expandedfoods:yogurt-cloudberry": 50.0,
+        "expandedfoods:yogurt-dogrose": 50.0,
+        "expandedfoods:yogurt-elderberry": 50.0,
+        "expandedfoods:yogurt-blueraspberry": 50.0,
+        "expandedfoods:yogurt-bunchberry": 50.0,
+        "expandedfoods:yogurt-crowberry": 50.0,
+        "expandedfoods:yogurt-husktomato": 50.0,
+        "expandedfoods:yogurt-wolfberry": 50.0,
+        "expandedfoods:yogurt-apple": 50.0,
+        "expandedfoods:yogurt-blueberry": 50.0,
+        "expandedfoods:yogurt-cranberry": 50.0,
+        "expandedfoods:yogurt-redcurrant": 50.0,
+        "expandedfoods:yogurt-whitecurrant": 50.0,
+        "expandedfoods:yogurt-blackcurrant": 50.0,
+        "expandedfoods:yogurt-saguaro": 50.0,
+        "expandedfoods:yogurt-pineapple": 50.0,
+        "expandedfoods:yogurt-cherry": 50.0,
+        "expandedfoods:yogurt-peach": 50.0,
+        "expandedfoods:yogurt-pear": 50.0,
+        "expandedfoods:yogurt-orange": 50.0,
+        "expandedfoods:yogurt-mango": 50.0,
+        "expandedfoods:yogurt-breadfruit": 50.0,
+        "expandedfoods:yogurt-lychee": 50.0,
+        "expandedfoods:yogurt-pomegranate": 50.0,
+        "expandedfoods:yogurt-apricot": 50.0,
+        "expandedfoods:yogurt-citron": 50.0,
+        "expandedfoods:yogurt-coconut": 50.0,
+        "expandedfoods:yogurt-fig": 50.0,
+        "expandedfoods:yogurt-hawthorn": 50.0,
+        "expandedfoods:yogurt-pomelo": 50.0,
+        "expandedfoods:yogurt-purpleplum": 50.0,
+        "expandedfoods:yogurt-quince": 50.0,
+        "*": 50.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acorncoffee",
+      "hydration": 75.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "expandedfoods:wildfruitsyrupportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:wildfruitsyrupportion-*": 50.0,
+        "*": 50.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:wildpotentspiritportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:wildpotentspiritportion-*": 50.0,
+        "*": 50.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:wildpotentwineportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:wildpotentwineportion-*": 100.0,
+        "*": 100.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:wildstrongspiritportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:wildstrongspiritportion-*": 50.0,
+        "*": 50.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:wildstrongwineportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:wildstrongwineportion-*": 50.0,
+        "*": 50.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:wildtreefruitsyrupportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:wildtreefruitsyrupportion-*": 50.0,
+        "*": 50.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:wildtreepotentspiritportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:wildtreepotentspiritportion-*": 50.0,
+        "*": 50.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:wildtreepotentwineportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:wildtreepotentwineportion-*": 100.0,
+        "*": 100.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:wildtreestrongspiritportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:wildtreestrongspiritportion-*": 50.0,
+        "*": 50.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:wildtreestrongwineportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:wildtreestrongwineportion-*": 100.0,
+        "*": 100.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:agedmeat-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:agedmeat-*": -5.0,
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:breadcrumbs-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:breadcrumbs-spelt": -5.0,
+        "expandedfoods:breadcrumbs-rye": -5.0,
+        "expandedfoods:breadcrumbs-flax": -5.0,
+        "expandedfoods:breadcrumbs-rice": -5.0,
+        "expandedfoods:breadcrumbs-cassava": -5.0,
+        "expandedfoods:breadcrumbs-amaranth": -5.0,
+        "expandedfoods:breadcrumbs-sunflower": -5.0,
+        "expandedfoods:breadcrumbs-birch": -5.0,
+        "expandedfoods:breadcrumbs-pine": -5.0,
+        "expandedfoods:breadcrumbs-maple": -5.0,
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:candiedfruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:candiedfruit-saguaro": -2.0,
+        "expandedfoods:candiedfruit-cranberry": -2.0,
+        "expandedfoods:candiedfruit-cherry": -2.0,
+        "expandedfoods:candiedfruit-lychee": -2.0,
+        "expandedfoods:candiedfruit-breadfruit": -2.0,
+        "expandedfoods:candiedfruit-redgrapes": -2.0,
+        "expandedfoods:candiedfruit-greengrapes": -2.0,
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:choppedmushroom-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:choppedmushroom-earthball": -4.0,
+        "expandedfoods:choppedmushroom-deathcap": -25.0,
+        "expandedfoods:choppedmushroom-funeralbell": -20.0,
+        "expandedfoods:choppedmushroom-elfinsaddle": -3.0,
+        "expandedfoods:choppedmushroom-jackolantern": -3.0,
+        "expandedfoods:choppedmushroom-devilbolete": -5.0,
+        "expandedfoods:choppedmushroom-pinkbonnet": -10.0,
+        "expandedfoods:choppedmushroom-flyagaric": -3.0,
+        "expandedfoods:choppedmushroom-bitterbolete": -1.0,
+        "expandedfoods:choppedmushroom-devilstooth": -1.0,
+        "expandedfoods:choppedmushroom-golddropmilkcap": -1.0,
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:choppedvegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "expandedfoods:choppedvegetable-cassavadried": 5.0,
+        "expandedfoods:choppedvegetable-cabbage": 8.0,
+        "expandedfoods:choppedvegetable-pumpkin": 7.0,
+        "expandedfoods:choppedvegetable-pickledcarrot": 6.0,
+        "expandedfoods:choppedvegetable-pickledonion": 6.0,
+        "expandedfoods:choppedvegetable-pickledparsnip": 6.0,
+        "expandedfoods:choppedvegetable-pickledturnip": 6.0,
+        "expandedfoods:choppedvegetable-pickledpumpkin": 6.0,
+        "expandedfoods:choppedvegetable-papyrusroot": 7.0,
+        "expandedfoods:choppedvegetable-cattailroot": 100.0,
+        "expandedfoods:choppedvegetable-bellpepper": 7.0,
+        "*": 5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:cookedchoppedmushroom-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -1.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:cookedchoppedvegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:cookedmushroom-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:cookedveggie-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:dehydratedfruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:dryfruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:driedseaweed-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:fermentedfish-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:fishnugget-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:gelatin-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 1.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:gelatinfish-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 1.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:limeegg-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 1.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:meatnugget-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -1.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:peanut-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -3.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:soyprep-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acornbreadcrumbs-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acornportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acornpowdered-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acorns-roasted-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acornberrybread-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acornbreadedball-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acornbreadedfishnugget-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acornbreadedmeatnugget-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acornbreadedmushroom-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acornbreadedvegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acorndoughball-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acorndumpling-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acornhardtack-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -25.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acornmuffin-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acornpasta-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:acornstuffedpepper-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:saltedmeatnugget-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -15.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:berrybread-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:breadedball-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:breadedfishnugget-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:breadedmeatnugget-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:breadedmushroom-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:breadedvegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:candy-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:dumpling-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -3.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:fruitbar-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:gozinaki-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:hardtack-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -25.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:muffin-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:pasta-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -3.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:pemmican-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -25.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:pemmicanfish-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -25.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:plaindoughball-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:sausage-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:sausagefish-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:stuffedpepper-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:sushi-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:sushiveg-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -1.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:trailmix-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -25.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:trailmixvegetarian-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -25.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:crabnugget-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:snakenugget-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:pemmicancrab-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -25.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:pemmicansnake-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -25.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:sausagecrab-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:sausagesnake-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:herbalcornbreadcrumbs-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:herbalbreadcrumbs-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:wildcandiedfruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:wilddehydratedfruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:wilddryfruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:gozinakiherb-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:herbalacornbread-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:herbalacornhardtack-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -25.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:herbalabread-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:sausagecrabherb-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:sausagefishherb-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:sausageherb-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:sausagesnakeherb-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:wildtreecandiedfruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:wildtreedehydratedfruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "expandedfoods:wildtreedryfruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "floralzonescaperegion:fruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 10.0
+      }
+    },
+    {
+      "ItemName": "floralzonescaperegion:vegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 5.0
+      }
+    },
+    {
+      "ItemName": "floralzonescaribbeanregion:vegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 5.0
+      }
+    },
+    {
+      "ItemName": "floralzonescaribbeanregion:vegetable-nonpalm-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 5.0
+      }
+    },
+    {
+      "ItemName": "floralzonescaribbeanregion:fruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 10.0
+      }
+    },
+    {
+      "ItemName": "floralzonescaribbeanregion:flour-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -7.0
+      }
+    },
+    {
+      "ItemName": "floralzonescaribbeanregion:dough-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "floralzonescaribbeanregion:bread-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "floralzonescaribbeanregion:spiritportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 100.0
+      }
+    },
+    {
+      "ItemName": "floralzonescaribbeanregion:juiceportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 50.0
+      }
+    },
+    {
+      "ItemName": "floralzonescaribbeanregion:ciderportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 300.0
+      }
+    },
+    {
+      "ItemName": "floralzonescentralaustralianregion:vegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 5.0
+      }
+    },
+    {
+      "ItemName": "floralzonescentralaustralianregion:legume-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "floralzonescentralaustralianregion:fruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 10.0
+      }
+    },
+    {
+      "ItemName": "floralzonescentralaustralianregion:fruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 10.0
+      }
+    },
+    {
+      "ItemName": "floralzoneseastasiaticregion:vegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 5.0
+      }
+    },
+    {
+      "ItemName": "floralzoneseastasiaticregion:rawkudzu-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "floralzoneseastasiaticregion:fruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 10.0
+      }
+    },
+    {
+      "ItemName": "floralzoneseastasiaticregion:flour-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -8.0
+      }
+    },
+    {
+      "ItemName": "floralzoneseastasiaticregion:dough-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "floralzoneseastasiaticregion:bread-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "floralzoneseastasiaticregion:spiritportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 100.0
+      }
+    },
+    {
+      "ItemName": "floralzoneseastasiaticregion:juiceportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 700.0
+      }
+    },
+    {
+      "ItemName": "floralzoneseastasiaticregion:ciderportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 350.0
+      }
+    },
+    {
+      "ItemName": "floralzonesneozeylandicregion:fruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 10.0
+      }
+    },
+    {
+      "ItemName": "floralzonesneozeylandicregion:vegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 5.0
+      }
+    },
+    {
+      "ItemName": "newworldcrops:vegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 5.0
+      }
+    },
+    {
+      "ItemName": "newworldcrops:pickledlegume-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "newworldcrops:pickledlegrain-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "newworldcrops:legume-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -3.0
+      }
+    },
+    {
+      "ItemName": "newworldcrops:grain-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -3.0
+      }
+    },
+    {
+      "ItemName": "newworldcrops:flour-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -8.0
+      }
+    },
+    {
+      "ItemName": "newworldcrops:dough-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "newworldcrops:bread-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "warriordrink:spiritportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 100.0
+      }
+    },
+    {
+      "ItemName": "warriordrink:ciderportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 300.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:vegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 5.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:nut-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:fruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 10.0,
+        "wildcraftfruit:fruit-watermelon": 50.0,
+        "wildcraftfruit:fruit-illawarra": 15.0,
+        "wildcraftfruit:fruit-creepingpine": 8.0,
+        "wildcraftfruit:fruit-pandanbits": 12.0,
+        "wildcraftfruit:fruit-maritabits": 10.0,
+        "wildcraftfruit:fruit-crowseye": 7.0,
+        "wildcraftfruit:fruit-kakaha": 20.0,
+        "wildcraftfruit:fruit-flaxlily": 10.0,
+        "wildcraftfruit:fruit-engkala": 18.0,
+        "wildcraftfruit:fruit-kawakawa": 15.0,
+        "wildcraftfruit:fruit-gooseberry": 12.0,
+        "wildcraftfruit:fruit-blackgrape": 30.0,
+        "wildcraftfruit:fruit-redgrape": 30.0,
+        "wildcraftfruit:fruit-whitegrape": 30.0,
+        "wildcraftfruit:fruit-foxgrape": 28.0,
+        "wildcraftfruit:fruit-virgingrape": 25.0,
+        "wildcraftfruit:fruit-gardenstrawberry": 18.0,
+        "wildcraftfruit:fruit-strawberry": 18.0,
+        "wildcraftfruit:fruit-falsestrawberry": 15.0,
+        "wildcraftfruit:fruit-raspberry": 20.0,
+        "wildcraftfruit:fruit-blueraspberry": 20.0,
+        "wildcraftfruit:fruit-brambleberry": 16.0,
+        "wildcraftfruit:fruit-cloudberry": 15.0,
+        "wildcraftfruit:fruit-knyazberry": 22.0,
+        "wildcraftfruit:fruit-bushlawyer": 10.0,
+        "wildcraftfruit:fruit-dogrose": 14.0,
+        "wildcraftfruit:fruit-hawthorn": 12.0,
+        "wildcraftfruit:fruit-rowanberry": 12.0,
+        "wildcraftfruit:fruit-quince": 18.0,
+        "wildcraftfruit:fruit-loquat": 16.0,
+        "wildcraftfruit:fruit-pittedcherry": 15.0,
+        "wildcraftfruit:fruit-apricot": 22.0,
+        "wildcraftfruit:fruit-pittedapricot": 22.0,
+        "wildcraftfruit:fruit-purpleplum": 25.0,
+        "wildcraftfruit:fruit-cherryplum": 20.0,
+        "wildcraftfruit:fruit-sallowthorn": 10.0,
+        "wildcraftfruit:fruit-jujube": 18.0,
+        "wildcraftfruit:fruit-fig": 20.0,
+        "wildcraftfruit:fruit-falseorange": 25.0,
+        "wildcraftfruit:fruit-pittedbreadfruit": 15.0,
+        "wildcraftfruit:fruit-silvernettle": 8.0,
+        "wildcraftfruit:fruit-cucumber": 35.0,
+        "wildcraftfruit:fruit-muskmelon": 45.0,
+        "wildcraftfruit:fruit-mirzamelon": 40.0,
+        "wildcraftfruit:fruit-bryony": 10.0,
+        "wildcraftfruit:fruit-passionfruit": 22.0,
+        "wildcraftfruit:fruit-achacha": 18.0,
+        "wildcraftfruit:fruit-spindle": 10.0,
+        "wildcraftfruit:fruit-ugni": 15.0,
+        "wildcraftfruit:fruit-midyimberry": 18.0,
+        "wildcraftfruit:fruit-munthari": 15.0,
+        "wildcraftfruit:fruit-guajava": 20.0,
+        "wildcraftfruit:fruit-feijoa": 22.0,
+        "wildcraftfruit:fruit-roseapple": 25.0,
+        "wildcraftfruit:fruit-lillypillypink": 20.0,
+        "wildcraftfruit:fruit-lillypillyblue": 20.0,
+        "wildcraftfruit:fruit-lillypillywhite": 20.0,
+        "wildcraftfruit:fruit-beachalmondwhole": 12.0,
+        "wildcraftfruit:fruit-pittedbeachalmond": 12.0,
+        "wildcraftfruit:fruit-bluetongue": 18.0,
+        "wildcraftfruit:fruit-turkscap": 14.0,
+        "wildcraftfruit:fruit-cocoa": 15.0,
+        "wildcraftfruit:fruit-wolfberry": 10.0,
+        "wildcraftfruit:fruit-caperberry": 12.0,
+        "wildcraftfruit:fruit-citron": 25.0,
+        "wildcraftfruit:fruit-lemon": 30.0,
+        "wildcraftfruit:fruit-pomelo": 35.0,
+        "wildcraftfruit:fruit-fingerlime": 28.0,
+        "wildcraftfruit:fruit-kumquat": 20.0,
+        "wildcraftfruit:fruit-lemonaspen": 30.0,
+        "wildcraftfruit:fruit-cashewwhole": 8.0,
+        "wildcraftfruit:fruit-cashewapple": 25.0,
+        "wildcraftfruit:fruit-chinaberry": 10.0,
+        "wildcraftfruit:fruit-pittedchinaberry": 10.0,
+        "wildcraftfruit:fruit-redquandong": 20.0,
+        "wildcraftfruit:fruit-rubysaltbush": 12.0,
+        "wildcraftfruit:fruit-pokeberry": 8.0,
+        "wildcraftfruit:fruit-bunchberry": 15.0,
+        "wildcraftfruit:fruit-cheeseberry": 15.0,
+        "wildcraftfruit:fruit-pineheath": 10.0,
+        "wildcraftfruit:fruit-pricklyheath": 10.0,
+        "wildcraftfruit:fruit-honeypots": 12.0,
+        "wildcraftfruit:fruit-crowberry": 10.0,
+        "wildcraftfruit:fruit-lingonberry": 15.0,
+        "wildcraftfruit:fruit-huckleberry": 18.0,
+        "wildcraftfruit:fruit-kiwi": 20.0,
+        "wildcraftfruit:fruit-honeysuckle": 12.0,
+        "wildcraftfruit:fruit-snowberry": 8.0,
+        "wildcraftfruit:fruit-blackelder": 10.0,
+        "wildcraftfruit:fruit-elderberry": 15.0,
+        "wildcraftfruit:fruit-ivy": 10.0,
+        "wildcraftfruit:fruit-blacknightshade": 10.0,
+        "wildcraftfruit:fruit-blacknightshadeunripe": 8.0,
+        "wildcraftfruit:fruit-bitternightshade": 8.0,
+        "wildcraftfruit:fruit-naranjilla": 18.0,
+        "wildcraftfruit:fruit-husktomato": 15.0,
+        "wildcraftfruit:fruit-beautyberry": 15.0,
+        "wildcraftfruit:fruit-numnum": 15.0,
+        "wildcraftfruit:fruit-seamango": 20.0,
+        "wildcraftfruit:fruit-coralbead": 10.0,
+        "wildcraftfruit:fruit-pilo": 15.0,
+        "wildcraftfruit:fruit-mingimingi": 15.0,
+        "wildcraftfruit:fruit-fractureberry": 10.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:flour-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -8.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:dough-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:bread-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:berrymush-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 20.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:spiritportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 100.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:juiceportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 800.0,
+        "wildcraftfruit:juiceportion-watermelon": 1000.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:ciderportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 400.0
+      }
+    },
+    {
+      "ItemName": "wildcraftherb:root-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 2.0
+      }
+    },
+    {
+      "ItemName": "wildcraftherb:herb-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 4.0
+      }
+    },
+    {
+      "ItemName": "acorns:flour-acorn-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -8.0,
+        "flour-acorn": -8.0
+      }
+    },
+    {
+      "ItemName": "acorns:acorn-meal-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0,
+        "acorn-meal": -5.0
+      }
+    },
+    {
+      "ItemName": "primitivesurvival:trussedrot-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0,
+        "trussedrot": -5.0
+      }
+    },
+    {
+      "ItemName": "primitivesurvival:trussedmeat-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "primitivesurvival:snakemeat-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "primitivesurvival:smokedmeat-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -6.0
+      }
+    },
+    {
+      "ItemName": "primitivesurvival:jerky-redmeat-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "primitivesurvival:jerky-fish-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "primitivesurvival:jerky-bushmeat-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -10.0
+      }
+    },
+    {
+      "ItemName": "primitivesurvival:curedsmokedmeat-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -12.0
+      }
+    },
+    {
+      "ItemName": "primitivesurvival:crabmeat-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -4.0
+      }
+    },
+    {
+      "ItemName": "ancienttools:saltedmeat-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -12.0
+      }
+    },
+    {
+      "ItemName": "hydrateordiedrate:boiledwaterportion",
+      "hydration": 600.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:boiledrainwaterportion",
+      "hydration": 800.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:wellwaterportion-fresh",
+      "hydration": 750.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:wellwaterportion-salt",
+      "hydration": -600.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:wellwaterportion-muddy",
+      "hydration": 600.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:wellwaterportion-tainted",
+      "hydration": 750.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:wellwaterportion-poisoned",
+      "hydration": 750.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:wellwaterportion-muddysalt",
+      "hydration": -600.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:wellwaterportion-taintedsalt",
+      "hydration": -600.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:wellwaterportion-poisonedsalt",
+      "hydration": -600.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "wildcraftfruit:finespiritportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 300.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:fineciderportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 600.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:flower-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 2.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:pickledvegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 15.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:sweetwaterportion",
+      "hydration": 650.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "wildcraftfruit:lemonade-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 850.0
+      }
+    },
+    {
+      "ItemName": "maketea:teaportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 600.0
+      }
+    },
+    {
+      "ItemName": "floralzonesmediterraneanregion:spiritportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 100.0
+      }
+    },
+    {
+      "ItemName": "floralzonescentralaustralianregion:grain-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -30.0
+      }
+    },
+    {
+      "ItemName": "floralzonescentralaustralianregion:flour-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -30.0
+      }
+    },
+    {
+      "ItemName": "floralzonescentralaustralianregion:dough-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 5.0
+      }
+    },
+    {
+      "ItemName": "floralzonescentralaustralianregion:bread-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "floralzonescentralaustralianregion:ciderportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 350.0
+      }
+    },
+    {
+      "ItemName": "floralzonescentralaustralianregion:juiceportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 800.0
+      }
+    },
+    {
+      "ItemName": "floralzonescentralaustralianregion:spiritportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 100.0
+      }
+    },
+    {
+      "ItemName": "floralzonescosmopolitanregion:vegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 5.0
+      }
+    },
+    {
+      "ItemName": "floralzonescosmopolitanregion:pickledvegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 15.0
+      }
+    },
+    {
+      "ItemName": "floralzonescosmopolitanregion:legume-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "floralzonescosmopolitanregion:grain-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -30.0
+      }
+    },
+    {
+      "ItemName": "floralzonescosmopolitanregion:fruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 10.0
+      }
+    },
+    {
+      "ItemName": "floralzonescosmopolitanregion:flour-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -30.0
+      }
+    },
+    {
+      "ItemName": "floralzonescosmopolitanregion:dough-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -2.0
+      }
+    },
+    {
+      "ItemName": "floralzonescosmopolitanregion:bread-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0
+      }
+    },
+    {
+      "ItemName": "floralzonescosmopolitanregion:ciderportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 350.0
+      }
+    },
+    {
+      "ItemName": "floralzonescosmopolitanregion:juiceportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 800.0
+      }
+    },
+    {
+      "ItemName": "floralzonescosmopolitanregion:spiritportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 100.0
+      }
+    },
+    {
+      "ItemName": "floralzonesmediterraneanregion:vegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 5.0
+      }
+    },
+    {
+      "ItemName": "floralzonesmediterraneanregion:fruit-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 10.0
+      }
+    },
+    {
+      "ItemName": "floralzonesmediterraneanregion:pickledvegetable-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 15.0
+      }
+    },
+    {
+      "ItemName": "floralzonesmediterraneanregion:ciderportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 350.0
+      }
+    },
+    {
+      "ItemName": "floralzonesmediterraneanregion:juiceportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 800.0
+      }
+    },
+    {
+      "ItemName": "hydrateordiedrate:waterportion-boiled-natural-clean",
+      "hydration": 600.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:waterportion-boiled-rain-clean",
+      "hydration": 800.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:waterportion-fresh-distilled-clean",
+      "hydration": 900.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:waterportion-fresh-rain-clean",
+      "hydration": 750.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:waterportion-fresh-well-clean",
+      "hydration": 750.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:waterportion-salt-well-clean",
+      "hydration": -600.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:waterportion-fresh-well-muddy",
+      "hydration": 600.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:waterportion-fresh-well-tainted",
+      "hydration": 750.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:waterportion-fresh-well-poisoned",
+      "hydration": 750.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:waterportion-salt-well-muddy",
+      "hydration": -600.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:waterportion-salt-well-tainted",
+      "hydration": -600.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "hydrateordiedrate:waterportion-salt-well-poisoned",
+      "hydration": -600.0,
+      "hydrationByType": null
+    },
+    {
+      "ItemName": "butchering:smoked-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -50.0,
+        "butchering:smoked-none-redmeat": -60.0,
+        "butchering:smoked-cured-redmeat": -80.0,
+        "butchering:smoked-none-bushmeat": -50.0,
+        "butchering:smoked-cured-bushmeat": -70.0,
+        "butchering:smoked-none-fish": -50.0,
+        "butchering:smoked-cured-fish": -80.0,
+        "butchering:smoked-none-primemeat": -50.0,
+        "butchering:smoked-healing-primemeat": -80.0
+      }
+    },
+    {
+      "ItemName": "butchering:bloodbread-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "butchering:bloodbread-spelt-partbaked": -40.0,
+        "butchering:bloodbread-spelt-perfect": -50.0,
+        "butchering:bloodbread-spelt-charred": -80.0,
+        "butchering:bloodbread-rye-partbaked": -40.0,
+        "butchering:bloodbread-rye-perfect": -50.0,
+        "butchering:bloodbread-rye-charred": -100.0,
+        "butchering:bloodbread-flax-partbaked": -35.0,
+        "butchering:bloodbread-flax-perfect": -40.0,
+        "butchering:bloodbread-flax-charred": -70.0,
+        "butchering:bloodbread-rice-partbaked": -50.0,
+        "butchering:bloodbread-rice-perfect": -60.0,
+        "butchering:bloodbread-rice-charred": -80.0,
+        "butchering:bloodbread-cassava-partbaked": -40.0,
+        "butchering:bloodbread-cassava-perfect": -50.0,
+        "butchering:bloodbread-cassava-charred": -80.0,
+        "butchering:bloodbread-amaranth-partbaked": -35.0,
+        "butchering:bloodbread-amaranth-perfect": -40.0,
+        "butchering:bloodbread-amaranth-charred": -70.0,
+        "butchering:bloodbread-sunflower-partbaked": -40.0,
+        "butchering:bloodbread-sunflower-perfect": -50.0,
+        "butchering:bloodbread-sunflower-charred": -80.0
+      }
+    },
+    {
+      "ItemName": "butchering:blooddough-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 5.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:flowerwine-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "wildcraftfruit:flowerwine-currant": 900.0,
+        "wildcraftfruit:flowerwine-rose": 875.0,
+        "wildcraftfruit:flowerwine-passionflower": 850.0,
+        "wildcraftfruit:flowerwine-hibiscus": 875.0,
+        "wildcraftfruit:flowerwine-honeysuckle": 850.0,
+        "wildcraftfruit:flowerwine-elder": 900.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:soymilkportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 800.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:chocomilkportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": 800.0
+      }
+    },
+    {
+      "ItemName": "wildcraftfruit:tinctureportion-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "wildcraftfruit:tinctureportion-raspberry": -290.0,
+        "wildcraftfruit:tinctureportion-elderberry": -300.0,
+        "wildcraftfruit:tinctureportion-rosehip": -320.0,
+        "wildcraftfruit:tinctureportion-orange": -290.0,
+        "wildcraftfruit:tinctureportion-citron": -300.0,
+        "wildcraftfruit:tinctureportion-lime": -305.0,
+        "wildcraftfruit:tinctureportion-grapefruit": -315.0,
+        "wildcraftfruit:tinctureportion-ivy": -380.0,
+        "wildcraftfruit:tinctureportion-aronia": -330.0,
+        "wildcraftfruit:tinctureportion-bearberry": -340.0,
+        "wildcraftfruit:tinctureportion-passionflower": -300.0,
+        "wildcraftfruit:tinctureportion-cloudberry": -280.0,
+        "wildcraftfruit:tinctureportion-hawthorn": -310.0,
+        "wildcraftfruit:tinctureportion-juniper": -320.0
+      }
+    },
+    {
+      "ItemName": "saltandsands:bivalvemeat-*",
+      "hydration": 0.0,
+      "hydrationByType": {
+        "*": -5.0,
+        "saltandsands:bivalvemeat-freshwatermussel-*": 20.0
+      }
+    }
+  ]
+}

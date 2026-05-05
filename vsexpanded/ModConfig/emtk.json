@@ -1,0 +1,6 @@
+{
+  "excludedFromUpdates": [
+    "levelup"
+  ],
+  "enabledEarlyMods": []
+}

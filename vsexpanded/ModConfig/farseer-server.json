@@ -1,0 +1,7 @@
+{
+  "HeightmapGridSize": 128,
+  "MaxClientViewDistance": 16000,
+  "ChunkGenQueueThreshold": 64,
+  "GenRealChunks": true,
+  "DisableProgressLogging": false
+}

@@ -1,0 +1,57 @@
+version: 2
+
+
+##############
+## Crafting ##
+##############
+
+
+# Enables grid crafting recipes of raw bricks only
+brickgridcrafting: false
+ #  (default: False) 
+
+# Enables grid crafting recipes of all raw clay items/blocks, other than bricks.
+gridcrafting: false
+ #  (default: False) 
+
+
+#####################################
+## Enable/Disable parts of the mod ##
+#####################################
+
+barrels: true
+ #  (default: True) 
+bowls: true
+ #  (default: True) 
+bricks: true
+ #  (default: True) 
+claytiles: true
+ #  (default: True) 
+chimneys: true
+ #  (default: True) 
+crocks: true
+ #  (default: True) 
+decoratedvessel: true
+ #  (default: True) 
+flowerpots: true
+ #  (default: True) 
+hardenedclay: true
+ #  (default: True) 
+jugs: true
+ #  (default: True) 
+planters: true
+ #  (default: True) 
+shingles: true
+ #  (default: True) 
+storagevessels: true
+ #  (default: True) 
+wateringcans: true
+ #  (default: True) 
+
+
+####################
+## Other settings ##
+####################
+
+crockservings: 4
+ # from 1 to 12 (default: 4) 

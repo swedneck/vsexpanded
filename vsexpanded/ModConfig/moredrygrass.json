@@ -1,0 +1,10 @@
+{
+  "for_knives": true,
+  "for_scythes": true,
+  "chances_veryshort": 0.0,
+  "chances_short": 0.33,
+  "chances_mediumshort": 0.75,
+  "chances_medium": 1.1,
+  "chances_tall": 1.6,
+  "chances_verytall": 2
+}
