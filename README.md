@@ -1,6 +1,6 @@
 https://mods.vintagestory.at/vsexpanded
 
-This repository is just for organizing issue reports/feature requests and hopefully writing a wiki; as there's no actual code of note, and everything is plainly visible in the mod zip file. There is also no license, for the same reason.
+VS Expanded is a modpack for the game Vintage Story; where i try to implement my vision for what the game could be, using a selection of existing mods and tweaked configs.
 
 Issue tracker: https://codeberg.org/swedneck/vsexpanded/issues  
 Wiki (open to edits): https://codeberg.org/swedneck/vsexpanded/wiki
