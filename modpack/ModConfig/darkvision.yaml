@@ -34,7 +34,7 @@ ramp-time: 5
  # from 0.1 to 60 with step of 1 (default: 15) 
 
 # Brightness boost when fully adapted. 0 = no boost, 1 = full bright.
-max-brightness: 0.099999994
+max-brightness: 0.14999999
  # from 0 to 1 with step of 0.01 (default: 0.2) 
 
 # How often to check light levels at the player position.
@@ -58,11 +58,11 @@ light-source-adaptation-cap: 0
 
 
 # At or below this light level, eyes start adapting to darkness.
-min-brightness-level: 7
+min-brightness-level: 8
  # from 0 to 32 with step of 1 (default: 5) 
 
 # At or above this light level, eyes start losing adaptation.
-min-unadaptation-brightness-level: 8
+min-unadaptation-brightness-level: 9
  # from 0 to 32 with step of 1 (default: 6) 
 
 # Maximum brightness considered for unadaptation scaling.
