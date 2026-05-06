@@ -64,6 +64,6 @@
   "WeirTrapEscapePercent": 15,
   "WeirTrapUpdateMinutes": 5.0,
   "WeirTrapRotRemovedPercent": 10,
-  "WormFoundPercentRock": 1,
+  "WormFoundPercentRock": 5,
   "WormFoundPercentStickFlint": 10
 }
