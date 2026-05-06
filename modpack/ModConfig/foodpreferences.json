@@ -7,5 +7,18 @@
   "HatedToDislikedSaturation": 12780.0,
   "DislikedToNeutralSaturation": 9540.0,
   "AcquiredTasteWindowHours": 30.0,
-  "AcquiredTasteWindowProgressRatio": 0.1
+  "AcquiredTasteWindowProgressRatio": 0.1,
+  "EnableFoodCravings": true,
+  "CravingsPerInGameWeek": 1,
+  "CravingDurationInGameDays": 14.0,
+  "EnableFoodCravingRewards": true,
+  "FoodCravingRewardBaseDurationDays": 1.0,
+  "FoodCravingRewardDurationBonusPerFood": 0.0334,
+  "FoodCravingRewardDurationBonusFoodCap": 30,
+  "FoodCravingRewardMaxDurationDays": 2.0,
+  "FoodCravingHealthBonus": 1.5,
+  "FoodCravingToolSpeedBonus": 0.075,
+  "FoodCravingTemporalStabilityBonus": 10.0,
+  "FoodCravingHungerDrainReduction": 0.1,
+  "FoodCravingHealingEffectivenessBonus": 0.1
 }
