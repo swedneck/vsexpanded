@@ -3,7 +3,7 @@
   "type": "Content",
   "name": "VS Expanded modpack",
   "modid": "vsexpandedmodpack",
-  "version": "1.1.12-dev",
+  "version": "1.1.12",
   "description": "A 'hardcore' but hopefully not punishing modpack that expands upon the survival gameplay while minimally interfering with the story.",
   "authors": [
     "Swedneck"
