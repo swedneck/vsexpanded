@@ -1,13 +1,13 @@
 {
   "configVersion": 13,
   "rustCreaturesTakeHalfDamage": true,
-  "enableWraith": true,
+  "enableWraith": false,
   "betterRiftward": true,
   "riftSpread": true,
   "riftExtraSpawns": true,
   "riftWeatherEffectsCaves": true,
-  "lowStabilityExtraEffects": true,
-  "stabilityLossRateMultiplier": 1.0,
+  "lowStabilityExtraEffects": false,
+  "stabilityLossRateMultiplier": 0.9,
   "riftsSpawnDuringTempStorms": true,
   "stormWraithSpawnInterval": 60,
   "riftDaySpawnList": [
