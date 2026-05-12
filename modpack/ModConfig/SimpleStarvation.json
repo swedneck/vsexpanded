@@ -1,10 +1,10 @@
 {
   "HealthyWeight": 75.0,
   "CriticalWeight": 40.0,
-  "MaxWeight": 100.0,
-  "ExpectedSaturationPerDay": 2500.0,
+  "MaxWeight": 120.0,
+  "ExpectedSaturationPerDay": 2600.0,
   "NumberOfMonthsToStarve": 1.5,
-  "ThrowUpThreshold": 500.0,
+  "ThrowUpThreshold": 1000.0,
   "ApplyWeightBonuses": true,
   "WeightLossOnDeath": 5.0,
   "LowestPossibleWeightOnRespawn": 45.0,
