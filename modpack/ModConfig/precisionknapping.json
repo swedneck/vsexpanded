@@ -1,10 +1,10 @@
 {
   "AdvancedMode": true,
-  "MistakeAllowance": 1,
-  "FractureConeAngle": 90,
+  "MistakeAllowance": 4,
+  "FractureConeAngle": 80,
   "FractureSpreadRate": 0.4,
   "FractureDecay": 0.15,
-  "FractureBaseProbability": 0.95,
+  "FractureBaseProbability": 0.90,
   "LearnModeOverlay": false,
   "EnableDurabilityScaling": true,
   "PerfectKnappingBonus": 0.25
