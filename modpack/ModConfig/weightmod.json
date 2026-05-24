@@ -397,7 +397,7 @@
     "game:flaxtwine": 0.8,
     "game:cattailtops": 0.8,
     "game:ironbloom": 0.8,
-    "game:rope": 0.8,
+    "game:rope": 1.0,
     "game:solderbar-tin": 0.8,
     "game:solderbar-silver": 0.8,
     "game:tile-stone-travertine": 0.8,
@@ -713,7 +713,7 @@
     "scarecrow:little-scarecrow": 0.8,
     "scarecrow:scarecrow": 0.8,
     "shipwright:boat-totora-oak": 1.0,
-    "shipwright:ladderrope": 0.8,
+    "shipwright:ladderrope": 2.0,
     "shipwright:saillogo-empty": 1.0,
     "shipwright:jibsail-closed": 1.0,
     "shipwright:jibsail-open": 1.0,
@@ -42582,7 +42582,7 @@
     },
     {
       "Pattern": "game:ladder-rope-*",
-      "Weight": 38.4,
+      "Weight": 2.0,
       "Kind": "block"
     },
     {
@@ -44337,7 +44337,7 @@
     },
     {
       "Pattern": "game:supportrope-*",
-      "Weight": 38.4,
+      "Weight": 1.0,
       "Kind": "block"
     },
     {
