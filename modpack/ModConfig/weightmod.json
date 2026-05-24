@@ -4477,7 +4477,7 @@
     },
     {
       "Pattern": "game:knifeblade-*",
-      "Weight": 0.8,
+      "Weight": 0.1,
       "Kind": "item"
     },
     {
