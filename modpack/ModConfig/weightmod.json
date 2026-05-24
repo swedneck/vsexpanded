@@ -512,7 +512,7 @@
     "primitivesurvival:fishingspear-wood": 3.0,
     "primitivesurvival:fishingspear-bamboo": 3.0,
     "primitivesurvival:fisheggscooked": 0.1,
-    "primitivesurvival:cordage": 0.8,
+    "primitivesurvival:cordage": 0.2,
     "primitivesurvival:caviar-curing": 0.8,
     "primitivesurvival:caviar-cured": 0.8,
     "primitivesurvival:woodspikebundle": 0.8,
@@ -6577,7 +6577,7 @@
     },
     {
       "Pattern": "stringsense:cord-*",
-      "Weight": 0.8,
+      "Weight": 0.1,
       "Kind": "item"
     },
     {
