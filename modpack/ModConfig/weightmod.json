@@ -4302,97 +4302,97 @@
     },
     {
       "Pattern": "game:ingot-copper",
-      "Weight": 89.0,
+      "Weight": 11.8,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-brass",
-      "Weight": 85.0,
+      "Weight": 11.2,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-tinbronze",
-      "Weight": 76.0,
+      "Weight": 10.9,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-bismuthbronze",
-      "Weight": 79.0,
+      "Weight": 11.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-blackbronze",
-      "Weight": 90.0,
+      "Weight": 11.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-iron",
-      "Weight": 78.0,
+      "Weight": 10.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-gold",
-      "Weight": 193.0,
+      "Weight": 25.5,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-lead",
-      "Weight": 113.0,
+      "Weight": 15.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-tin",
-      "Weight": 72.0,
+      "Weight": 9.6,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-chromium",
-      "Weight": 71.0,
+      "Weight": 9.5,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-platinum",
-      "Weight": 215.0,
+      "Weight": 28.3,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-titanium",
-      "Weight": 45.0,
+      "Weight": 5.9,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-zinc",
-      "Weight": 70.0,
+      "Weight": 9.4,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-silver",
-      "Weight": 105.0,
+      "Weight": 13.8,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-bismuth",
-      "Weight": 97.0,
+      "Weight": 13.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-molybdochalkos",
-      "Weight": 98.0,
+      "Weight": 12.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-steel",
-      "Weight": 78.0,
+      "Weight": 10.3,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-blistersteel",
-      "Weight": 78.0,
+      "Weight": 10.5,
       "Kind": "item"
     },
     {
       "Pattern": "game:ingot-meteoriciron",
-      "Weight": 78.0,
+      "Weight": 10.4,
       "Kind": "item"
     },
     {
@@ -4422,7 +4422,7 @@
     },
     {
       "Pattern": "game:metalbit-*",
-      "Weight": 4.0,
+      "Weight": 0.5,
       "Kind": "item"
     },
     {
@@ -4452,7 +4452,7 @@
     },
     {
       "Pattern": "game:snowball-*",
-      "Weight": 0.8,
+      "Weight": 0.3,
       "Kind": "item"
     },
     {
@@ -4462,7 +4462,7 @@
     },
     {
       "Pattern": "aculinaryartillery:rollingpin-*",
-      "Weight": 1.0,
+      "Weight": 0.5,
       "Kind": "item"
     },
     {
@@ -4472,7 +4472,7 @@
     },
     {
       "Pattern": "game:shovelhead-*",
-      "Weight": 0.8,
+      "Weight": 0.4,
       "Kind": "item"
     },
     {
@@ -4482,27 +4482,27 @@
     },
     {
       "Pattern": "game:hoehead-*",
-      "Weight": 0.8,
+      "Weight": 0.3,
       "Kind": "item"
     },
     {
       "Pattern": "game:hoe-*",
-      "Weight": 3.0,
+      "Weight": 2.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:shovel-*",
-      "Weight": 3.0,
+      "Weight": 2.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:axehead-*",
-      "Weight": 0.8,
+      "Weight": 0.4,
       "Kind": "item"
     },
     {
       "Pattern": "game:knife-generic-*",
-      "Weight": 3.0,
+      "Weight": 0.5,
       "Kind": "item"
     },
     {
@@ -6957,7 +6957,7 @@
     },
     {
       "Pattern": "game:knife-*",
-      "Weight": 3.0,
+      "Weight": 0.5,
       "Kind": "item"
     },
     {
