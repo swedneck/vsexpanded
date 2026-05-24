@@ -41772,7 +41772,7 @@
     },
     {
       "Pattern": "game:wildvine-section-*",
-      "Weight": 0.4,
+      "Weight": 0.2,
       "Kind": "block"
     },
     {
@@ -41807,12 +41807,12 @@
     },
     {
       "Pattern": "game:wildvine-end-*",
-      "Weight": 0.8,
+      "Weight": 0.2,
       "Kind": "block"
     },
     {
       "Pattern": "game:wildvine-tropical-end-*",
-      "Weight": 0.8,
+      "Weight": 0.2,
       "Kind": "block"
     },
     {
@@ -42027,7 +42027,7 @@
     },
     {
       "Pattern": "game:wildvine-tropical-section-*",
-      "Weight": 0.8,
+      "Weight": 0.2,
       "Kind": "block"
     },
     {
@@ -42052,12 +42052,12 @@
     },
     {
       "Pattern": "game:wildvinestatic-end-*",
-      "Weight": 0.8,
+      "Weight": 0.2,
       "Kind": "block"
     },
     {
       "Pattern": "game:wildvinestatic-section-*",
-      "Weight": 0.8,
+      "Weight": 0.2,
       "Kind": "block"
     },
     {
