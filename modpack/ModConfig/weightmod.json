@@ -3,7 +3,34 @@
   "WEIGHT_HUD_X": 0.0,
   "USE_WEIGHT_ORACLE": true,
   "WEIGHT_ORACLE_DONE": true,
-  "INVENTORY_WEIGHT_PLAYER_SETTINGS": null,
+  "INVENTORY_WEIGHT_PLAYER_SETTINGS": [
+    {
+      "InvtentoryName": "backpack",
+      "StartSlot": 4,
+      "WeightBonus": false
+    },
+    {
+      "InvtentoryName": "backpack",
+      "EndSlot": 3,
+      "WeightBonus": true
+    },
+    {
+      "InvtentoryName": "hotbar",
+      "WeightBonus": false
+    },
+    {
+      "InvtentoryName": "character",
+      "WeightBonus": false
+    },
+    {
+      "InvtentoryName": "character",
+      "WeightBonus": true
+    },
+    {
+      "InvtentoryName": "mouse",
+      "WeightBonus": false
+    }
+  ],
   "MAX_PLAYER_WEIGHT": 200.0,
   "MAX_ELK_WEIGHT": 400.0,
   "WEIGH_PLAYER_THRESHOLD": 0.7,
