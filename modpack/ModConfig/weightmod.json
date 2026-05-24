@@ -4222,82 +4222,82 @@
     },
     {
       "Pattern": "game:metalplate-copper",
-      "Weight": 178.0,
+      "Weight": 10.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:metalplate-brass",
-      "Weight": 170.0,
+      "Weight": 10.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:metalplate-tinbronze",
-      "Weight": 152.0,
+      "Weight": 10.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:metalplate-bismuthbronze",
-      "Weight": 158.0,
+      "Weight": 10.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:metalplate-blackbronze",
-      "Weight": 180.0,
+      "Weight": 10.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:metalplate-iron",
-      "Weight": 156.0,
+      "Weight": 10.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:metalplate-gold",
-      "Weight": 386.0,
+      "Weight": 20.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:metalplate-lead",
-      "Weight": 226.0,
+      "Weight": 10.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:metalplate-tin",
-      "Weight": 144.0,
+      "Weight": 10.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:metalplate-chromium",
-      "Weight": 142.0,
+      "Weight": 10.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:metalplate-platinum",
-      "Weight": 430.0,
+      "Weight": 10.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:metalplate-titanium",
-      "Weight": 90.0,
+      "Weight": 10.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:metalplate-zinc",
-      "Weight": 140.0,
+      "Weight": 10.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:metalplate-silver",
-      "Weight": 210.0,
+      "Weight": 10.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:metalplate-bismuth",
-      "Weight": 194.0,
+      "Weight": 10.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:metalplate-molybdochalkos",
-      "Weight": 192.0,
+      "Weight": 10.0,
       "Kind": "item"
     },
     {
