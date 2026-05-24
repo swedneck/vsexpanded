@@ -4427,12 +4427,12 @@
     },
     {
       "Pattern": "ndlmushroomgrowth:mushroomspores-*",
-      "Weight": 8.0,
+      "Weight": 0.1,
       "Kind": "item"
     },
     {
       "Pattern": "tailorsdelight:ruler-*",
-      "Weight": 3.0,
+      "Weight": 0.3,
       "Kind": "item"
     },
     {
@@ -4467,7 +4467,7 @@
     },
     {
       "Pattern": "game:metalnailsandstrips-*",
-      "Weight": 4.0,
+      "Weight": 1.0,
       "Kind": "item"
     },
     {
@@ -4517,17 +4517,17 @@
     },
     {
       "Pattern": "game:spear-generic-*",
-      "Weight": 3.0,
+      "Weight": 2.0,
       "Kind": "item"
     },
     {
       "Pattern": "game:spearhead-*",
-      "Weight": 0.8,
+      "Weight": 0.3,
       "Kind": "item"
     },
     {
       "Pattern": "tailorsdelight:twine-*",
-      "Weight": 0.8,
+      "Weight": 0.2,
       "Kind": "item"
     },
     {
@@ -4562,17 +4562,17 @@
     },
     {
       "Pattern": "cartwrightscaravan:sled-sled-basicsled-*",
-      "Weight": 1.0,
+      "Weight": 5.0,
       "Kind": "item"
     },
     {
       "Pattern": "cartwrightscaravan:cart-cart-slimcart-classic-*",
-      "Weight": 1.0,
+      "Weight": 5.0,
       "Kind": "item"
     },
     {
       "Pattern": "cartwrightscaravan:cartsmetalextra-cartlantern-base-old-oak-*",
-      "Weight": 4.0,
+      "Weight": 5.0,
       "Kind": "item"
     },
     {
@@ -4582,17 +4582,17 @@
     },
     {
       "Pattern": "cartwrightscaravan:marketstall-marketstall-smallstall-open-*",
-      "Weight": 1.0,
+      "Weight": 5.0,
       "Kind": "item"
     },
     {
       "Pattern": "cartwrightscaravan:marketstall-marketstall-smallstall-slanted-*",
-      "Weight": 1.0,
+      "Weight": 5.0,
       "Kind": "item"
     },
     {
       "Pattern": "cartwrightscaravan:marketstall-marketstall-smallstall-classic-*",
-      "Weight": 1.0,
+      "Weight": 5.0,
       "Kind": "item"
     },
     {
@@ -4607,7 +4607,7 @@
     },
     {
       "Pattern": "game:plank-*",
-      "Weight": 0.8,
+      "Weight": 0.3,
       "Kind": "item"
     },
     {
@@ -4656,11 +4656,6 @@
       "Kind": "item"
     },
     {
-      "Pattern": "walkingstick:walkingstick-lantern-*",
-      "Weight": 3.0,
-      "Kind": "item"
-    },
-    {
       "Pattern": "artofgrowing:creaser-*",
       "Weight": 1.0,
       "Kind": "item"
@@ -4672,7 +4667,7 @@
     },
     {
       "Pattern": "tailorsdelight:awl-*",
-      "Weight": 3.0,
+      "Weight": 0.2,
       "Kind": "item"
     },
     {
@@ -4722,7 +4717,7 @@
     },
     {
       "Pattern": "game:book-normal-*",
-      "Weight": 1.0,
+      "Weight": 0.5,
       "Kind": "item"
     },
     {
@@ -4807,7 +4802,7 @@
     },
     {
       "Pattern": "game:treeseed-*",
-      "Weight": 0.8,
+      "Weight": 0.1,
       "Kind": "item"
     },
     {
@@ -4877,7 +4872,7 @@
     },
     {
       "Pattern": "wool:cloth-wool-*",
-      "Weight": 0.8,
+      "Weight": 0.4,
       "Kind": "item"
     },
     {
