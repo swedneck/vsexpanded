@@ -383,7 +383,7 @@
     "game:ingot-stainlesssteel": 4.0,
     "game:ingot-uranium": 4.0,
     "game:candle": 0.8,
-    "game:flint": 0.8,
+    "game:flint": 0.3,
     "game:mortar": 0.8,
     "game:sewingkit": 0.8,
     "game:pulp-linen": 0.8,
@@ -7987,7 +7987,7 @@
     },
     {
       "Pattern": "game:looseflints-*-free",
-      "Weight": 51.2,
+      "Weight": 0.3,
       "Kind": "block"
     },
     {
