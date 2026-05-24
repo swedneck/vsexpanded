@@ -6582,17 +6582,17 @@
     },
     {
       "Pattern": "toolsmith:fabricstrips-*",
-      "Weight": 0.8,
+      "Weight": 0.1,
       "Kind": "item"
     },
     {
       "Pattern": "wildgrass:seeds-*",
-      "Weight": 0.8,
+      "Weight": 0.1,
       "Kind": "item"
     },
     {
       "Pattern": "artofgrowing:grainbundle-*",
-      "Weight": 0.8,
+      "Weight": 0.3,
       "Kind": "item"
     },
     {
@@ -6602,7 +6602,7 @@
     },
     {
       "Pattern": "bdcrop:seeds-*",
-      "Weight": 0.4,
+      "Weight": 0.1,
       "Kind": "item"
     },
     {
