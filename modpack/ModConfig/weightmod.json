@@ -5737,7 +5737,7 @@
     },
     {
       "Pattern": "game:clay-*",
-      "Weight": 0.8,
+      "Weight": 20.0,
       "Kind": "item"
     },
     {
