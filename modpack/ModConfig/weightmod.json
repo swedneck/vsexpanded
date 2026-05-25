@@ -1145,17 +1145,17 @@
     "game:chiseledblock-snow": 51.2,
     "game:microblock-snow": 51.2,
     "game:creativegrass-medium-normal": 0.8,
-    "game:muddygravel": 0.8,
-    "game:sludgygravel": 0.8,
+    "game:muddygravel": 25.0,
+    "game:sludgygravel": 25.0,
     "game:peat-none": 0.8,
     "game:peat-verysparse": 0.8,
     "game:peatpile": 0.8,
-    "game:packeddirt-trampledearth": 0.8,
+    "game:packeddirt-trampledearth": 25.0,
     "game:peatbrick": 0.8,
-    "game:drypackeddirt": 0.8,
+    "game:drypackeddirt": 25.0,
     "game:ethoslab": 0.4,
-    "game:bonysoil": 0.8,
-    "game:packeddirt": 0.8,
+    "game:bonysoil": 20.0,
+    "game:packeddirt": 25.0,
     "game:strawbedding": 0.8,
     "game:mudbrick-light": 0.8,
     "game:mudbrick-dark": 0.8,
@@ -3789,7 +3789,7 @@
     "tailorsdelight:hideblock-pelt-we": 0.8,
     "terrainslabs:peat-game-none": 0.8,
     "terrainslabs:peat-game-verysparse": 0.8,
-    "terrainslabs:muddygravel-game": 0.8,
+    "terrainslabs:muddygravel-game": 12.0,
     "terrainslabs:packedglacierice-game": 0.8,
     "terrainslabs:glacierice-game": 0.8,
     "terrainslabs:snowblock-game": 0.8,
@@ -8947,7 +8947,7 @@
     },
     {
       "Pattern": "game:gravel-*",
-      "Weight": 0.8,
+      "Weight": 25.0,
       "Kind": "block"
     },
     {
@@ -9047,7 +9047,7 @@
     },
     {
       "Pattern": "terrainslabs:sandwavy-game-*",
-      "Weight": 0.8,
+      "Weight": 20.0,
       "Kind": "block"
     },
     {
@@ -9127,7 +9127,7 @@
     },
     {
       "Pattern": "terrainslabs:gravel-game-*",
-      "Weight": 0.8,
+      "Weight": 12.0,
       "Kind": "block"
     },
     {
@@ -40587,7 +40587,7 @@
     },
     {
       "Pattern": "game:dirtygravel-*",
-      "Weight": 0.8,
+      "Weight": 25.0,
       "Kind": "block"
     },
     {
