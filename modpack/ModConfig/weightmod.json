@@ -694,16 +694,6 @@
     "petai:magicbone": 0.8,
     "petai:texturerotator": 0.8,
     "plantbasedfat:plantbasedfat": 0.8,
-    "backracks:forager-backrack-normal": 1.0,
-    "backracks:backrackcopper-normal": 1.0,
-    "backracks:crate-backrackcopper-normal": 1.0,
-    "backracks:basket-backrackhunter-normal": 1.0,
-    "backracks:basket-backrack-normal": 1.0,
-    "backracks:backracktinbronze-normal": 1.0,
-    "backracks:firewood-backrack-normal": 1.0,
-    "backracks:log-backrack-normal": 1.0,
-    "backracks:clay-backrack-normal": 1.0,
-    "backracks:shelf-backrack-normal": 1.0,
     "resinglue:resinglue": 0.8,
     "resinglue:resingluetwine": 0.8,
     "saltandsands:clothes-neck-coral-choker": 1.0,
@@ -4100,6 +4090,56 @@
   "WEIGHTS_FOR_ENDS_WITH": {},
   "WEIGHTS_BONUS_ITEMS": {},
   "WEIGHT_RULES": [
+    {
+      "Pattern": "backracks:forager-backrack-normal",
+      "Weight": 100.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "backracks:backrackcopper-normal",
+      "Weight": 100.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "backracks:crate-backrackcopper-normal",
+      "Weight": 100.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "backracks:basket-backrackhunter-normal",
+      "Weight": 100.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "backracks:basket-backrack-normal",
+      "Weight": 50.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "backracks:backracktinbronze-normal",
+      "Weight": 100.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "backracks:firewood-backrack-normal",
+      "Weight": 100.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "backracks:log-backrack-normal",
+      "Weight": 100.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "backracks:clay-backrack-normal",
+      "Weight": 100.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "backracks:shelf-backrack-normal",
+      "Weight": 100.0,
+      "Kind": "bonus"
+    }
     {
       "Pattern": "game:crystalizedore-poor-*",
       "Weight": 43.0,
