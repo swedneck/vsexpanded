@@ -1,3 +1,4 @@
+*.swp
 build/
 modpack/ModConfig/imgui.ini
 VS_ModsUpdater*
