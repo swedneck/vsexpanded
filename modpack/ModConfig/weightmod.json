@@ -679,13 +679,6 @@
     "dairyplus:soybeans-soaked": 0.8,
     "dairyplus:tofu": 0.8,
     "foodshelves:cutice": 0.8,
-    "immersivebackpackoverhaul:adventurerspouch": 1.0,
-    "immersivebackpackoverhaul:hunterspouch": 1.0,
-    "immersivebackpackoverhaul:linenpouch": 1.0,
-    "immersivebackpackoverhaul:simpleleatherpouch": 1.0,
-    "immersivebackpackoverhaul:coinpurse": 1.0,
-    "immersivebackpackoverhaul:sturdyleatherpouch": 1.0,
-    "immersivebackpackoverhaul:reedpouch": 1.0,
     "jaunt:instrument-flute": 0.8,
     "justthepepper:seeds-pepperbell": 0.8,
     "mngeology:crushed-corundum": 0.8,
@@ -4138,6 +4131,41 @@
     {
       "Pattern": "backracks:shelf-backrack-normal",
       "Weight": 100.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "immersivebackpackoverhaul:adventurerspouch",
+      "Weight": 10.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "immersivebackpackoverhaul:hunterspouch",
+      "Weight": 10.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "immersivebackpackoverhaul:linenpouch",
+      "Weight": 10.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "immersivebackpackoverhaul:simpleleatherpouch",
+      "Weight": 10.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "immersivebackpackoverhaul:coinpurse",
+      "Weight": 2.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "immersivebackpackoverhaul:sturdyleatherpouch",
+      "Weight": 15.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "immersivebackpackoverhaul:reedpouch",
+      "Weight": 5.0,
       "Kind": "bonus"
     },
     {
