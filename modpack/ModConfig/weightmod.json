@@ -39846,11 +39846,6 @@
       "Kind": "block"
     },
     {
-      "Pattern": "terrainslabs:devastatedsoil-*",
-      "Weight": 0.8,
-      "Kind": "block"
-    },
-    {
       "Pattern": "electricalprogressivebasics:egenerator-*",
       "Weight": 51.2,
       "Kind": "block"
@@ -39927,7 +39922,32 @@
     },
     {
       "Pattern": "terrainslabs:soil-*",
-      "Weight": 0.8,
+      "Weight": 10.0,
+      "Kind": "block"
+    },
+    {
+      "Pattern": "terrainslabs:devastatedsoil-*",
+      "Weight": 10.0,
+      "Kind": "block"
+    },
+    {
+      "Pattern": "trailmodupdated:soil-*",
+      "Weight": 20.0,
+      "Kind": "block"
+    },
+    {
+      "Pattern": "game:bonysoil-*",
+      "Weight": 20.0,
+      "Kind": "block"
+    },
+    {
+      "Pattern": "game:devastatedsoil-*",
+      "Weight": 20.0,
+      "Kind": "block"
+    },
+    {
+      "Pattern": "game:soil-*",
+      "Weight": 20.0,
       "Kind": "block"
     },
     {
@@ -40138,11 +40158,6 @@
     {
       "Pattern": "game:crystallayer-*",
       "Weight": 51.2,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "trailmodupdated:soil-*",
-      "Weight": 0.8,
       "Kind": "block"
     },
     {
@@ -40381,16 +40396,6 @@
       "Kind": "block"
     },
     {
-      "Pattern": "game:bonysoil-*",
-      "Weight": 0.8,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "game:devastatedsoil-*",
-      "Weight": 0.8,
-      "Kind": "block"
-    },
-    {
       "Pattern": "wblockadj:wetcob-*",
       "Weight": 0.8,
       "Kind": "block"
@@ -40483,11 +40488,6 @@
     {
       "Pattern": "game:creativeglow-*",
       "Weight": 51.2,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "game:soil-*",
-      "Weight": 0.8,
       "Kind": "block"
     },
     {
