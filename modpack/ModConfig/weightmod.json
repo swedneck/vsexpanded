@@ -4139,7 +4139,7 @@
       "Pattern": "backracks:shelf-backrack-normal",
       "Weight": 100.0,
       "Kind": "bonus"
-    }
+    },
     {
       "Pattern": "game:crystalizedore-poor-*",
       "Weight": 43.0,
