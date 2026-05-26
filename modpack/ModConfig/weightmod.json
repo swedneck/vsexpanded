@@ -25,7 +25,7 @@
       "WeightBonus": false
     }
   ],
-  "MAX_PLAYER_WEIGHT": 250.0,
+  "MAX_PLAYER_WEIGHT": 300.0,
   "MAX_ELK_WEIGHT": 500.0,
   "WEIGH_PLAYER_THRESHOLD": 0.5,
   "RATIO_MIN_MAX_WEIGHT_PLAYER_HEALTH": 0.6,
@@ -4078,11 +4078,6 @@
   "WEIGHTS_BONUS_ITEMS": {},
   "WEIGHT_RULES": [ 
     {
-      "Pattern": "game:basket*",
-      "Weight": 25.0,
-      "Kind": "bonus"
-    },
-    {
       "Pattern": "backracks:forager-backrack-normal",
       "Weight": 150.0,
       "Kind": "bonus"
@@ -4131,25 +4126,30 @@
       "Pattern": "backracks:shelf-backrack-normal",
       "Weight": 150.0,
       "Kind": "bonus"
+    }, 
+    {
+      "Pattern": "game:basket*",
+      "Weight": 20.0,
+      "Kind": "bonus"
     },
     {
       "Pattern": "immersivebackpackoverhaul:adventurerspouch",
-      "Weight": 15.0,
+      "Weight": 10.0,
       "Kind": "bonus"
     },
     {
       "Pattern": "immersivebackpackoverhaul:hunterspouch",
-      "Weight": 15.0,
+      "Weight": 10.0,
       "Kind": "bonus"
     },
     {
       "Pattern": "immersivebackpackoverhaul:linenpouch",
-      "Weight": 15.0,
+      "Weight": 10.0,
       "Kind": "bonus"
     },
     {
       "Pattern": "immersivebackpackoverhaul:simpleleatherpouch",
-      "Weight": 15.0,
+      "Weight": 10.0,
       "Kind": "bonus"
     },
     {
@@ -4159,12 +4159,12 @@
     },
     {
       "Pattern": "immersivebackpackoverhaul:sturdyleatherpouch",
-      "Weight": 20.0,
+      "Weight": 15.0,
       "Kind": "bonus"
     },
     {
       "Pattern": "immersivebackpackoverhaul:reedpouch",
-      "Weight": 10.0,
+      "Weight": 5.0,
       "Kind": "bonus"
     },
     {
