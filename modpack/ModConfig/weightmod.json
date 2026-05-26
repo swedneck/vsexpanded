@@ -482,7 +482,7 @@
     "blackraspberry:spice-blackraspberryleaves-leafy": 0.8,
     "combatrebalance:arrowshaft": 0.8,
     "game:fat-cut-rendered": 0.8,
-    "driedpeat:driedpeat": 0.8,
+    "driedpeat:driedpeat": 0.5,
     "driedpeat:dryablerefinedpeatbrick": 0.8,
     "driedpeat:dryablepeatbrick": 0.8,
     "driedpeat:refinedpeat": 0.8,
@@ -1134,9 +1134,9 @@
     "game:creativegrass-medium-normal": 0.8,
     "game:muddygravel": 25.0,
     "game:sludgygravel": 25.0,
-    "game:peat-none": 0.8,
-    "game:peat-verysparse": 0.8,
-    "game:peatpile": 0.8,
+    "game:peat-none": 20.0,
+    "game:peat-verysparse": 20.0,
+    "game:peatpile": 1.0,
     "game:packeddirt-trampledearth": 25.0,
     "game:peatbrick": 0.8,
     "game:drypackeddirt": 25.0,
@@ -3774,8 +3774,8 @@
     "tailorsdelight:panel-hide-pelt": 0.8,
     "tailorsdelight:hideblock-pelt-ns": 0.8,
     "tailorsdelight:hideblock-pelt-we": 0.8,
-    "terrainslabs:peat-game-none": 0.8,
-    "terrainslabs:peat-game-verysparse": 0.8,
+    "terrainslabs:peat-game-none": 10.0,
+    "terrainslabs:peat-game-verysparse": 10.0,
     "terrainslabs:muddygravel-game": 12.0,
     "terrainslabs:packedglacierice-game": 0.8,
     "terrainslabs:glacierice-game": 0.8,
@@ -39864,7 +39864,7 @@
     },
     {
       "Pattern": "terrainslabs:rawclay-*",
-      "Weight": 0.8,
+      "Weight": 10.0,
       "Kind": "block"
     },
     {
@@ -39934,7 +39934,7 @@
     },
     {
       "Pattern": "terrainslabs:forestfloor-*",
-      "Weight": 8.0,
+      "Weight": 10.0,
       "Kind": "block"
     },
     {
@@ -40549,7 +40549,7 @@
     },
     {
       "Pattern": "game:rawclay-*",
-      "Weight": 0.8,
+      "Weight": 20.0,
       "Kind": "block"
     },
     {
@@ -40604,7 +40604,7 @@
     },
     {
       "Pattern": "game:forestfloor-*",
-      "Weight": 8.0,
+      "Weight": 20.0,
       "Kind": "block"
     },
     {
