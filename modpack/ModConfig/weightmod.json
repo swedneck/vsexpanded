@@ -4076,90 +4076,95 @@
   "WEIGHTINFOS_FOR_BLOCKS": {},
   "WEIGHTS_FOR_ENDS_WITH": {},
   "WEIGHTS_BONUS_ITEMS": {},
-  "WEIGHT_RULES": [
+  "WEIGHT_RULES": [ 
+    {
+      "Pattern": "game:basket*",
+      "Weight": 25.0,
+      "Kind": "bonus"
+    },
     {
       "Pattern": "backracks:forager-backrack-normal",
-      "Weight": 100.0,
+      "Weight": 150.0,
       "Kind": "bonus"
     },
     {
       "Pattern": "backracks:backrackcopper-normal",
-      "Weight": 100.0,
+      "Weight": 150.0,
       "Kind": "bonus"
     },
     {
       "Pattern": "backracks:crate-backrackcopper-normal",
-      "Weight": 100.0,
+      "Weight": 150.0,
       "Kind": "bonus"
     },
     {
       "Pattern": "backracks:basket-backrackhunter-normal",
-      "Weight": 100.0,
+      "Weight": 150.0,
       "Kind": "bonus"
     },
     {
       "Pattern": "backracks:basket-backrack-normal",
-      "Weight": 50.0,
+      "Weight": 100.0,
       "Kind": "bonus"
     },
     {
       "Pattern": "backracks:backracktinbronze-normal",
-      "Weight": 100.0,
+      "Weight": 150.0,
       "Kind": "bonus"
     },
     {
       "Pattern": "backracks:firewood-backrack-normal",
-      "Weight": 100.0,
+      "Weight": 150.0,
       "Kind": "bonus"
     },
     {
       "Pattern": "backracks:log-backrack-normal",
-      "Weight": 100.0,
+      "Weight": 150.0,
       "Kind": "bonus"
     },
     {
       "Pattern": "backracks:clay-backrack-normal",
-      "Weight": 100.0,
+      "Weight": 150.0,
       "Kind": "bonus"
     },
     {
       "Pattern": "backracks:shelf-backrack-normal",
-      "Weight": 100.0,
+      "Weight": 150.0,
       "Kind": "bonus"
     },
     {
       "Pattern": "immersivebackpackoverhaul:adventurerspouch",
-      "Weight": 10.0,
-      "Kind": "bonus"
-    },
-    {
-      "Pattern": "immersivebackpackoverhaul:hunterspouch",
-      "Weight": 10.0,
-      "Kind": "bonus"
-    },
-    {
-      "Pattern": "immersivebackpackoverhaul:linenpouch",
-      "Weight": 10.0,
-      "Kind": "bonus"
-    },
-    {
-      "Pattern": "immersivebackpackoverhaul:simpleleatherpouch",
-      "Weight": 10.0,
-      "Kind": "bonus"
-    },
-    {
-      "Pattern": "immersivebackpackoverhaul:coinpurse",
-      "Weight": 2.0,
-      "Kind": "bonus"
-    },
-    {
-      "Pattern": "immersivebackpackoverhaul:sturdyleatherpouch",
       "Weight": 15.0,
       "Kind": "bonus"
     },
     {
-      "Pattern": "immersivebackpackoverhaul:reedpouch",
+      "Pattern": "immersivebackpackoverhaul:hunterspouch",
+      "Weight": 15.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "immersivebackpackoverhaul:linenpouch",
+      "Weight": 15.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "immersivebackpackoverhaul:simpleleatherpouch",
+      "Weight": 15.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "immersivebackpackoverhaul:coinpurse",
       "Weight": 5.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "immersivebackpackoverhaul:sturdyleatherpouch",
+      "Weight": 20.0,
+      "Kind": "bonus"
+    },
+    {
+      "Pattern": "immersivebackpackoverhaul:reedpouch",
+      "Weight": 10.0,
       "Kind": "bonus"
     },
     {
@@ -4456,11 +4461,6 @@
       "Pattern": "game:ingot-meteoriciron",
       "Weight": 10.4,
       "Kind": "item"
-    },
-    {
-      "Pattern": "game:basket*",
-      "Weight": 20.0,
-      "Kind": "bonus"
     },
     {
       "Pattern": "game:backpack*",
