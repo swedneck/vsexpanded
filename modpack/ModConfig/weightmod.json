@@ -23294,17 +23294,17 @@
     },
     {
       "Pattern": "game:torch-basic-extinct-*",
-      "Weight": 38.4,
+      "Weight": 0.5,
       "Kind": "block"
     },
     {
       "Pattern": "game:torch-basic-burnedout-*",
-      "Weight": 38.4,
+      "Weight": 0.5,
       "Kind": "block"
     },
     {
       "Pattern": "game:torch-basic-lit-*",
-      "Weight": 38.4,
+      "Weight": 0.5,
       "Kind": "block"
     },
     {
@@ -36929,32 +36929,32 @@
     },
     {
       "Pattern": "game:torchholder-ruined-filled-*",
-      "Weight": 64.0,
+      "Weight": 0.5,
       "Kind": "block"
     },
     {
       "Pattern": "game:torchholder-aged-filled-*",
-      "Weight": 64.0,
+      "Weight": 0.5,
       "Kind": "block"
     },
     {
       "Pattern": "game:torchholder-brass-filled-*",
-      "Weight": 64.0,
+      "Weight": 0.5,
       "Kind": "block"
     },
     {
       "Pattern": "game:torchholder-aged-empty-*",
-      "Weight": 64.0,
+      "Weight": 0.5,
       "Kind": "block"
     },
     {
       "Pattern": "game:torchholder-brass-empty-*",
-      "Weight": 64.0,
+      "Weight": 0.5,
       "Kind": "block"
     },
     {
       "Pattern": "game:torchholder-ruined-empty-*",
-      "Weight": 64.0,
+      "Weight": 0.5,
       "Kind": "block"
     },
     {
