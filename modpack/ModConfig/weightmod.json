@@ -6,6 +6,12 @@
   "INVENTORY_WEIGHT_PLAYER_SETTINGS": [
     {
       "InvtentoryName": "backpack",
+      "StartSlot": 4,
+      "WeightBonus": false
+    },
+    {
+      "InvtentoryName": "backpack",
+      "EndSlot": 4,
       "WeightBonus": true
     },
     {
