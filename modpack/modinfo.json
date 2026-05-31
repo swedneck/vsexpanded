@@ -3,7 +3,7 @@
   "type": "Content",
   "name": "VS Expanded modpack",
   "modid": "vsexpandedmodpack",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "A 'hardcore' but hopefully not punishing modpack that expands upon the survival gameplay while minimally interfering with the story.",
   "authors": [
     "Swedneck"
@@ -345,7 +345,7 @@
     "warmarmor": "2.0.0",
     "warmgambeson": "1.0.0",
     "warmweathereffects": "1.0.4",
-    "waterfall": "1.2.1",
+    "waterfall": "1.2.2",
     "watergatemod": "1.0.0",
     "wateringcanfill": "1.0.2",
     "watersheds": "6.3.6",
