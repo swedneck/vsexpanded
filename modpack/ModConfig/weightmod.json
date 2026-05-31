@@ -6685,7 +6685,7 @@
     },
     {
       "Pattern": "bdcrop:fruit-*",
-      "Weight": 0.2,
+      "Weight": 0.1,
       "Kind": "item"
     },
     {
@@ -6695,7 +6695,7 @@
     },
     {
       "Pattern": "bdorchard:fruit-*",
-      "Weight": 0.3,
+      "Weight": 0.2,
       "Kind": "item"
     },
     {
@@ -7055,7 +7055,7 @@
     },
     {
       "Pattern": "wildcraftfruit:dryfruit-*",
-      "Weight": 0.8,
+      "Weight": 0.1,
       "Kind": "item"
     },
     {
@@ -7115,7 +7115,7 @@
     },
     {
       "Pattern": "game:fruit-*",
-      "Weight": 0.8,
+      "Weight": 0.2,
       "Kind": "item"
     },
     {
@@ -7250,7 +7250,7 @@
     },
     {
       "Pattern": "wildcraftfruit:fruit-*",
-      "Weight": 0.2,
+      "Weight": 0.1,
       "Kind": "item"
     },
     {
