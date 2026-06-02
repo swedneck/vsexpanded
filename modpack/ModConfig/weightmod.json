@@ -4676,12 +4676,12 @@
     },
     {
       "Pattern": "shipwright:oar-long-*",
-      "Weight": 1.0,
+      "Weight": 5.0,
       "Kind": "item"
     },
     {
       "Pattern": "shipwright:oar-basic-*",
-      "Weight": 1.0,
+      "Weight": 5.0,
       "Kind": "item"
     },
     {
@@ -4756,7 +4756,7 @@
     },
     {
       "Pattern": "game:oar-crude-*",
-      "Weight": 1.0,
+      "Weight": 5.0,
       "Kind": "item"
     },
     {
