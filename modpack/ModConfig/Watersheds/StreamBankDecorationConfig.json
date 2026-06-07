@@ -1,15 +1,14 @@
 {
-  "Description": "Streambank vegetation and debris.",
   "Enabled": true,
   "MaxHeightAboveWater": 7,
   "ForestMapBoostEnabled": true,
-  "ForestMapBoostMultiplier": 0.55,
+  "ForestMapBoostMultiplier": 0.3,
   "CattailsConfig": {
     "Enabled": true,
-    "MinTemperature": -10.0,
-    "MaxTemperature": 25.0,
+    "MinTemperature": -10,
+    "MaxTemperature": 25,
     "MinRainfall": 0.3,
-    "MaxRainfall": 1.0,
+    "MaxRainfall": 1,
     "SpawnWeight": 0.0015,
     "PatchSpreadRadius": 9,
     "MinPatchSize": 6,
@@ -18,10 +17,10 @@
   },
   "PapyrusConfig": {
     "Enabled": true,
-    "MinTemperature": 25.0,
-    "MaxTemperature": 40.0,
+    "MinTemperature": 25,
+    "MaxTemperature": 40,
     "MinRainfall": 0.4,
-    "MaxRainfall": 1.0,
+    "MaxRainfall": 1,
     "SpawnWeight": 0.0015,
     "PatchSpreadRadius": 9,
     "MinPatchSize": 6,
@@ -30,10 +29,10 @@
   },
   "TuleConfig": {
     "Enabled": true,
-    "MinTemperature": 0.0,
-    "MaxTemperature": 35.0,
+    "MinTemperature": 0,
+    "MaxTemperature": 35,
     "MinRainfall": 0.25,
-    "MaxRainfall": 1.0,
+    "MaxRainfall": 1,
     "SpawnWeight": 0.0045,
     "PatchSpreadRadius": 9,
     "MinPatchSize": 6,
@@ -42,10 +41,10 @@
   },
   "BrownSedgeConfig": {
     "Enabled": true,
-    "MinTemperature": -15.0,
-    "MaxTemperature": 35.0,
+    "MinTemperature": -15,
+    "MaxTemperature": 35,
     "MinRainfall": 0.2,
-    "MaxRainfall": 1.0,
+    "MaxRainfall": 1,
     "SpawnWeight": 0.0035,
     "PatchSpreadRadius": 16,
     "MinPatchSize": 4,
@@ -58,10 +57,10 @@
     "MinPatchSize": 1,
     "MaxPatchSize": 2,
     "PatchSpreadRadius": 6,
-    "MinTemperature": -10.0,
-    "MaxTemperature": 40.0,
+    "MinTemperature": -10,
+    "MaxTemperature": 40,
     "MinRainfall": 0.25,
-    "MaxRainfall": 1.0
+    "MaxRainfall": 1
   },
   "RottenLogConfig": {
     "Enabled": true,
@@ -69,9 +68,9 @@
     "MinPatchSize": 2,
     "MaxPatchSize": 4,
     "PatchSpreadRadius": 3,
-    "MinTemperature": -10.0,
-    "MaxTemperature": 40.0,
+    "MinTemperature": -10,
+    "MaxTemperature": 40,
     "MinRainfall": 0.25,
-    "MaxRainfall": 1.0
+    "MaxRainfall": 1
   }
 }

@@ -1,8 +1,7 @@
 {
-  "Description": "Settings for terrain sampling and analysis of those samples.<br>Foundation of the watershed model.",
   "TerrainSamplesPerChunk": 7,
   "TerrainSamplesPerChunkDescription": "Number of sample points used to analyze terrain slope in each chunk. Higher values give more accurate terrain analysis but impact performance. Second most important config for performance after the max stream length. ",
-  "SmallChunkRoughnessThreshold": 2.0,
+  "SmallChunkRoughnessThreshold": 2,
   "SmallChunkRoughnessThresholdDescription": "RMSE in blocks (Root Mean Squared Error) for small-scale streams (32x32 chunks).<br>RMSE measures how much terrain deviates from a smooth plane.<br>Steep but consistent slopes have low RMSE, bumpy terrain with many ups and downs have high RMSE.<br>Increase this to allow small scale streams on bumpier terrain.",
   "LargeChunkRoughnessThreshold": 1.5,
   "LargeChunkRoughnessThresholdDescription": "RMSE in blocks (Root Mean Squared Error) for large-scale streams (64x64 chunks).<br>RMSE measures how much terrain deviates from a smooth plane.<br>Steep but consistent slopes have low RMSE, bumpy terrain with many ups and downs have high RMSE.<br>Large streams are lower resolution so they need smoother terrain than small streams.<br>Increase this to allow large scale streams on bumpier terrain."

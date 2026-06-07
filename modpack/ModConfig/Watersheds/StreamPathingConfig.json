@@ -1,11 +1,10 @@
 {
-  "Description": "Settings for how streams path through the watershed model's waterflow.",
   "PathingAwayFromDrainScalar": 1.25,
   "PathingAwayFromDrainScalarDescription": "The multiplier on the preference that streams have for pathing away from their drains.",
   "PathingLookaheadDepth": 6,
   "PathingLookaheadDepthDescription": "Number of chunks to look ahead when pathing streams. 0 means greedy pathing.<br>Search up lookahead pathing algorithm to find out what this is.",
   "PathingLookaheadBeamWidth": 16,
   "PathingLookaheadBeamWidthDescription": "Maximum possible potential paths to explore at each lookahead depth.",
-  "StreamConflictChainDepth": 6,
+  "StreamConflictChainDepth": 4,
   "StreamConflictChainDepthDescription": "Maximum depth for resolving chains of conflicting streams.<br>This chain is when a stream gets overridden by a stronger stream that gets overridden by a stronger stream and so on.<br>Doesn't really happen much at low world heights and rough terrain.<br>Breaks determinism in the worst case, but its so rare that its better to just prevent the performance hit.<br>If you want full determinism just set this to 9999."
 }

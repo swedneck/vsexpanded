@@ -1,5 +1,4 @@
 {
-  "Description": "Various less complicated features.",
   "CoastalTerrain": {
     "Enabled": true,
     "EnabledDescription": "When enabled, creates a gradual terrain height transition from low coastal areas to higher inland areas.<br>This makes terrain near oceans lower, creating realistic coastal lowlands. Then it makes inland terrain higher, creating highlands and a subtle, realistic slope from coast to inland.",
@@ -7,7 +6,7 @@
     "BlurRadiusDescription": "Blur radius for the coastal map.<br>A higher BlurRadius extends the effect further inland, creating smoother coastal-to-inland transitions.<br>The basegame ocean map blur radius is 5.",
     "InlandMaxRaising": 22.5,
     "InlandMaxRaisingDescription": "Maximum height lift in blocks for inland terrain, outside of the coastal map's influence (far inland).<br>The lift fades to zero near and past coasts where the coastal map has full influence.",
-    "CoastalMaxLowering": 3.0,
+    "CoastalMaxLowering": 1,
     "CoastalMaxLoweringDescription": "Maximum height lowering in blocks for coastal terrain near the ocean.<br>Combined with InlandMaxRaising, this creates coastal lowland/beach/marshy areas and higher inland areas.",
     "CoastlinePercentile": 0.5,
     "CoastlinePercentileDescription": "The opacity percentile (0-1) where coastal terrain lowering starts lowering.<br>Above this percentile is full terrain lowering, below this and the terrain lowering fades to zero.<br>Set this higher than InlandLiftPercentile to create a beach/lowland zone with lowering but no lift.",
@@ -22,15 +21,15 @@
     "EnabledDescription": "Enables or disables the groundwater.<br>When disabled, breaking blocks in groundwater zones will not trigger water spawning and dripping walls.<br>Groundwater data is still generated in chunks, so you can enable this later and it will work with existing chunks.",
     "MaxDepth": 5,
     "MaxDepthDescription": "Maximum depth of groundwater below the surface (excluding the first 3 blocks which never contain groundwater).<br>This is the maximum additional depth when flow is at or above the threshold.",
-    "FlowThreshold": 75.0,
+    "FlowThreshold": 75,
     "FlowThresholdDescription": "Flow value at which groundwater reaches maximum depth.<br>Areas with flow at or above this value will have full groundwater depth.<br>Lower flow values result in proportionally shallower groundwater zones.<br>If you change the number of waterflow iterations you'll need to adjust this accordingly",
     "ConnectivityRadius": 6,
     "ConnectivityRadiusDescription": "Horizontal radius with taxicab distance to search for connected porous blocks when validating walls for groundwater.<br>Only blocks at the same Y level are considered.",
     "ConnectivityThreshold": 16,
     "ConnectivityThresholdDescription": "Minimum number of connected porous blocks (soil, gravel, or porous stone) required for a wall to be valid for groundwater seepage.<br>Walls with fewer connected blocks will not drip or spawn water.",
-    "DripTimeSeconds": 60.0,
+    "DripTimeSeconds": 60,
     "DripTimeSecondsDescription": "Time in seconds that the walls around a broken block within groundwater spends seeping water.<br>After this time, a full water block spawns and the seeping stops.",
-    "SeepIntervalSeconds": 5.0,
+    "SeepIntervalSeconds": 5,
     "SeepIntervalSecondsDescription": "Time in seconds between each finite water spawn at the broken position.<br>After the initial drip time completes, water will continue to spawn at this interval."
   },
   "GroundwaterDescription": "Configuration for the groundwater system that creates seeping walls and water spawning when digging in areas with high water flow.",
@@ -39,7 +38,7 @@
     "ChunkGenBaseSpawnChanceDescription": "Base fish spawn chance per stream water block during world generation.",
     "ChunkGenNarrowStreamBonus": 0.002,
     "ChunkGenNarrowStreamBonusDescription": "Additional spawn chance bonus for narrow streams during world generation.<br>Narrow streams get the full bonus, wide streams get none.",
-    "RuntimeSpawnMultiplier": 3.0,
+    "RuntimeSpawnMultiplier": 3,
     "RuntimeSpawnMultiplierDescription": "Multiplier for runtime fish spawning in streams compared to normal water.<br>1.0 means stream water spawns fish at the same rate as normal water.",
     "Enabled": true,
     "EnabledDescription": "Toggle for the spawning extra fish in streams."
