@@ -3,7 +3,7 @@
   "WaterBelowStreamBedDescription": "The distance in blocks below the center of the stream bed, that air blocks turns to water.<br>This fills in water when there are indents around the center of the stream. For example if one side of the river is deeper than the center.<br>If the center of the river is on a bump and to the side the bed is deeper, this needs to be large enough to make up the difference.",
   "WaterAboveStreamBedMaximum": 30,
   "WaterAboveStreamBedMaximumDescription": "Maximum water height above the stream bed.<br>Its still capped by the heights of the stream banks, so you can't make it go super high.<br>You can lower this to make the river water shallower, or higher if you make the rivers larger and deeper to make the water still reach the banks.<br>Depreciated by BankToWaterSurfaceGap, use that instead.",
-  "BankToWaterSurfaceGap": 1,
+  "BankToWaterSurfaceGap": 0,
   "BankToWaterSurfaceGapDescription": "Block gap between the stream bank height and the stream water surface.<br>This is pretty much what WaterAboveStreamBedMaximum used to be before I added bank sampling, so use this instead now.",
   "PercentOfStreamBedAsCoreArea": 0.9,
   "PercentOfStreamBedAsCoreAreaDescription": "Threshold for determining the core streambed area (a stream bed opacity above this is considered core).<br>Used to placing water blocks 1 high on the streambed center/core area even when there isn't enough bank height,<br>ensuring the water stream is continuous, even if the banks are busted up.<br>If you make this too low there will be water on the banks of streams.<br>If you make this too high streams with broken banks will also have a broken stream.",
