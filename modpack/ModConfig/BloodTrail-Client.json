@@ -1,7 +1,7 @@
 {
   "BleedEffect": true,
   "BleedTickInMS": 80,
-  "BloodDuration": 10.0,
+  "BloodDuration": 40.0,
   "BleedDurationAfterDeath": 3.0,
   "BloodDurationUnderRain": 5.0,
   "MinBloodParticlesAmount": 1,
