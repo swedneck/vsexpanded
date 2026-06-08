@@ -1,28 +1,74 @@
 version: 3
 
-# Disable the creation and usage of ceramic buckets.
+
+##########################
+## Administrative tasks ##
+##########################
+
+
+# Uncheck to disable the creation and usage of ceramic buckets.
+# Useful to prevent era-skipping.
+# 
+# Default: Enabled
 bucket-clay: true
  #  (default: True) 
 
-# Disable the creation and usage of ceramic braziers.
+# Uncheck to disable the creation and usage of ceramic braziers.
+# 
+# Default: Enabled
 brazier-clay: true
  #  (default: True) 
 
-# Enable/Disable the Shelter block
-persiis-shelter: false
- #  (default: False) 
-
-# Enables Grid recipes for any assets that have
-# been changed to be ground processable.
-mein-kraft: false
- #  (default: False) 
-
-# Toggle the Creative inventory stacks for liquids.
+# Uncheck to disable Creative inventory stacks for liquids¹.
 # Useful for testing or administrative operations.
+# 
+# Default: Disabled
+# 
+# 1 Requires access to the Creative game mode (/gm c, /gm 2).
 liquid-creative: false
  #  (default: False) 
 
-# Disable snowed under walkways to prevent holes in certain circumstances.
+
+#########################
+## Accessibility tasks ##
+#########################
+
+
+# Uncheck to replace Grid Recipes with Ground Processing for any
+# assets¹ that have been changed to use the new 1.22 feature.
+# 
+# Default: Disabled
+# 
+# 1 Currently affected:
+# - Parchments used in the crafting of parchment windows
+mein-kraft: false
+ #  (default: False) 
+
+
+#########################
+## Functionality tasks ##
+#########################
+
+
+# Uncheck to disable the Shelter block variant of walkways.
+# Useful for decorative or roleplay purposes.
+# 
+# Default: Disabled
+persiis-shelter: false
+ #  (default: False) 
+
+
+######################################
+## Undesirability tasks (aka Fixes) ##
+######################################
+
+
+# Uncheck to enable snowed under walkways. This can cause
+# holes in certain circumstances¹.
 # I recommended to do this before snowing or after thawing.
+# 
+# Default: Disabled
+# 
+# 1 See mod description: Misc -> Known Issues -> Walkways
 walkway-snow: false
  #  (default: False) 

@@ -1,0 +1,11 @@
+version: 0
+
+# Checked = Add Antique Harmony tracks to the Vanilla tracks. (Default)
+# Unchecked = Replace Vanilla tracks with Antique Harmony tracks.
+tracks-toggle: true
+ #  (default: True) 
+
+# Checked = Ambient tracks are included in the playlist. (Default)
+# Unchecked = Ambient tracks will not play.
+tracks-ambient: true
+ #  (default: True) 

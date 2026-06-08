@@ -1,12 +1,17 @@
 {
+  "ConfigVersion": 2,
   "FootprintEffect": true,
   "DebugLogging": false,
   "AcceptServerConfig": true,
   "LowResolution": false,
+  "FootprintOpacity": 1.0,
   "RenderDistance": 40,
   "MaxFootprints": 30000,
   "MaxVisibleFootprints": 5000,
   "MinimalDistance": 0.15,
+  "RequireSneaking": false,
+  "SneakFadeInSpeed": 0.5,
+  "SneakFadeOutSpeed": 5.0,
   "TogglePlayers": true,
   "ToggleWhenSneaking": false,
   "PlayerFootprintLifespan": 6,
@@ -28,7 +33,9 @@
     "game:rawclay",
     "game:snow",
     "game:peat-",
-    "terrainslabs:"
+    "terrainslabs:",
+    "game:flower",
+    "game:tallgrass-"
   ],
   "ToggleAnimalsWhitelist": false,
   "AnimalsWhitelist": [

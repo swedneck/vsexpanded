@@ -1,0 +1,11 @@
+{
+  "BlockSpeedMultipliers": {
+    "game:stonepath*": 1.1,
+    "chiseltools:pathedchiseledblock": 1.1,
+    "game:woodenpath*": 1.0,
+    "game:gravel-*": 1.0,
+    "game:packeddirt": 1.0,
+    "game:drypackeddirt": 1.0,
+    "*:*": 0.7
+  }
+}

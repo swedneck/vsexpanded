@@ -6,5 +6,7 @@
   "MaxDistanceForFinding": 200,
   "EnergyLossFactor": 1.0,
   "EnableLossCompensation": false,
-  "EnableFlyingArmor": true
+  "EnableCameraRotateForGlider": true,
+  "MaxGliderSpeed": 1.0,
+  "GliderDurabilityLossAmount": 15
 }

@@ -8,7 +8,8 @@
     "wildgrass:fescue-meadow": 1.0,
     "wildgrass:buttongrass": 1.0,
     "wildgrass:bermudagrass": 1.0,
-    "wildgrass:buffalograss": 1.0
+    "wildgrass:buffalograss": 1.0,
+    "wildgrass:rush-common": 1.0
   },
   "SeedMultiplier": 1.0
 }

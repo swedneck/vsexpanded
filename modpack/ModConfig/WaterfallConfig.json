@@ -1,3 +1,12 @@
 {
-  "bypass": []
+  "version": "1.2.2",
+  "pass": {
+    "game:water": [
+      "game:water",
+      "game:rapidwater"
+    ],
+    "game:saltwater": [
+      "game:saltwater"
+    ]
+  }
 }

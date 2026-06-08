@@ -1,0 +1,255 @@
+{
+  "ConfigVersion": 15,
+  "Enabled": true,
+  "DebugLog": false,
+  "AttackDuringTemporalStorms": true,
+  "AttackAtNight": false,
+  "AttackInCaves": true,
+  "AttackDayAndNight": false,
+  "NightStartHour": 20.0,
+  "NightEndHour": 5.0,
+  "CaveMaxY": 85.0,
+  "IgnoreNonSurvivalPlayers": false,
+  "TickIntervalSeconds": 1.0,
+  "ForcePursuitDetectionRadius": 30.0,
+  "ForcePursuitHoldSeconds": 60.0,
+  "MaxCreaturesProcessedPerTick": 12,
+  "RcrGoalDistance": 1.35,
+  "PlanCacheSeconds": 6.0,
+  "FailedPlanCooldownSeconds": 3.5,
+  "MaxObstaclePlansPerBudgetSlice": 1,
+  "MaxPlannerNodes": 1800,
+  "MaxPlannerMilliseconds": 10,
+  "HorizontalSearchRadius": 34,
+  "VerticalSearchRadius": 20,
+  "GoalDistance": 1.35,
+  "MaxGroundSafeDropHeight": 3,
+  "MaxShiverSafeDropHeight": 5,
+  "BodyHeightCells": 3,
+  "BlockCountCost": 520.0,
+  "BlockDurabilityCost": 12.0,
+  "MovementCost": 10.0,
+  "UpwardCostMultiplier": 1.18,
+  "DownwardCostMultiplier": 1.08,
+  "PureVerticalMovePenalty": 65.0,
+  "UpwardTargetProgressBonus": 22.0,
+  "UpwardTargetNoProgressPenalty": 180.0,
+  "DownwardDigStartHorizontalRange": 2.25,
+  "AllowShiverWallAnchorsInPlanner": false,
+  "ShiverDirectBreachProbeRange": 3.25,
+  "ShiverDirectBreachProbeStep": 0.18,
+  "BlockHitIntervalSeconds": 1.0,
+  "AttackAnimationCodes": [
+    "standattack",
+    "bite",
+    "swipe",
+    "attack",
+    "meleeattack"
+  ],
+  "PlayBlockHitSounds": true,
+  "BlockHitSoundRange": 24.0,
+  "BlockHitSoundVolume": 1.0,
+  "BlockHitSoundRandomizePitch": true,
+  "CreatureCodePatterns": [
+    "game:drifter-*",
+    "game:shiver-*"
+  ],
+  "ExcludedCreatureCodePatterns": [
+    "game:bowtorn-*",
+    "game:bowtornprojectile-*"
+  ],
+  "UnbreakableBlockPatterns": [
+    "game:supportbeam-*",
+    "game:*wooden*beam*",
+    "game:ore-*",
+    "game:looseores-*",
+    "game:mantle*",
+    "game:peat-*",
+    "game:*peat*",
+    "game:loosestones-*",
+    "game:looseflints-*",
+    "game:looseboulders-*",
+    "game:*loose*stone*",
+    "game:stonepath-*",
+    "game:sand-*",
+    "game:saltpeter-*"
+  ],
+  "StableTerrainSupportPatterns": [
+    "game:*sand*",
+    "game:*soil*",
+    "game:*dirt*",
+    "game:*gravel*",
+    "game:*mud*",
+    "game:peat-*",
+    "game:*peat*"
+  ],
+  "IgnoredPassableBlockPatterns": [
+    "game:*grass*",
+    "game:*flower*",
+    "game:*fern*",
+    "game:*mushroom*",
+    "game:*reed*",
+    "game:*bush*",
+    "game:*crop*",
+    "game:*sapling*",
+    "game:*vine*",
+    "game:*ivy*",
+    "game:clutter*",
+    "game:loosestones-*",
+    "game:looseflints-*",
+    "game:*loose*stone*",
+    "game:saltpeter-*"
+  ],
+  "BlockDurabilityRules": [
+    {
+      "Pattern": "game:*glass*",
+      "Durability": 6.0
+    },
+    {
+      "Pattern": "game:*window*",
+      "Durability": 6.0
+    },
+    {
+      "Pattern": "game:*trapdoor*",
+      "Durability": 18.0
+    },
+    {
+      "Pattern": "game:*door*wood*",
+      "Durability": 22.0
+    },
+    {
+      "Pattern": "game:*wood*door*",
+      "Durability": 22.0
+    },
+    {
+      "Pattern": "game:*door*metal*",
+      "Durability": 95.0
+    },
+    {
+      "Pattern": "game:*metal*door*",
+      "Durability": 95.0
+    },
+    {
+      "Pattern": "game:*fencegate*",
+      "Durability": 18.0
+    },
+    {
+      "Pattern": "game:*planks*",
+      "Durability": 18.0
+    },
+    {
+      "Pattern": "game:*log*",
+      "Durability": 28.0
+    },
+    {
+      "Pattern": "game:*wood*",
+      "Durability": 24.0
+    },
+    {
+      "Pattern": "game:*soil*",
+      "Durability": 8.0
+    },
+    {
+      "Pattern": "game:*dirt*",
+      "Durability": 8.0
+    },
+    {
+      "Pattern": "game:*sand*",
+      "Durability": 7.0
+    },
+    {
+      "Pattern": "game:*gravel*",
+      "Durability": 9.0
+    },
+    {
+      "Pattern": "game:*mud*",
+      "Durability": 8.0
+    },
+    {
+      "Pattern": "game:*cobblestone*",
+      "Durability": 42.0
+    },
+    {
+      "Pattern": "game:*cob*",
+      "Durability": 38.0
+    },
+    {
+      "Pattern": "game:*stone*",
+      "Durability": 55.0
+    },
+    {
+      "Pattern": "game:*rock*",
+      "Durability": 60.0
+    },
+    {
+      "Pattern": "game:*metal*",
+      "Durability": 110.0
+    }
+  ],
+  "MaterialDurability": {
+    "Glass": 6.0,
+    "Soil": 8.0,
+    "Gravel": 9.0,
+    "Sand": 7.0,
+    "Snow": 5.0,
+    "Ice": 10.0,
+    "Wood": 24.0,
+    "Stone": 55.0,
+    "Ore": 90.0,
+    "Metal": 110.0,
+    "Ceramic": 28.0,
+    "Brick": 45.0
+  },
+  "CreatureBlockDamageRules": [
+    {
+      "CreaturePattern": "game:shiver-*",
+      "Tier": 1,
+      "DamagePerHit": 1.0
+    },
+    {
+      "CreaturePattern": "game:shiver-*",
+      "Tier": 2,
+      "DamagePerHit": 1.5
+    },
+    {
+      "CreaturePattern": "game:shiver-*",
+      "Tier": 3,
+      "DamagePerHit": 2.0
+    },
+    {
+      "CreaturePattern": "game:shiver-*",
+      "Tier": 4,
+      "DamagePerHit": 2.5
+    },
+    {
+      "CreaturePattern": "game:shiver-*",
+      "Tier": 5,
+      "DamagePerHit": 4.0
+    },
+    {
+      "CreaturePattern": "game:drifter-*",
+      "Tier": 1,
+      "DamagePerHit": 0.8
+    },
+    {
+      "CreaturePattern": "game:drifter-*",
+      "Tier": 2,
+      "DamagePerHit": 1.1
+    },
+    {
+      "CreaturePattern": "game:drifter-*",
+      "Tier": 3,
+      "DamagePerHit": 1.45
+    },
+    {
+      "CreaturePattern": "game:drifter-*",
+      "Tier": 4,
+      "DamagePerHit": 2.9
+    },
+    {
+      "CreaturePattern": "*",
+      "Tier": 1,
+      "DamagePerHit": 0.75
+    }
+  ]
+}

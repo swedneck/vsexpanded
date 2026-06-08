@@ -1,3 +1,4 @@
 {
-  "InstabilityMultiplier": 1.0
+  "InstabilityMultiplier": 1.0,
+  "MaxCaveinSearchSteps": 20
 }

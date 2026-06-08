@@ -1,9 +1,11 @@
 {
   "IngotDisplaySlotCapacity": 1,
   "CrockShelfPerishMultiplier": 0.5,
+  "ChefsCounterPerishRate": 0.1,
+  "ChefsCounterCellarPerishRate": 0.05,
   "ChefsCounterPerishMultiplier": 1.0,
-  "ProduceRackPerishMultiplier": 0.375,
-  "ProduceBinPerishMultiplier": 0.375,
+  "ProduceRackPerishMultiplier": 0.5,
+  "ProduceBinPerishMultiplier": 0.5,
   "DeliDisplayPerishMultiplier": 1.0,
   "LargeBarrelPerishMultiplier": 0.5,
   "ProduceRackStoredStacks": 3,
@@ -11,5 +13,14 @@
   "ProduceStallStoredStacks": 8,
   "LittleThingsStoredStacks": 3,
   "GemShelfSlotCapacity": 5,
-  "DrawerSlotStoredStacks": 1
+  "DrawerSlotStoredStacks": 1,
+  "StoneStorageCapacity": 25000,
+  "PowderJarSmallJarStoredStacks": 4,
+  "PowderJarLargeJarStoredStacks": 6,
+  "WorkbenchFirewoodSlotCapacity": 64,
+  "WorkbenchCoalStoredStacks": 3,
+  "TailorBenchFlaxFiberSlotCapacity": 320,
+  "TailorBenchTwineSlotCapacity": 320,
+  "BlockPaletMaxStoredBlocks": 700,
+  "FirewoodHolderCapacity": 686
 }

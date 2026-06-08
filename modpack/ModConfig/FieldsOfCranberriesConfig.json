@@ -1,0 +1,5 @@
+{
+  "EnableSpiderSpawns": true,
+  "SpiderDropRateBuff": 0.15,
+  "SpiderSpawnChance": 0.05
+}

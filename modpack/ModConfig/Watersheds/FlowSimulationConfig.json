@@ -1,7 +1,8 @@
 {
+  "Description": "Settings for the waterflow part of the watershed model.<br>Gets the waterflow paths ready for potential streams and groundwater.",
   "PressureTowardsDrainRadiusInChunks": 2,
   "PressureTowardsDrainRadiusInChunksDescription": "Distance (in chunks) that a chunk will check for nearby drain points.<br>Affects how far terrain slope vectors search for nearby drain/water chunks to shift their slope vector angle towards.<br>Higher values create a stronger pull towards drains for the flow pathing.<br>This enables more streams to generate but lowers the impact of terrain slopes, lowering the quality of flow (and therefore stream) pathing near the water.<br>",
-  "PeakAnglePressureTowardsDrain": 180,
+  "PeakAnglePressureTowardsDrain": 180.0,
   "PeakAnglePressureTowardsDrainDescription": "Maximum vector angle degrees that drain points can shift terrain slope vectors by.",
   "DrainChunkDetectionSensitivity": 1,
   "DrainChunkDetectionSensitivityDescription": "How many blocks a chunk's average sample height can be below sea level (or above if negative) to consider the chunk a possible drain for a stream.<br>Higher values mean less drain chunks, so streams only start in deeper water, but streams will start further into a basin which can look terrible.<br>Lower or negative values mean more drain chunks, so streams will start closer to shore, but rivers could also drain to shallows or even into flat ground, which also looks terrible.<br>If you adjust this, make sure you also adjust the stream mouth fade configs to match.",
@@ -11,6 +12,6 @@
   "NumberOfDrainChunksWithinDrainAreaForStreamDescription": "For a drainchunk on a lake/ocean's bank/coast to create a stream pathing out of it (and draining into it), it needs a minimum amount of chunks around it to be drains as well.<br>The NumberOfDrainChunksWithinDrainAreaForStream is the number of drainchunks needed to be within a radius of a stream's drainchunk for it to be considered for a potential stream.<br>Adjust this alongside DrainAreaRadius.<br>If this is too low you could get unnatural streams draining to spotty/marshy/shallow areas or tiny lakes.",
   "FlowStageIterationsPerChunk": 4,
   "FlowStageIterationsPerChunkDescription": "Controls how many iterations the water flow simulation performs per chunk.<br>Higher values create water flow where rainfall on slopes travel further in the watershed model, but it exponentially increases generation time.<br>Basically determines how far away you want flow to go.<br>If you change this and you use groundwater, you'll have to adjust up the minimum flow needed for groundwater (check the actual flow values, don't do it blind).",
-  "MinimumSlopeMagnitudeForDirectionalInflow": 1,
+  "MinimumSlopeMagnitudeForDirectionalInflow": 1.0,
   "MinimumSlopeMagnitudeForDirectionalInflowDescription": "Minimum slope magnitude threshold for inflow to consider the slope vector's direction.<br>Chunk slope vectors under this value are treated as flat and streams pathing through it can move to any adjacent direction.<br>Too low means that less streams form on flat areas, too high means that streams ignore terrain and more often path over terrain that slopes the wrong way."
 }

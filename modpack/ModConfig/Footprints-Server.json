@@ -1,4 +1,5 @@
 {
+  "ConfigVersion": 2,
   "AffectPlayer": true,
   "AffectAnimals": true,
   "BroadcastServerConfigs": false,
@@ -13,6 +14,8 @@
     "game:rawclay",
     "game:snow",
     "terrainslabs:",
-    "game:peat-"
+    "game:peat-",
+    "game:flower",
+    "game:tallgrass-"
   ]
 }

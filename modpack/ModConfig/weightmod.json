@@ -5,30 +5,30 @@
   "WEIGHT_ORACLE_DONE": true,
   "INVENTORY_WEIGHT_PLAYER_SETTINGS": [
     {
-      "InvtentoryName": "backpack",
       "StartSlot": 4,
-      "WeightBonus": false
+      "WeightBonus": false,
+      "InventoryName": "backpack"
     },
     {
-      "InvtentoryName": "backpack",
       "EndSlot": 4,
-      "WeightBonus": true
+      "WeightBonus": true,
+      "InventoryName": "backpack"
     },
     {
-      "InvtentoryName": "hotbar",
-      "WeightBonus": false
+      "WeightBonus": false,
+      "InventoryName": "hotbar"
     },
     {
-      "InvtentoryName": "character",
-      "WeightBonus": false
+      "WeightBonus": false,
+      "InventoryName": "character"
     },
     {
-      "InvtentoryName": "character",
-      "WeightBonus": true
+      "WeightBonus": true,
+      "InventoryName": "character"
     },
     {
-      "InvtentoryName": "mouse",
-      "WeightBonus": false
+      "WeightBonus": false,
+      "InventoryName": "mouse"
     }
   ],
   "MAX_PLAYER_WEIGHT": 300.0,
@@ -3998,7 +3998,7 @@
   "WEIGHTINFOS_FOR_BLOCKS": {},
   "WEIGHTS_FOR_ENDS_WITH": {},
   "WEIGHTS_BONUS_ITEMS": {},
-  "WEIGHT_RULES": [ 
+  "WEIGHT_RULES": [
     {
       "Pattern": "backracks:forager-backrack-normal",
       "Weight": 150.0,
@@ -4048,7 +4048,7 @@
       "Pattern": "backracks:shelf-backrack-normal",
       "Weight": 150.0,
       "Kind": "bonus"
-    }, 
+    },
     {
       "Pattern": "game:basket*",
       "Weight": 20.0,
@@ -4493,7 +4493,7 @@
       "Pattern": "game:stonebrick-*",
       "Weight": 0.8,
       "Kind": "item"
-    }, 
+    },
     {
       "Pattern": "bdtree:oar-crude-*",
       "Weight": 5.0,
@@ -39863,7 +39863,7 @@
       "Pattern": "game:ferntree-*",
       "Weight": 38.4,
       "Kind": "block"
-    }, 
+    },
     {
       "Pattern": "terrainslabs:forestfloor-*",
       "Weight": 10.0,
@@ -39913,7 +39913,7 @@
       "Pattern": "game:soil-*",
       "Weight": 20.0,
       "Kind": "block"
-    }, 
+    },
     {
       "Pattern": "game:rawclay-*",
       "Weight": 20.0,
@@ -42323,7 +42323,7 @@
       "Pattern": "bdtree:log-*",
       "Weight": 15.0,
       "Kind": "block"
-    },
+    }
   ],
   "COMPACTOR_VOCABULARIES": {
     "woods": [

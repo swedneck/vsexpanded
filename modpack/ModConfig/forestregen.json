@@ -3,8 +3,6 @@
 {
   // Enable or disable the mod entirely.
   "Enabled": true,
-  // Write detailed debug information to Logs/forestregen-debug.log. Keep disabled during normal play.
-  "EnableDebugLogging": false,
   // Regeneration attempts earned per in-game hour since the last time this chunk was processed by the mod.
   "AttemptsPerInGameHour": 0.003,
   // Hard cap on calculated attempts per chunk load.
@@ -19,16 +17,18 @@
   "LocalDensityGridStep": 4,
   // Use a circular mask instead of a square mask for local density checks.
   "LocalDensityUseCircularMask": true,
+  // Local density may not exceed ForestMap density multiplied by this value.
+  "ForestMapDensityMaxMultiplier": 1.5,
   // Hard minimum spacing from nearby trees, saplings and leaves.
   "MinimumTreeSpacingRadius": 4,
-  // Hard minimum spacing from nearby road/path blocks.
-  "MinimumRoadSpacingRadius": 4,
+  // Hard minimum spacing from blocks listed in NoPlantNearBlockPathContains.
+  "NoPlantNearBlockSpacingRadius": 4,
+  // Block path fragments that prevent sapling placement inside the spacing cube.
+  "NoPlantNearBlockPathContains": ["road", "path", "packed"],
   // Strict candidate search tries per placement.
   "CandidateSearchAttemptsPerPlacement": 24,
   // Extra relaxed search tries if relaxed fallback is enabled.
   "RelaxedCandidateSearchAttemptsPerPlacement": 8,
-  // Maximum allowed local tree density before regeneration is blocked.
-  "LocalDensityCap": 0.48,
   // Minimum distance from online players.
   "PlayerExclusionRadius": 8,
   // Radius for scanning nearby existing tree species. This is the per-site scan radius.

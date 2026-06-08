@@ -1,4 +1,10 @@
 {
+  "CommandAccessMode": "allplayers",
+  "CommandAccessModeDescription": "Controls who can use /foodprefs commands. Allowed values: 'allplayers' (any player who can chat), 'moderators' (players with controlserver privilege), 'adminsonly' (players with root/admin privilege).",
+  "EnableDebugLogging": false,
+  "EnableHydrateOrDiedrateCompatibility": true,
+  "ExcludeWaterLiquidsFromPreferences": true,
+  "ApplyFoodPreferenceToHydration": true,
   "FavoriteNutritionModifier": 0.15,
   "LikedNutritionModifier": 0.075,
   "DislikedNutritionModifier": -0.0625,

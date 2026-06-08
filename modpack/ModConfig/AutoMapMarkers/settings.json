@@ -1,0 +1,140 @@
+{
+  "ConfigVersion": 5.0,
+  "ChatNotifyOnWaypointCreation": false,
+  "EnableWaypointDeletionHotkey": false,
+  "ChatNotifyOnWaypointDeletion": true,
+  "EnableCustomHotkeys": true,
+  "EnableMarkOnSneak": true,
+  "EnableMarkOnInteract": true,
+  "LabelCoordinates": false,
+  "SuppressMarkerOnFarmland": true,
+  "EnableDetectHotkey": false,
+  "ChatNotifyOnBoatMarker": false,
+  "DisableAllModFeatures": false,
+  "MarkerOverrides": {
+    "egocarib-mapmarkers:berries": {
+      "Icon": "circle",
+      "Color": "midnightblue"
+    },
+    "game:item-fruit-beautyberry": {
+      "Icon": "circle"
+    },
+    "game:item-fruit-blackberry": {
+      "Icon": "circle"
+    },
+    "game:item-fruit-blackcurrant": {
+      "Enabled": true,
+      "Title": "Black currant",
+      "Icon": "circle"
+    },
+    "game:item-fruit-blueberry": {
+      "Enabled": true,
+      "Icon": "circle"
+    },
+    "game:item-fruit-cloudberry": {
+      "Icon": "circle"
+    },
+    "game:item-fruit-cranberry": {
+      "Enabled": true,
+      "Icon": "circle"
+    },
+    "game:item-fruit-raspberry": {
+      "Icon": "circle"
+    },
+    "game:item-fruit-redcurrant": {
+      "Enabled": true,
+      "Title": "Red currant",
+      "Icon": "circle"
+    },
+    "game:item-fruit-strawberry": {
+      "Icon": "circle"
+    },
+    "game:item-fruit-whitecurrant": {
+      "Enabled": true,
+      "Title": "White currant",
+      "Icon": "circle"
+    },
+    "egocarib-mapmarkers:safe-mushrooms": {
+      "Title": "Edible mushroom"
+    },
+    "egocarib-mapmarkers:unsafe-mushrooms": {
+      "Enabled": true,
+      "Title": "Poisonous mushroom"
+    },
+    "egocarib-mapmarkers:flowers": {
+      "Title": "Flower"
+    },
+    "egocarib-mapmarkers:fruit-trees": {
+      "Title": "Fruit tree"
+    },
+    "egocarib-mapmarkers:wild-crops": {
+      "Enabled": true,
+      "Title": "Wild crop"
+    },
+    "egocarib-mapmarkers:reeds": {
+      "Enabled": true
+    },
+    "game:block-looseores-borax-*": {
+      "Enabled": true
+    },
+    "game:block-looseores-cinnabar-*": {
+      "Enabled": true
+    },
+    "game:block-looseores-lapislazuli-*": {
+      "Enabled": true
+    },
+    "game:block-looseores-galena-*": {
+      "Enabled": true
+    },
+    "game:block-looseores-olivine-peridotite-*": {
+      "Enabled": true
+    },
+    "game:block-looseores-quartz-*": {
+      "Enabled": true
+    },
+    "game:block-looseores-sulfur-*": {
+      "Enabled": true
+    },
+    "game:block-ore-borax-*": {
+      "Enabled": true
+    },
+    "game:block-ore-cinnabar-*": {
+      "Enabled": true
+    },
+    "game:block-ore-lapislazuli-*": {
+      "Enabled": true
+    },
+    "game:block-ore-*-galena-*": {
+      "Enabled": true
+    },
+    "game:ore-olivine": {
+      "Enabled": true
+    },
+    "game:ore-quartz": {
+      "Enabled": true
+    },
+    "game:ore-sulfur": {
+      "Enabled": true
+    },
+    "game:block-ore-*-ilmenite-*": {
+      "Enabled": true
+    },
+    "game:item-clay-blue": {
+      "Enabled": true
+    },
+    "game:block-peat-none": {
+      "Enabled": true
+    },
+    "game:block-meteorite-iron": {
+      "Enabled": true,
+      "Title": "Meteoritic Iron"
+    },
+    "game:block-saltpeter-d": {
+      "Enabled": true
+    }
+  },
+  "ExpandStates": {
+    "egocarib-mapmarkers:berries": true,
+    "egocarib-mapmarkers:traders": false
+  }
+}

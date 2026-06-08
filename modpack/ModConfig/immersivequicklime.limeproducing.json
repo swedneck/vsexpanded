@@ -1,0 +1,13 @@
+{
+  "ItemCodePatterns": [
+    "game:stone-limestone",
+    "game:stone-chalk",
+    "game:stone-*marble*",
+    "game:coralchunk-*"
+  ],
+  "SandRockPatterns": [
+    "limestone",
+    "chalk",
+    "*marble*"
+  ]
+}

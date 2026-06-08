@@ -1,0 +1,13 @@
+{
+  "RainComment": "0 = off, 1 = very quiet, 5 = normal, 10 = loud",
+  "EnableRainSound": true,
+  "RainSoundVolume": 5,
+  "RainSoundRangeComment": "How many blocks away you can hear rain on windows (1 to 64)",
+  "RainSoundRange": 12,
+  "AnimationComment": "1 = very slow, 3 = normal, 5 = very fast",
+  "AnimationSpeed": 3,
+  "RotationComment": "Rotation Degrees (5 to 90)",
+  "RotationStepDegrees": 15,
+  "StaggerComment": "How far items move in stagger modes. 1 = subtle, 3 = normal, 5 = strong",
+  "StaggerStrength": 3
+}

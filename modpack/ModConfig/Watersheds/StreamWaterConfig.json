@@ -1,4 +1,5 @@
 {
+  "Description": "Settings for where water is placed and how entitys are pushed downstream by the stream water.",
   "WaterBelowStreamBed": 6,
   "WaterBelowStreamBedDescription": "The distance in blocks below the center of the stream bed, that air blocks turns to water.<br>This fills in water when there are indents around the center of the stream. For example if one side of the river is deeper than the center.<br>If the center of the river is on a bump and to the side the bed is deeper, this needs to be large enough to make up the difference.",
   "WaterAboveStreamBedMaximum": 30,
@@ -16,9 +17,9 @@
   "UpstreamBankHeightSampling": {
     "Enabled": true,
     "EnabledDescription": "Enable upstream bank height sampling for smoother water levels.<br>When enabled, water height is constrained by the median of multiple upstream bank heights, instead of just the immediate left/right bank points.<br>This prevents sudden water level jumps when a single bank point has a terrain bump.",
-    "SampleIntervalBlocks": 3,
+    "SampleIntervalBlocks": 3.0,
     "SampleIntervalBlocksDescription": "Distance in blocks between each upstream bank height sample.<br>Smaller values mean more samples but since sampling is expensive for performance, it could slow down generation if set too low.",
-    "TotalDistanceBlocks": 500,
+    "TotalDistanceBlocks": 500.0,
     "TotalDistanceBlocksDescription": "When deciding water height for a position on the stream based on the banks, this is the total distance in blocks to sample upstream from that position.<br>The number of samples is the TotalDistanceBlocks divided by the SampleIntervalBlocks."
   },
   "UpstreamBankHeightSamplingDescription": "Configuration for sampling the upstream bank heights.<br>These sampled heights constrain the water height from exceeding the banks.<br>The water placement samples upstream from each position to help prevent water from being higher than water upstream.<br>Uses the median of multiple upstream bank heights to prevent sudden water level changes from terrain bumps on individual bank points.",
@@ -38,7 +39,7 @@
     "DownstreamSampleDistanceDescription": "Number of curve points away downstream to use as the vector target sample when calculating flow direction.<br>The push vector aims from the upstream sample towards the downstream sample.<br>This direction causes entities to drift more towards the outer bank of bends instead of towards the center of the stream (when this is at 0).",
     "UpstreamSampleDistance": 12,
     "UpstreamSampleDistanceDescription": "Number of curve points away upstream to use as the vector origin sample for push direction calculation.<br>The push vector aims from the upstream sample towards the downstream sample.<br>This direction causes entities to drift more towards the outer bank of bends instead of towards the center of the stream (when this is at 0).",
-    "BankSpeedFactor": 0,
+    "BankSpeedFactor": 0.0,
     "BankSpeedFactorDescription": "How fast the push is near the stream banks compared to the center (0.0 to 1.0). Should be lower than PushMagnitude, the shallow water on the banks shouldn't push you downstream as much as the center of a flowing stream.",
     "Enabled": true
   },

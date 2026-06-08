@@ -733,6 +733,20 @@
       "gripTextureOverride": "ancienttools:item/resource/buckskin",
       "enabled": true,
       "id": "buckskin"
+    },
+    "patchcloth": {
+      "gripStatTag": "cloth",
+      "gripShapePath": "fabric",
+      "gripTextureOverride": "tinkertailorpatchworks:patchcloth4",
+      "enabled": true,
+      "id": "patchcloth"
+    },
+    "patchleather": {
+      "gripStatTag": "leather",
+      "gripShapePath": "fabric",
+      "gripTextureOverride": "tinkertailorpatchworks:patchleather-banded",
+      "enabled": true,
+      "id": "patchleather"
     }
   },
   "TreatmentParts": {
@@ -799,6 +813,30 @@
       "litersUsed": 0.0,
       "enabled": true,
       "id": "beeswax"
+    },
+    "fat-rendered": {
+      "treatmentStatTag": "fat",
+      "dryingHours": 12,
+      "isLiquid": false,
+      "litersUsed": 0.0,
+      "enabled": true,
+      "id": "fat-rendered"
+    },
+    "oilportion-flax": {
+      "treatmentStatTag": "oil",
+      "dryingHours": 24,
+      "isLiquid": true,
+      "litersUsed": 0.1,
+      "enabled": true,
+      "id": "oilportion-flax"
+    },
+    "oilportion-olive": {
+      "treatmentStatTag": "oil",
+      "dryingHours": 24,
+      "isLiquid": true,
+      "litersUsed": 0.1,
+      "enabled": true,
+      "id": "oilportion-olive"
     }
   },
   "BindingParts": {
@@ -1566,6 +1604,24 @@
       "bindingTextureOverride": "stringsense:sapele/cord",
       "enabled": true,
       "id": "cord-sapele"
+    },
+    "ragtwine": {
+      "bindingStatTag": "twine",
+      "isLiquid": false,
+      "litersUsed": 0.0,
+      "bindingShapePath": "string",
+      "bindingTextureOverride": "tinkertailorpatchworks:patchcloth2",
+      "enabled": true,
+      "id": "ragtwine"
+    },
+    "cord-mixed": {
+      "bindingStatTag": "reeds",
+      "isLiquid": false,
+      "litersUsed": 0.0,
+      "bindingShapePath": "string",
+      "bindingTextureOverride": "stringsense:mixed/cord",
+      "enabled": true,
+      "id": "cord-mixed"
     }
   },
   "BaseHandleStats": {

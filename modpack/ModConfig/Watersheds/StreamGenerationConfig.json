@@ -1,4 +1,5 @@
 {
+  "Description": "General settings for various parts of stream generation.",
   "MaxStreamLength": 15,
   "MaxStreamLengthDescription": "The primary setting for performance.<br>Maximum possible length for a stream in small (32x32) and large (64x64) chunks.<br>A 10 chunk long stream would be 640 blocks long if it is a large scale stream, and 320 blocks long if it is small scale.<br>The size of the watershed model that generates around you increases exponentially with the max stream length.<br>A max length below 10 will have world generation speed at almost the same speed as basegame.<br>A max length above 20 will leave you waiting for chunks to generate.<br>This also has diminishing returns on what you get, as terrain that can support long rivers is rare unless you scale up the terrain in the basegame's world settings.<br>Large scale streams with a max stream length of 15 chunks will cover almost all stream-suitable slope paths you'll find. At that length on a good CPU & render distance you could continually travel without catching up to generating chunks.<br>If you want a max length above 15 make sure you have a good CPU or you're playing on a dedicated server.<br>Gets pretty crazy above stream length 21, later i'll make a preset for very long streams.",
   "MinStreamLength": 7,
@@ -10,9 +11,9 @@
   "Tributary": {
     "MinimumLength": 4,
     "MinimumLengthDescription": "Minimum tributary length in small (32x32) and large (64x64) chunks. Tributaries shorter than this are discarded.",
-    "MergeDownstreamOffset": 5,
+    "MergeDownstreamOffset": 5.0,
     "MergeDownstreamOffsetDescription": "How far tributaries curve downstream the main stream when joining the main stream.<br>The unit for this is curve points, the spacing between them on a stream path is defined by \"Curve Point Spacing\" in Stream Mapping.",
-    "MainStreamProximityThreshold": 7,
+    "MainStreamProximityThreshold": 7.0,
     "MainStreamProximityThresholdDescription": "Distance threshold (multiplier on tributary width at each curve point) from the main stream for deciding when to truncate tributaries that get too close to the main stream, and reconnecting them at the conflict/intersection.",
     "EnableLookahead": true,
     "EnableLookaheadDescription": "Whether tributaries use lookahead pathing over greedy pathing."
@@ -21,7 +22,7 @@
   "BendPool": {
     "Enabled": true,
     "EnabledDescription": "Enable bend pool effect. Curved sections of streams are carved deeper, creating pools.",
-    "MaxDepthBoost": 8,
+    "MaxDepthBoost": 8.0,
     "MaxDepthBoostDescription": "Maximum extra block depth that gets carved in curved stream sections.<br>Straight sections get no extra depth. The boost is scaled by the magnitude of the stream's curvature in each area.<br>3.0 means the most curved sections can be up to 3 blocks deeper than normal.",
     "CurvatureThreshold": 0.06,
     "CurvatureThresholdDescription": "Curvature magnitude threshold for determining if a section of a stream is curving.<br>This is used to create pools in curved areas.<br>Values above this threshold are considered curved, below are straight.<br>Lower values make more areas of the stream count as curved, which makes bigger and longer pools at the stream's curves.",

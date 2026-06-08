@@ -5,7 +5,7 @@ FLAX_PROCESSING: true
  #  (default: True) 
 
 # Whether tool recipes are changed to require string (cord or twine). If false, vanilla recipes are unchanged.
-TOOL_RECIPES: false
+TOOL_RECIPES: true
  #  (default: True) 
 
 # Whether other recipes such as armor and crude wood construction are changed to require string (cord, twine, or rope). If false, vanilla recipes are unchanged.

@@ -18,10 +18,10 @@
   "ExtraBitVoxelChance": 0.1,
   "EnableEditsForRegex": false,
   "ToolHeads": "@.*(thorn|head|blade|finishingchiselhead|wedgechiselhead|toolhead).*",
-  "TinkerableTools": "@.*:(forestaxe|grubaxe|maul|hayfork|paxel|awl|chiselpick|chisel-finishing|chisel-wedge|rubblehammer|adze|mallet|bonepickaxe|huntingknife|axe|hammer|hoe|knife|pickaxe|prospectingpick|saw|scythe|shovel).*",
-  "SinglePartTools": "@.*:(creaser|flail|rollingpin|cangemchisel|truechisel|handplaner|handwedge|laddermaker|paintbrush|paintscraper|pantograph|pathmaker|wedge|chisel|cleaver|shears|wrench|spyglass).*",
-  "BluntHeadedTools": "@.*:(handwedge|laddermaker|paintbrush|pantograph|pathmaker|rubblehammer|hammer|wrench|creaser|flail|spyglass|mallet|rollingpin).*",
+  "TinkerableTools": "@.*:(forestaxe|grubaxe|maul|hayfork|paxel|awl|chiselpick|chisel-finishing|chisel-wedge|rubblehammer|adze|mallet|bonepickaxe|huntingknife|axe|cleaver|hammer|hoe|knife|pickaxe|prospectingpick|saw|scythe|shovel).*",
+  "SinglePartTools": "@.*:(creaser|flail|rollingpin|cangemchisel|truechisel|handplaner|handwedge|laddermaker|paintbrush|paintscraper|pantograph|pathmaker|wedge|chisel|shears|tongs|wrench|spyglass).*",
+  "BluntHeadedTools": "@.*:(handwedge|laddermaker|paintbrush|pantograph|pathmaker|rubblehammer|hammer|tongs|wrench|creaser|flail|spyglass|mallet|rollingpin).*",
   "ToolsWithWoodInBindingShape": "@.*(shovel).*",
   "PartBlacklist": "@.*(helve|chiseledblock|stickslayer|scrap|ruined|chiseled|wooden|block|wfradmin|awl-bone|awl-horn|awl-flint|awl-obsidian|chiselmold|wrenchmold|knifemold|armory|sawmill|sawbuck|sawhorse|sawdust).*",
-  "ModVersionNumber": "1.2.20"
+  "ModVersionNumber": "1.2.17"
 }

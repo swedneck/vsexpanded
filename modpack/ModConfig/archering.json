@@ -1,0 +1,87 @@
+{
+  "BowSettings": {
+    "bow-crude": {
+      "Damage": 2.0,
+      "DrawTime": 0.65,
+      "DrawWeight": 0.7
+    },
+    "bow-simple": {
+      "Damage": 5.0,
+      "DrawTime": 1.3,
+      "DrawWeight": 1.2
+    },
+    "bow-long": {
+      "Damage": 15.9,
+      "DrawTime": 2.2,
+      "DrawWeight": 2.5
+    },
+    "bow-recurve": {
+      "Damage": 10.8,
+      "DrawTime": 1.4,
+      "DrawWeight": 1.8
+    },
+    "bow-generic": {
+      "Damage": 0.0,
+      "DrawTime": 1.2,
+      "DrawWeight": 1.5
+    },
+    "bowsbykanahaku:hornybow-nomad*": {
+      "Damage": 15.9,
+      "DrawTime": 2.2,
+      "DrawWeight": 2.5
+    },
+    "bowsbykanahaku:hornybow-yagermaster*": {
+      "Damage": 10.8,
+      "DrawTime": 1.4,
+      "DrawWeight": 1.8
+    },
+    "bowsbykanahaku:expandedbow-ranger*": {
+      "Damage": 15.9,
+      "DrawTime": 2.2,
+      "DrawWeight": 2.5
+    },
+    "bowsbykanahaku:expandedbow-yager*": {
+      "Damage": 10.8,
+      "DrawTime": 1.4,
+      "DrawWeight": 1.8
+    }
+  },
+  "ArrowBreakChances": {
+    "arrow-crude": 0.25,
+    "arrow-flint": 0.2,
+    "arrow-obsidian": 0.15,
+    "arrow-bone": 0.15,
+    "arrow-gold": 0.08,
+    "arrow-silver": 0.08,
+    "arrow-copper": 0.075,
+    "arrow-tinbronze": 0.05,
+    "arrow-bismuthbronze": 0.05,
+    "arrow-blackbronze": 0.05,
+    "arrow-iron": 0.03,
+    "arrow-meteoriciron": 0.03,
+    "arrow-steel": 0.02
+  },
+  "DamageMult": 1.0,
+  "ChargeAmplitude": 1.0,
+  "SwayAmplitude": 1.0,
+  "SwaySpeed": 1.0,
+  "BreathDuration": 2.0,
+  "BreathRecoveryDuration": 5.0,
+  "DrawWeightDropPower": 0.65,
+  "DrawWeightChargePower": 0.85,
+  "RunPenaltyMultiplier": 9.5,
+  "HoldBreathMultiplier": 0.5,
+  "BreathRecoveryMultiplier": 1.67,
+  "EnableSwaying": true,
+  "EnableBowDamageTweaks": true,
+  "EnableDrawTimeTweaks": true,
+  "EnableDrawTimeArrowDamageTweaks": true,
+  "EnableHoldBreath": true,
+  "EnableDenockingWithLeftClick": true,
+  "EnableArcheringChargedReticle": true,
+  "EnableSpeedIncreasesWithDrawWeight": true,
+  "EnableArrowBreakTweaks": true,
+  "DisableVanillaReticle": true,
+  "DisableArmorPenalties": true,
+  "ConfigVersion": "1.0.7"
+}

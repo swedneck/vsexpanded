@@ -1,0 +1,18 @@
+{
+  "ShowAutoFillMessages": false,
+  "EnableHandbookPerformanceOptimizations": true,
+  "EnableCreatedByRecipeFilter": true,
+  "EnableModCategoryTab": true,
+  "EnableBookmarks": true,
+  "EnableLockedPage": true,
+  "EnableAutoFillButton": true,
+  "EnableUsesButton": true,
+  "EnableUsesHotkey": true,
+  "EnableRecipeOverlays": true,
+  "EnableSlideshowScroll": true,
+  "EnableGenericContainerDropFix": true,
+  "EnableInfoLogging": false,
+  "EnableDiagnosticLogging": false,
+  "EnableAutoFillTraceLogging": false,
+  "EnableFailureLogging": true
+}

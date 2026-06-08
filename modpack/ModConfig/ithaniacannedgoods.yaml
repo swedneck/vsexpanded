@@ -1,0 +1,37 @@
+version: 1
+
+# Maximum number of servings packed into one can at the canning bench. Also contributes to how many of each ingredient fit in a bench slot. Min 4, max 6, default 4.
+servings-per-can: 4
+ # from 4 to 6 with step of 1 (default: 4) 
+
+# Maximum number of servings packed into one jar at the canning bench. Independent of Servings Per Can. Also contributes to how many of each ingredient fit in a bench slot. Min 4, max 8, default 4.
+servings-per-jar: 4
+ # from 4 to 8 with step of 1 (default: 4) 
+
+# Decay rate multiplier for preserved cans. Contents decay 1/preservedMultiplier times as fast as raw ingredients. Default 25 = preserved cans last 25x longer than raw ingredients. Sealed crocks are typically ~10x for reference.
+preserved-multiplier: 25
+ # from 1 to 50 with step of 0.1 (default: 25) 
+
+# Decay rate multiplier for wood-lidded preserved jars. Contents decay 1/woodLidJarMultiplier times as fast as raw ingredients. Default 10 = wood-lidded preserved jars last 10x longer than raw ingredients.
+wood-lid-jar-multiplier: 10
+ # from 1 to 50 with step of 0.1 (default: 10) 
+
+# Decay rate multiplier for metal-lidded preserved jars. Contents decay 1/metalLidJarMultiplier times as fast as raw ingredients. Default 15 = metal-lidded preserved jars last 15x longer than raw ingredients.
+metal-lid-jar-multiplier: 15
+ # from 1 to 50 with step of 0.1 (default: 15) 
+
+# Percent chance that a hot jar shatters when mishandled without canning tongs (thrown from bare hands or slipped from vanilla tongs). 0 = jars never shatter, 100 = jars always shatter. Default 15%.
+hot-jar-shatter-chance: 15
+ # from 0 to 100 with step of 1 (default: 15) 
+
+# Litres of diluted cassiterite consumed when tinning one steel can in the barrel. Default 1.0 litre per can.
+cassiterite-per-can: 1
+ # from 0.1 to 10 with step of 0.1 (default: 1) 
+
+# Litres of diluted cassiterite consumed when tinning one steel lid in the barrel. Default 0.1 litres per lid.
+cassiterite-per-lid: 0.1
+ # from 0.1 to 1 with step of 0.1 (default: 0.1) 
+
+# The amount of Steel cans you get when smithing the steel can recipe. Default is 8 Steel Cans per 2 Ingots
+cans-per: 8
+ # from 1 to 24 with step of 1 (default: 8) 

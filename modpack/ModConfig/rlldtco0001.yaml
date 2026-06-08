@@ -19,6 +19,36 @@ rot-compost-yield: 1
  # from 1 to 64 with step of 1 (default: 1) 
 
 
+################
+## Fertilizer ##
+################
+
+
+# N nutrient amount mineral fertilizer adds per use.
+mineral-fertilizer-n: 25
+ # from 0 to 100 with step of 1 (default: 25) 
+
+# P nutrient amount mineral fertilizer adds per use.
+mineral-fertilizer-p: 25
+ # from 0 to 100 with step of 1 (default: 25) 
+
+# K nutrient amount mineral fertilizer adds per use.
+mineral-fertilizer-k: 25
+ # from 0 to 100 with step of 1 (default: 25) 
+
+# N slow-release fertilizer amount organic fertilizer adds per use.
+organic-fertilizer-n: 25
+ # from 0 to 100 with step of 1 (default: 25) 
+
+# P slow-release fertilizer amount organic fertilizer adds per use.
+organic-fertilizer-p: 25
+ # from 0 to 100 with step of 1 (default: 25) 
+
+# K slow-release fertilizer amount organic fertilizer adds per use.
+organic-fertilizer-k: 25
+ # from 0 to 100 with step of 1 (default: 25) 
+
+
 ###################
 ## Plant Compost ##
 ###################

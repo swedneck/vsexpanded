@@ -1,0 +1,27 @@
+{
+  "KillsToSuppress": 20,
+  "BuildExponent": 3.0,
+  "KernelInnerWeight": 0.8,
+  "KernelOuterWeight": 0.6,
+  "DecayDelaySeconds": 600,
+  "TimeToNormalSeconds": 3600,
+  "DecayExponent": 3.0,
+  "DecayFloorFraction": 0.025,
+  "TickIntervalMs": 5000,
+  "DebugLogging": false,
+  "DensityProbeRadius": 40,
+  "DensityCap": 8,
+  "RequiredTags": [
+    "rust-creature",
+    "mechanical"
+  ],
+  "RequiredSpawnGroups": [
+    "hostile"
+  ],
+  "RequiredSpawnOrigins": [
+    "entityspawner"
+  ],
+  "AllowDuringTemporalStorm": true,
+  "AllowNearRifts": true,
+  "AllowNearUnstablePlayers": true
+}

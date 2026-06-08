@@ -78,6 +78,10 @@ debug-controller-stats-on-interact: false
 enable-waterfall-compat: true
  #  (default: True) 
 
+# When true, Archimedes applies a Harmony patch that prevents vanilla dynamic water source regeneration in finite spreading liquid updates. When false, vanilla source promotion behaves as in the base game. Saving Mod Config applies this toggle on the running server; if fluid or sources still look wrong after changing it, restart the game or reload the world.
+disable-vanilla-water-source-regen: true
+ #  (default: True) 
+
 # Verbose logging for Waterfall compatibility hook decisions.
 waterfall-compat-debug: false
  #  (default: False) 

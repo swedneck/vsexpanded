@@ -1,0 +1,17 @@
+version: 1
+
+# Should Locust footsteps be audible? (This option will also apply to tamed locusts)
+locust-footsteps-toggle: true
+ #  (default: True) 
+
+# Should Drifter footsteps be audible?
+drifter-footsteps-toggle: true
+ #  (default: True) 
+
+# Should Bowtorn footsteps be audible?
+bowtorn-footsteps-toggle: true
+ #  (default: True) 
+
+# Should Shiver footsteps be audible?
+shiver-footsteps-toggle: true
+ #  (default: True) 

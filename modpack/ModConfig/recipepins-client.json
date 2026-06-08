@@ -1,0 +1,14 @@
+{
+  "WindowScalePercent": 100,
+  "OpacityPercent": 80,
+  "LockWindowPosition": false,
+  "RememberLastPosition": true,
+  "ShowOnlyWhileCrafting": false,
+  "AutoCloseAfterCrafting": true,
+  "WindowOffsetX": 0.0,
+  "WindowOffsetY": 0.0,
+  "PinnedRecipeKeys": [],
+  "PinWindowTitle": "Pinned recipes:",
+  "PinWindowWidth": 330,
+  "PinWindowCornerRadius": 4
+}

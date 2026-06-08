@@ -67,14 +67,6 @@
       }
     },
     "Quadrants": {
-      "drygrass": {
-        "Enabled": true,
-        "CtrlKey": true,
-        "RandomizeCenterRotation": false,
-        "PlaceEveryItemProperties": {
-          "FixPlacement": true
-        }
-      },
       "oakbark": {
         "Enabled": true,
         "CtrlKey": false,
@@ -132,14 +124,6 @@
         }
       },
       "coke": {
-        "Enabled": true,
-        "CtrlKey": true,
-        "RandomizeCenterRotation": false,
-        "PlaceEveryItemProperties": {
-          "FixPlacement": true
-        }
-      },
-      "flint": {
         "Enabled": true,
         "CtrlKey": true,
         "RandomizeCenterRotation": false,

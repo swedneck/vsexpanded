@@ -4,7 +4,7 @@
   "FractureConeAngle": 80,
   "FractureSpreadRate": 0.4,
   "FractureDecay": 0.15,
-  "FractureBaseProbability": 0.90,
+  "FractureBaseProbability": 0.9,
   "LearnModeOverlay": false,
   "EnableDurabilityScaling": true,
   "PerfectKnappingBonus": 0.25

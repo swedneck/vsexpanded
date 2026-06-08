@@ -1,0 +1,25 @@
+{
+  "DefaultAmount": 4,
+  "Metals": {
+    "lead": 2,
+    "tin": 2,
+    "zinc": 2,
+    "bismuth": 2,
+    "molybdochalkos": 2,
+    "copper": 4,
+    "cupronickel": 8,
+    "silver": 3,
+    "electrum": 3,
+    "gold": 3,
+    "nickel": 4,
+    "bismuthbronze": 6,
+    "blackbronze": 6,
+    "brass": 5,
+    "tinbronze": 5,
+    "iron": 8,
+    "meteoriciron": 10,
+    "steel": 12,
+    "meteoricsteel": 14,
+    "uranium": 4
+  }
+}

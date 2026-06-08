@@ -1,5 +1,6 @@
 {
-  "MaxHeightRangeForNoiseFadeOut": 16,
+  "Description": "Settings for how the streams are drawn on the stream maps.",
+  "MaxHeightRangeForNoiseFadeOut": 16.0,
   "MaxHeightRangeForNoiseFadeOutDescription": "The terrain height range (in blocks) at which stream shape noise completely fades out.<br>Lower means smoother more bezier-like streams in rough terrain.<br>Only applies to straight streams, meandering and braided streams don't use shape noise.",
   "ConnectionPointNoiseFadeDistanceInBezierPoints": 100,
   "ConnectionPointNoiseFadeDistanceInBezierPointsDescription": "Distance (in curve points) from connection points where noise fades from 0 to normal.<br>Connection points are the drain for main streams, and the main stream connection for tributaries.<br>Connection points have 0 noise to prevent the stream from being misaligned with the connection.",
@@ -7,7 +8,7 @@
   "SmallStreamMapBlockColumnsPerPixelDescription": "Number of block columns represented by a single pixel in small-scale stream maps.<br>A higher value means a lower resolution with better performance but less detail.<br>4 = one pixel represents a 4x4 block area,<br>1 = one pixel per block column.<br>Put it at 1 or 2. 1 means the stream maps take a long time to generate. 2 means the stream maps generate fast, but they're a little more rough.",
   "LargeStreamMapBlockColumnsPerPixel": 2,
   "LargeStreamMapBlockColumnsPerPixelDescription": "Number of block columns represented by a single pixel in large-scale stream maps.<br>A higher value means a lower resolution with better performance but less detail.<br>4 = one pixel represents a 4x4 block area,<br>1 = one pixel per block column.<br>Put it at 1 or 2. 1 means the stream maps take a long time to generate. 2 means the stream maps generate fast, but they're a little more rough.",
-  "CurvePointSpacing": 1,
+  "CurvePointSpacing": 1.0,
   "CurvePointSpacingDescription": "Spacing between curve points along the stream path in blocks.<br>Basically defines the resolution of the line the streams follow (the stream path).<br>It used to be fully accurate to blocks when stream maps were 1 pixel to 1 block, but 1:1 ratio is now affected by large scale rivers and the stream map resolution (BlockColumnsPerPixel).<br>Lower means more points and a higher resolution. Higher means fewer points and a lower resolution.<br>Test any changes you make to this against the stream maps, don't change it blind.",
   "StreamShapeNoise": {
     "NoiseScale": 80,
@@ -18,18 +19,18 @@
     "NoisePersistenceDescription": "Controls how quickly map noise detail diminishes across octaves.<br>For instance: with a noise persistence of 0.2 and a noise value of 1 on the first octave, means the second octave has a noise value of 0.8.<br>Makes stream direction changes more chaotic.",
     "NoiseLacunarity": 1.25,
     "NoiseLacunarityDescription": "Controls the increase of frequency between the noise octaves. Makes streams more bumpy",
-    "NoiseDisplacement": 300,
+    "NoiseDisplacement": 300.0,
     "NoiseDisplacementDescription": "Controls the amplitude of the noise. Makes stream bends longer, stretching further away from a straight stream path.",
-    "HeightRangeScalarPower": 1,
+    "HeightRangeScalarPower": 1.0,
     "HeightRangeScalarPowerDescription": "Power curve applied to the height range scalar when calculating stream map noise intensity.<br>1.0 is linear, over 1.0 gives an aggressive fade in rough terrain, and under 1.0 gives a gentle fade.",
-    "StreamLengthScalarPower": 1,
+    "StreamLengthScalarPower": 1.0,
     "StreamLengthScalarPowerDescription": "Power curve applied to the stream length scalar when calculating stream map noise intensity.<br>1.0 gives linear scaling with the stream length, over 1.0 gives longer streams exponentially more noise."
   },
   "StreamShapeNoiseDescription": "Defines noise parameters for natural wobbling of the stream shape on the stream maps.<br>This only gets applied to straight rivers. Meandering and braided rivers use an iterative meandering technique to change their shape.<br>If you edit this enough you can get cheap meandering, but the best results come from more expensive iterative methods.<br>You can get good small/minor meander-like curves using this as well.",
   "DrainFade": {
-    "DrainFadeOffset": 50,
+    "DrainFadeOffset": 50.0,
     "DrainFadeOffsetDescription": "How far away the fade circle is from the stream mouth.<br>Uses a gradient circle to fade out the stream mouth into the drain.<br>Basically a simple fadeout of the stream as it gets to the water.",
-    "DrainFadeRadius": 130,
+    "DrainFadeRadius": 130.0,
     "DrainFadeRadiusDescription": "How big the fade circle is.<br>Uses a gradient circle to fade out the stream mouth into the drain.<br>Basically a simple fadeout of the stream as it gets to the water."
   },
   "DrainFadeDescription": "Configuration for fading out the stream as it approaches a drain."

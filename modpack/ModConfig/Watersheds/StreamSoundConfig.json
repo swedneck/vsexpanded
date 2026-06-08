@@ -1,4 +1,5 @@
 {
+  "Description": "Stream sound settings.",
   "MaxVolume": 0.2,
   "MaxVolumeDescription": "Volume of stream sounds at or inside DistanceFalloffStart.<br>0.0 is no sound, 1.0 is full volume.",
   "EnableCustomStreamSound": true,
@@ -7,8 +8,8 @@
   "LowPassFilterBaseDescription": "Base low-pass filter amount applied to stream sounds at the source.<br>Lower LowPassFilterBase reduces high frequencies at the source.",
   "LowPassFilterMinimum": 0.35,
   "LowPassFilterMinimumDescription": "Minimum low-pass filter value after indoor dampening.",
-  "DistanceFalloffStart": 2,
+  "DistanceFalloffStart": 2.0,
   "DistanceFalloffStartDescription": "Volume starts falling off at this distance (in blocks) from the stream water",
-  "DistanceFalloffEnd": 10,
+  "DistanceFalloffEnd": 10.0,
   "DistanceFalloffEndDescription": "Volume is 0 at this distance (in blocks) away from the stream, and gets louder as you get closer."
 }
