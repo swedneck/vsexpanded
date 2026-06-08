@@ -1,9 +1,9 @@
 {
-  "BleedingDuration": 20,
+  "BleedingDuration": 30,
   "CausedByPlayer": true,
   "DamageThreshold": 1.0,
   "BleedingChance": 100,
-  "BleedDamageEnabled": false,
+  "BleedDamageEnabled": true,
   "BleedDamageTick": 1.0,
   "BleedDamage": 0.17
 }
