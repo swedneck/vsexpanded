@@ -1481,25 +1481,12 @@
     "ndlmushroomgrowth:mushroomspores-shiitake": 8.0,
     "ndlmushroomgrowth:mushroomspores-tinderhoof": 8.0,
     "ndlmushroomgrowth:mushroomspores-whiteoyster": 8.0,
-    "saltandsands:urchin-antarctic": 0.8,
-    "saltandsands:urchin-banded": 0.8,
-    "saltandsands:urchin-cape": 0.8,
-    "saltandsands:urchin-chilean": 0.8,
-    "saltandsands:urchin-egg": 0.8,
-    "saltandsands:urchin-fire": 0.8,
-    "saltandsands:urchin-green": 0.8,
-    "saltandsands:urchin-kina": 0.8,
-    "saltandsands:urchin-longspine": 0.8,
-    "saltandsands:urchin-needle": 0.8,
-    "saltandsands:urchin-pacificpurple": 0.8,
-    "saltandsands:urchin-redspined": 0.8,
-    "saltandsands:urchin-tuxedo": 0.8,
-    "saltandsands:bivalve-scallop-live": 0.8,
-    "saltandsands:bivalve-clam-live": 0.8,
-    "saltandsands:bivalve-freshwatermussel-live": 0.8,
-    "saltandsands:bivalve-scallop-dead": 0.8,
-    "saltandsands:bivalve-clam-dead": 0.8,
-    "saltandsands:bivalve-freshwatermussel-dead": 0.8,
+    "saltandsands:bivalve-scallop-live": 0.2,
+    "saltandsands:bivalve-clam-live": 0.2,
+    "saltandsands:bivalve-freshwatermussel-live": 0.2,
+    "saltandsands:bivalve-scallop-dead": 0.2,
+    "saltandsands:bivalve-clam-dead": 0.2,
+    "saltandsands:bivalve-freshwatermussel-dead": 0.2,
     "stringsense:cord-straw": 0.8,
     "stringsense:cord-reed": 0.8,
     "stringsense:cord-papyrus": 0.8,
@@ -2721,8 +2708,8 @@
     "game:nestbox": 38.4,
     "claywheel:claywheel-ns": 51.2,
     "claywheel:claywheel-we": 51.2,
-    "saltandsands:coralseed": 51.2,
-    "saltandsands:coralsubstrate": 51.2,
+    "saltandsands:coralseed": 0.2,
+    "saltandsands:coralsubstrate": 20.0,
     "temporalityplus:riftbloom": 51.2,
     "temporalityplus:riftbloom2": 51.2,
     "tinkertailorpatchworks:patchwork-cloth": 0.8,
@@ -5069,10 +5056,6 @@
     "moreanimals:egg-goldenpheasant-broken": 0.8,
     "moreanimals:egg-capercaillie-broken": 0.8,
     "moreanimals:egg-wildturkey-broken": 0.8,
-    "saltandsands:urchin-egg-saltwater-free": 0.8,
-    "saltandsands:urchin-egg-ice-free": 0.8,
-    "saltandsands:urchin-egg-saltwater-snow": 0.8,
-    "saltandsands:urchin-egg-ice-snow": 0.8,
     "trailmodupdated:soil-verylow-pretrail": 0.8,
     "trailmodupdated:soil-low-pretrail": 0.8,
     "trailmodupdated:soil-medium-pretrail": 0.8,
@@ -6819,12 +6802,12 @@
     },
     {
       "Pattern": "saltandsands:clothes-arm-*-pearl-bracelet",
-      "Weight": 1.0,
+      "Weight": 0.2,
       "Kind": "item"
     },
     {
       "Pattern": "saltandsands:clothes-arm-*-coral-bracelet",
-      "Weight": 1.0,
+      "Weight": 0.2,
       "Kind": "item"
     },
     {
@@ -6834,12 +6817,12 @@
     },
     {
       "Pattern": "saltandsands:clothes-emblem-*-coral-brooch",
-      "Weight": 1.0,
+      "Weight": 0.2,
       "Kind": "item"
     },
     {
       "Pattern": "saltandsands:clothes-emblem-*-pearl-brooch",
-      "Weight": 1.0,
+      "Weight": 0.2,
       "Kind": "item"
     },
     {
@@ -7644,7 +7627,7 @@
     },
     {
       "Pattern": "saltandsands:bivalvemeat-*",
-      "Weight": 0.8,
+      "Weight": 0.1,
       "Kind": "item"
     },
     {
@@ -7719,7 +7702,12 @@
     },
     {
       "Pattern": "saltandsands:urchin-*",
-      "Weight": 0.2,
+      "Weight": 0.4,
+      "Kind": "item"
+    }, 
+    {
+      "Pattern": "saltandsands:bivalvemeat-urchin-*",
+      "Weight": 0.3,
       "Kind": "item"
     },
     {
@@ -42178,16 +42166,6 @@
       "Kind": "block"
     },
     {
-      "Pattern": "saltandsands:urchin-tuxedo-*",
-      "Weight": 0.8,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "saltandsands:urchin-redspined-*",
-      "Weight": 0.8,
-      "Kind": "block"
-    },
-    {
       "Pattern": "thecritterpack:egg-pekin-*",
       "Weight": 0.1,
       "Kind": "block"
@@ -42200,61 +42178,6 @@
     {
       "Pattern": "thecritterpack:egg-call-*",
       "Weight": 0.1,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "saltandsands:urchin-pacificpurple-*",
-      "Weight": 0.8,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "saltandsands:urchin-needle-*",
-      "Weight": 0.8,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "saltandsands:urchin-longspine-*",
-      "Weight": 0.8,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "saltandsands:urchin-kina-*",
-      "Weight": 0.8,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "saltandsands:urchin-green-*",
-      "Weight": 0.8,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "saltandsands:urchin-fire-*",
-      "Weight": 0.8,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "saltandsands:urchin-egg-*",
-      "Weight": 0.1,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "saltandsands:urchin-chilean-*",
-      "Weight": 0.8,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "saltandsands:urchin-cape-*",
-      "Weight": 0.8,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "saltandsands:urchin-banded-*",
-      "Weight": 0.8,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "saltandsands:urchin-antarctic-*",
-      "Weight": 0.8,
       "Kind": "block"
     },
     {
