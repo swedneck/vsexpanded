@@ -1481,12 +1481,6 @@
     "ndlmushroomgrowth:mushroomspores-shiitake": 8.0,
     "ndlmushroomgrowth:mushroomspores-tinderhoof": 8.0,
     "ndlmushroomgrowth:mushroomspores-whiteoyster": 8.0,
-    "saltandsands:bivalve-scallop-live": 0.2,
-    "saltandsands:bivalve-clam-live": 0.2,
-    "saltandsands:bivalve-freshwatermussel-live": 0.2,
-    "saltandsands:bivalve-scallop-dead": 0.2,
-    "saltandsands:bivalve-clam-dead": 0.2,
-    "saltandsands:bivalve-freshwatermussel-dead": 0.2,
     "stringsense:cord-straw": 0.8,
     "stringsense:cord-reed": 0.8,
     "stringsense:cord-papyrus": 0.8,
@@ -21396,11 +21390,6 @@
       "Kind": "block"
     },
     {
-      "Pattern": "saltandsands:coraltube-*",
-      "Weight": 51.2,
-      "Kind": "block"
-    },
-    {
       "Pattern": "game:wool-white-*",
       "Weight": 51.2,
       "Kind": "block"
@@ -24358,11 +24347,6 @@
     {
       "Pattern": "game:wattle-sticks-*-free",
       "Weight": 38.4,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "saltandsands:coralfan-*",
-      "Weight": 51.2,
       "Kind": "block"
     },
     {
@@ -38983,21 +38967,6 @@
     {
       "Pattern": "rebuildablebloomery:destroyedbloomery-*",
       "Weight": 1.0,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "saltandsands:coralstaghorn-*",
-      "Weight": 51.2,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "saltandsands:coraltable-*",
-      "Weight": 51.2,
-      "Kind": "block"
-    },
-    {
-      "Pattern": "saltandsands:coralbrain-*",
-      "Weight": 51.2,
       "Kind": "block"
     },
     {
