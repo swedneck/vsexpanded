@@ -1090,15 +1090,6 @@
     "game:stone-monzonite": 0.8,
     "game:stone-syenite": 0.8,
     "game:stone-pyroxenite": 0.8,
-    "game:clay-blue": 0.8,
-    "game:clay-red": 0.8,
-    "game:clay-fire": 0.8,
-    "game:clay-azure": 0.8,
-    "game:clay-crimson": 0.8,
-    "game:clay-green": 0.8,
-    "game:clay-orange": 0.8,
-    "game:clay-pink": 0.8,
-    "game:clay-snow": 0.8,
     "game:metalnailsandstrips-bismuth": 4.0,
     "game:metalnailsandstrips-bismuthbronze": 4.0,
     "game:metalnailsandstrips-blackbronze": 4.0,
@@ -6753,7 +6744,7 @@
     },
     {
       "Pattern": "game:clay-*",
-      "Weight": 20.0,
+      "Weight": 1.0,
       "Kind": "item"
     },
     {
