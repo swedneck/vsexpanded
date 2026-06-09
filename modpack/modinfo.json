@@ -3,7 +3,7 @@
   "type": "Content",
   "name": "VS Expanded modpack",
   "modid": "vsexpandedmodpack",
-  "version": "1.11.0",
+  "version": "1.11.1",
   "description": "A 'hardcore' but hopefully not punishing modpack that expands upon the survival gameplay while minimally interfering with the story.",
   "authors": [
     "Swedneck"
@@ -171,7 +171,7 @@
     "immersiveminingandahalf": "1.0.0",
     "immersiveorecrush": "2.2.5",
     "immersivequicklime": "0.1.5",
-    "immersiverope122": "1.1.0",
+    "immersiverope122": "1.1.2",
     "immersivewoodchopping": "0.8.3",
     "immersivewoodsawing": "0.2.9",
     "insanitylib": "2.0.3",
