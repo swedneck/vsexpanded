@@ -1982,10 +1982,8 @@
     "game:woodentoggle-we": 48.0,
     "game:elevatorcontrol-lever1": 51.2,
     "game:elevatorcontrol-lever2": 51.2,
-    "game:clutter-elevator-elevatorrail": 51.2,
     "game:door-devastation-towergate": 11.52,
     "game:devastationgrowth-normal": 64.0,
-    "game:clutter-devastation": 51.2,
     "game:devplate-flat": 0.8,
     "game:drock": 51.2,
     "game:candle": 1.0,
@@ -2184,7 +2182,6 @@
     "game:ore-sylvite-halite": 8.0,
     "game:hotspringbacteria-87deg": 0.8,
     "game:bonyremains-ribcage": 51.2,
-    "game:clutter-aquatic": 51.2,
     "game:hopper": 64.0,
     "game:platepile": 64.0,
     "game:metal-parts": 64.0,
@@ -40766,7 +40763,7 @@
     },
     {
       "Pattern": "game:pumpkin-*",
-      "Weight": 0.8,
+      "Weight": 1.0,
       "Kind": "block"
     },
     {
@@ -40786,12 +40783,12 @@
     },
     {
       "Pattern": "game:drycarcass-*",
-      "Weight": 51.2,
+      "Weight": 3.0,
       "Kind": "block"
     },
     {
       "Pattern": "game:carcass-*",
-      "Weight": 51.2,
+      "Weight": 3.0,
       "Kind": "block"
     },
     {
@@ -40801,42 +40798,42 @@
     },
     {
       "Pattern": "game:seashell-*",
-      "Weight": 51.2,
+      "Weight": 0.1,
       "Kind": "block"
     },
     {
       "Pattern": "game:flotsam-*",
-      "Weight": 38.4,
+      "Weight": 5.0,
       "Kind": "block"
     },
     {
       "Pattern": "game:chute-*",
-      "Weight": 64.0,
+      "Weight": 5.0,
       "Kind": "block"
     },
     {
       "Pattern": "game:fern-*",
-      "Weight": 0.8,
+      "Weight": 0.2,
       "Kind": "block"
     },
     {
       "Pattern": "game:stickslayer-*",
-      "Weight": 38.4,
+      "Weight": 1.0,
       "Kind": "block"
     },
     {
       "Pattern": "game:herb-*",
-      "Weight": 0.8,
+      "Weight": 0.2,
       "Kind": "block"
     },
     {
       "Pattern": "game:tallgrass-*",
-      "Weight": 0.8,
+      "Weight": 0.2,
       "Kind": "block"
     },
     {
       "Pattern": "game:hanginglichen-*",
-      "Weight": 0.8,
+      "Weight": 0.1,
       "Kind": "block"
     },
     {
@@ -40856,7 +40853,7 @@
     },
     {
       "Pattern": "game:hay-*",
-      "Weight": 0.8,
+      "Weight": 0.2,
       "Kind": "block"
     },
     {
