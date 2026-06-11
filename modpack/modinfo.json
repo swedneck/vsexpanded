@@ -3,7 +3,7 @@
   "type": "Content",
   "name": "VS Expanded modpack",
   "modid": "vsexpandedmodpack",
-  "version": "1.13.0",
+  "version": "1.14.0",
   "description": "A 'hardcore' but hopefully not punishing modpack that expands upon the survival gameplay while minimally interfering with the story.",
   "authors": [
     "Swedneck"
@@ -291,6 +291,7 @@
     "sirenia": "1.0.27",
     "sleepneed": "3.1.4",
     "smelltheashes": "1.0.0",
+    "smex": "0.8.7",
     "snowcollision": "1.0.0",
     "snowshoesforked": "2.2.0",
     "soapandlye": "1.1.1",
