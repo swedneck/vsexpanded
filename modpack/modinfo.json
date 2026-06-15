@@ -3,7 +3,7 @@
   "type": "Content",
   "name": "VS Expanded modpack",
   "modid": "vsexpandedmodpack",
-  "version": "1.15.0",
+  "version": "1.16.0",
   "description": "A 'hardcore' but hopefully not punishing modpack that expands upon the survival gameplay while minimally interfering with the story.",
   "authors": [
     "Swedneck"
@@ -282,6 +282,7 @@
     "redlight": "1.0.4",
     "reforgedtools": "1.2.51",
     "resinglue": "0.1.0",
+    "restfulsit": "1.1.1",
     "rivers": "5.0.1",
     "rlldtco0001": "2.3.0",
     "rockstratavariety": "0.0.4",
