@@ -20,7 +20,7 @@
   "DiurnalVariationAmplitude": 18.0,
   "RefrigerationCooling": 20.0,
   "SprintThirstMultiplier": 1.4,
-  "EnableLiquidEncumbrance": true,
+  "EnableLiquidEncumbrance": false,
   "EncumbranceLimit": 4.0,
   "LiquidEncumbranceMovementSpeedDebuff": 0.4,
   "DromedaryMultiplierPerLevel": 0.3,
