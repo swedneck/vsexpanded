@@ -3,7 +3,7 @@
   "type": "Content",
   "name": "VS Expanded modpack",
   "modid": "vsexpandedmodpack",
-  "version": "1.16.1",
+  "version": "1.17.0",
   "description": "A 'hardcore' but hopefully not punishing modpack that expands upon the survival gameplay while minimally interfering with the story.",
   "authors": [
     "Swedneck"
@@ -123,6 +123,7 @@
     "fallingtree": "0.5.2",
     "farmlanddropswithnutrients": "1.2.2",
     "farseer": "1.4.0",
+    "fastcraftinggrid": "1.0.1",
     "fasterroots": "1.0.1",
     "fastknapping": "1.0.0",
     "feathercompost": "1.0.0",
