@@ -441,16 +441,11 @@
     "game:honeyportion": 0.8,
     "game:strongtanninportion-brainfreeze": 0.8,
     "game:strongtanninportion": 0.8,
-    "game:waterportion-brainfreeze": 0.8,
-    "game:waterportion": 0.8,
-    "game:boilingwaterportion": 0.8,
     "game:weaktanninportion-brainfreeze": 0.8,
     "game:weaktanninportion": 0.8,
-    "game:saltwaterportion": 0.8,
     "game:vinegarportion-brainfreeze": 0.8,
     "game:vinegarportion": 0.8,
     "game:slakedlimeportion": 0.8,
-    "game:limewaterportion": 0.8,
     "game:jamhoneyportion": 0.8,
     "game:glueportion-pitch-hot": 0.8,
     "game:glueportion-pitch-cold": 0.8,
@@ -950,7 +945,6 @@
     "wildcraftfruit:cocoabutter-liquid": 0.8,
     "wildcraftfruit:cocoabutter-solid": 0.8,
     "wildcraftfruit:racahoutportion": 0.8,
-    "wildcraftfruit:sweetwaterportion": 0.8,
     "wildcraftfruit:chocomilkportion": 0.8,
     "wildcraftfruit:xocolatlportion": 0.8,
     "wildcraftfruit:dough-acorn": 0.8,
@@ -7848,8 +7842,8 @@
       "Kind": "item"
     },
     {
-      "Pattern": "hydrateordiedrate:waterportion-*",
-      "Weight": 0.8,
+      "Pattern": "*waterportion*",
+      "Weight": 0.2,
       "Kind": "item"
     },
     {
