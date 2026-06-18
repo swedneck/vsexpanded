@@ -1,5 +1,0 @@
-{
-  "Help": "HoldToCraftMs sets the hold duration to complete crafting in ms. EnableRecipeRemover removes tool recipes.",
-  "HoldToCraftMs": 3000,
-  "EnableRecipeRemover": false
-}
