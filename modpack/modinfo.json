@@ -3,7 +3,7 @@
   "type": "Content",
   "name": "VS Expanded modpack",
   "modid": "vsexpandedmodpack",
-  "version": "1.17.1",
+  "version": "1.17.2",
   "description": "A 'hardcore' but hopefully not punishing modpack that expands upon the survival gameplay while minimally interfering with the story.",
   "authors": [
     "Swedneck"
@@ -215,7 +215,7 @@
     "mnflowers": "1.0.0",
     "mngeology": "2.0.9",
     "molds": "0.3.3",
-    "moreanimals": "1.6.6",
+    "moreanimals": "1.7.0",
     "moredaubrevised": "1.0.0",
     "morefluxes": "0.4.0",
     "morepiles": "3.0.1",
