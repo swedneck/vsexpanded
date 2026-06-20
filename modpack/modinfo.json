@@ -3,13 +3,13 @@
   "type": "Content",
   "name": "VS Expanded modpack",
   "modid": "vsexpandedmodpack",
-  "version": "1.17.4",
+  "version": "1.17.5",
   "description": "A 'hardcore' but hopefully not punishing modpack that expands upon the survival gameplay while minimally interfering with the story.",
   "authors": [
     "Swedneck"
   ],
   "dependencies": {
-    "abyssaldepths": "1.0.17",
+    "abyssaldepths": "1.0.18",
     "aculinaryartillery": "2.0.0-dev.21",
     "adastra": "0.2.1",
     "aged": "2.0.3",
