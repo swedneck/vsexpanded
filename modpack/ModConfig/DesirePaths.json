@@ -1,6 +1,6 @@
 {
   "TrampleGrassBlockChance": 0.8,
-  "TrampleTallGrassChance": 0.99,
+  "TrampleTallGrassChance": 1.0,
   "TrampleExculdedPlants": [
     "fruitingbush",
     "fruitingbushcutting",
