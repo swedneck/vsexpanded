@@ -76,7 +76,7 @@
   "DropResinAnyway": true,
   "DropVinesAnyway": true,
   "DropWallpapers": true,
-  "EverySoilUnstable": true,
+  "EverySoilUnstable": false,
   "FirepitHeatsOven": true,
   "FixOvenFuelRendering": true,
   "FourPlanksFromLog": false,
