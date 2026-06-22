@@ -1,0 +1,13 @@
+{
+  "TrampleGrassBlockChance": 0.8,
+  "TrampleTallGrassChance": 0.99,
+  "TrampleExculdedPlants": [
+    "fruitingbush",
+    "fruitingbushcutting",
+    "sapling",
+    "pumpkin"
+  ],
+  "HoursGrowthPerStage": 48.0,
+  "HoursGrowthPerStageVariation": 8.0,
+  "TallGrassGrowthChance": 0.25
+}
