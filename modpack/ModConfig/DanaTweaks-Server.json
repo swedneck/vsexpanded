@@ -4832,7 +4832,7 @@
       "harvested"
     ]
   },
-  "EverySoilUnstable": true,
+  "EverySoilUnstable": false,
   "EverySoilUnstableBlacklist": [],
   "DropDecor": true,
   "DropDecorBlocks": {
