@@ -1,6 +1,6 @@
 {
   "Description": "General settings for various parts of stream generation.",
-  "MaxStreamLength": 15,
+  "MaxStreamLength": 13,
   "MaxStreamLengthDescription": "The primary setting for performance.<br>Maximum possible length for a stream in small (32x32) and large (64x64) chunks.<br>A 10 chunk long stream would be 640 blocks long if it is a large scale stream, and 320 blocks long if it is small scale.<br>The size of the watershed model that generates around you increases exponentially with the max stream length.<br>A max length below 10 will have world generation speed at almost the same speed as basegame.<br>A max length above 20 will leave you waiting for chunks to generate.<br>This also has diminishing returns on what you get, as terrain that can support long rivers is rare unless you scale up the terrain in the basegame's world settings.<br>Large scale streams with a max stream length of 15 chunks will cover almost all stream-suitable slope paths you'll find. At that length on a good CPU & render distance you could continually travel without catching up to generating chunks.<br>If you want a max length above 15 make sure you have a good CPU or you're playing on a dedicated server.<br>Gets pretty crazy above stream length 21, later i'll make a preset for very long streams.",
   "MinStreamLength": 7,
   "MinStreamLengthDescription": "Minimum stream length in small (32x32) and large (64x64) chunks. Streams shorter than this are discarded.",
