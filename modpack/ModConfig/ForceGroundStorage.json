@@ -1,0 +1,18 @@
+{
+  "ShowChatErrorMessage": true,
+  "DisallowTools": true,
+  "DisallowMolds": true,
+  "DisallowAnvils": true,
+  "DisallowSeeds": false,
+  "DisallowCoal": true,
+  "DisallowFoodContainers": false,
+  "DisallowCandles": false,
+  "DisallowHides": false,
+  "DisallowSeashells": false,
+  "DisallowNuggets": false,
+  "DisallowOreChunks": false,
+  "ItemWhitelist": [
+    "butchering:strongbone"
+  ],
+  "ItemBlacklist": []
+}
