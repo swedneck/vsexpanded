@@ -7,8 +7,9 @@
   "DisallowCoal": true,
   "DisallowFoodContainers": false,
   "DisallowCandles": false,
-  "DisallowHides": false,
   "DisallowSeashells": false,
+  "DisallowMachinery": true,
+  "DisallowHides": false,
   "DisallowNuggets": false,
   "DisallowOreChunks": false,
   "ItemWhitelist": [
