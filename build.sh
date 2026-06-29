@@ -12,8 +12,9 @@ if python -mjson.tool "modpack/modinfo.json" > /dev/null 2> /dev/null; then
   version=$(cat modpack/modinfo.json | python -c "import json,sys; obj=json.load(sys.stdin); print(obj['version']);")
   #horrid hack to avoid a wrapping folder inside the zip
   cd modpack
-  zip -r "../build/vsexpanded-${version}.zip" ./*
+  zip -q -r "../build/vsexpanded-${version}.zip" ./*
   cd ..
+  echo "Built ${version} successfully"
   exit 0
 
 else
