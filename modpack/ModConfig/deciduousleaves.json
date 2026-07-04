@@ -1,0 +1,23 @@
+{
+  "KeepLeavesTrees": [
+    "acacia",
+    "baldcypress",
+    "bamboo",
+    "ebony",
+    "cypress",
+    "mediterraneancypress",
+    "kapok",
+    "pine",
+    "purpleheart",
+    "redwood",
+    "cedar",
+    "fir",
+    "spruce"
+  ],
+  "EnterDormancyTemp": 0.0,
+  "LeafOutNightTemp": 3.0,
+  "HighlightHiddenLeaves": false,
+  "EcoMachinaBushes": true,
+  "AutumnDrop": true,
+  "ParticleFallingLeaves": true
+}
