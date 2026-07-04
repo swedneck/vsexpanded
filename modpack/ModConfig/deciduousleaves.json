@@ -12,7 +12,8 @@
     "redwood",
     "cedar",
     "fir",
-    "spruce"
+    "spruce",
+    "yew"
   ],
   "EnterDormancyTemp": 0.0,
   "LeafOutNightTemp": 3.0,
