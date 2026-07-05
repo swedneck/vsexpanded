@@ -1,4 +1,4 @@
 {
-  "MaxPathDistance": 25,
+  "MaxPathDistance": 20,
   "AllowLakeExtension": false
 }
