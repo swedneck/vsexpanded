@@ -7680,7 +7680,7 @@
       "Pattern": "saltandsands:urchin-*",
       "Weight": 0.4,
       "Kind": "item"
-    }, 
+    },
     {
       "Pattern": "saltandsands:bivalvemeat-urchin-*",
       "Weight": 0.3,
@@ -40659,6 +40659,11 @@
     {
       "Pattern": "game:lognarrow-*",
       "Weight": 10.0,
+      "Kind": "block"
+    },
+    {
+      "Pattern": "floralzones*:log-*",
+      "Weight": 15.0,
       "Kind": "block"
     },
     {
