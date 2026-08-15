@@ -1,35 +1,33 @@
 {
-  "Description": "General settings for various parts of stream generation.",
-  "MaxStreamLength": 10,
-  "MaxStreamLengthDescription": "The primary setting for performance.<br>Maximum possible length for a stream in small (32x32) and large (64x64) chunks.<br>A 10 chunk long stream would be 640 blocks long if it is a large scale stream, and 320 blocks long if it is small scale.<br>The size of the watershed model that generates around you increases exponentially with the max stream length.<br>A max length below 10 will have world generation speed at almost the same speed as basegame.<br>A max length above 20 will leave you waiting for chunks to generate.<br>This also has diminishing returns on what you get, as terrain that can support long rivers is rare unless you scale up the terrain in the basegame's world settings.<br>Large scale streams with a max stream length of 15 chunks will cover almost all stream-suitable slope paths you'll find. At that length on a good CPU & render distance you could continually travel without catching up to generating chunks.<br>If you want a max length above 15 make sure you have a good CPU or you're playing on a dedicated server.<br>Gets pretty crazy above stream length 21, later i'll make a preset for very long streams.",
-  "MinStreamLength": 7,
-  "MinStreamLengthDescription": "Minimum stream length in small (32x32) and large (64x64) chunks. Streams shorter than this are discarded.",
+  "MaxStreamLength": 12,
+  "MaxStreamLengthDescription": "The primary setting for performance.<br><br>Maximum possible length for a stream in small (32x32), large (64x64), and massive (128x128) chunks.<br>This is locked in when you start your world, you can't change it on the same save.<br>A 10 chunk long stream would be 640 blocks long if it is a large scale stream, and 320 blocks long if it is small scale.<br>The size of the watershed model that generates around you increases exponentially with the max stream length.<br>A max length below 10 will have world generation speed at almost the same speed as basegame.<br>A max length above 20 will leave you waiting for chunks to generate.<br>This also has diminishing returns on what you get, as terrain that can support long rivers is rare unless you scale up the terrain in the basegame's world settings.<br>Large scale streams with a max stream length of 15 chunks will cover almost all stream-suitable slope paths you'll find. At that length on a good CPU & render distance you could continually travel without catching up to generating chunks.<br>If you want a max length above 15 make sure you have a good CPU or you're playing on a dedicated server.<br>Gets pretty crazy above stream length 21, later i'll make a preset for very long streams.",
+  "MassiveStreamsEnabled": false,
+  "MassiveStreamsEnabledDescription": "Enable massive streams, which are streams at the 128x128 chunk scale.<br>Large are 64x64, and small are 32x32.<br>This will increase the watershed model's generation time roughly by a third, and then even more from the extra streams pathing out of the massive streams.<br>These massive streams are comparible to the river's mods rivers. If the terrain and max stream length is right they could even reach the same length. But with how terrain usually is, they're usually below half of river's length",
+  "MinStreamLength": 5,
+  "MinStreamLengthDescription": "Minimum stream length in small (32x32), large (64x64), and massive (128x128) chunks. Streams shorter than this are discarded.",
   "StreamScalingAnchorLength": 26,
   "StreamScalingAnchorLengthDescription": "Reference stream length (in chunks) at which width/depth values are applied.<br>Streams scale proportionally relative to this.<br>For instance, if you set the StreamBedWidthAtAnchor config to 60, the stream bed will be 60 blocks wide on the 26th chunk downstream from the stream's source.<br>And if the MinimumBedWidth is 30, the stream bed will be 45 blocks wide on the 13th chunk downstream (halfway to the anchor) from the source.",
   "StreamTerrainInfluenceRadius": 5,
   "StreamTerrainInfluenceRadiusDescription": "Distance (in chunks) that streams affect surrounding terrain.<br>Must be large enough to cover the stream's full valley width, so increase this if you increase the width of streams a large amount.",
+  "OceanDrainDetectionRadius": 128,
+  "OceanDrainDetectionRadiusDescription": "If the stream's drain is within this block radius of any oceanmap opacity then the stream is classed as an ocean-draining stream.<br>At the time of writing this only affects braided stream mouths, which fan out if they drain into the ocean.",
   "Tributary": {
-    "MinimumLength": 4,
-    "MinimumLengthDescription": "Minimum tributary length in small (32x32) and large (64x64) chunks. Tributaries shorter than this are discarded.",
-    "MergeDownstreamOffset": 5.0,
-    "MergeDownstreamOffsetDescription": "How far tributaries curve downstream the main stream when joining the main stream.<br>The unit for this is curve points, the spacing between them on a stream path is defined by \"Curve Point Spacing\" in Stream Mapping.",
-    "MainStreamProximityThreshold": 7.0,
-    "MainStreamProximityThresholdDescription": "Distance threshold (multiplier on tributary width at each curve point) from the main stream for deciding when to truncate tributaries that get too close to the main stream, and reconnecting them at the conflict/intersection.",
-    "EnableLookahead": true,
-    "EnableLookaheadDescription": "Whether tributaries use lookahead pathing over greedy pathing."
+    "MergeDownstreamOffset": 15,
+    "MergeDownstreamOffsetDescription": "Moves the tributaries' connection point downstream the parent stream by this many blocks.<br>IRL tributaries curve downstream a little, but not that much.",
+    "ParentProximityThreshold": 5,
+    "ParentProximityThresholdDescription": "Like the oxbow cutoff threshold, but for when tributaries get too close to the parent stream.<br>The tributary gets cut off and reattached if it gets closer than this threshold * bed width at the close streampath curve point.",
+    "MouthFadeOffset": 25,
+    "MouthFadeOffsetDescription": "How far away the fade circle is from the stream mouth at the connection to the parent stream.<br>Just like with connections to drains and connections to the rivers mod's rivers, it uses a gradient circle to fade out the stream mouth into the parent stream.",
+    "MouthFadeRadius": 50,
+    "MouthFadeRadiusDescription": "How wide the fade circle is."
   },
-  "TributaryDescription": "Configuration for tributary generation including minimum length, merge behavior, and pathing options.",
-  "BendPool": {
-    "Enabled": true,
-    "EnabledDescription": "Enable bend pool effect. Curved sections of streams are carved deeper, creating pools.",
-    "MaxDepthBoost": 8.0,
-    "MaxDepthBoostDescription": "Maximum extra block depth that gets carved in curved stream sections.<br>Straight sections get no extra depth. The boost is scaled by the magnitude of the stream's curvature in each area.<br>3.0 means the most curved sections can be up to 3 blocks deeper than normal.",
-    "CurvatureThreshold": 0.06,
-    "CurvatureThresholdDescription": "Curvature magnitude threshold for determining if a section of a stream is curving.<br>This is used to create pools in curved areas.<br>Values above this threshold are considered curved, below are straight.<br>Lower values make more areas of the stream count as curved, which makes bigger and longer pools at the stream's curves.",
-    "SmoothingWindow": 20,
-    "SmoothingWindowDescription": "Number of curve points to average out when smoothing curvature for the bend pools.<br>Also softens out outlier/tiny bumps so you don't get pools in straight areas.",
-    "LookAroundDistance": 16,
-    "LookAroundDistanceDescription": "Number of curve points to look ahead/behind when calculating curvature.<br>A higher LookAroundDistance detects bigger curves, and lower detects tighter local bends."
+  "CurvePointSpacing": 1,
+  "CurvePointSpacingDescription": "Spacing between curve points along the stream path in blocks.<br>Basically defines the resolution of the line the streams follow (the stream path).<br>It used to be fully accurate to blocks when stream maps were 1 pixel to 1 block, but 1:1 ratio is now affected by large scale rivers and the stream map resolution (BlockColumnsPerPixel).<br>Lower means more points and a higher resolution. Higher means fewer points and a lower resolution.<br>Test any changes you make to this against the stream maps, don't change it blind.",
+  "DrainFade": {
+    "DrainFadeOffset": 110,
+    "DrainFadeOffsetDescription": "How far away the fade circle is from the stream mouth.<br>Uses a gradient circle to fade out the stream mouth into the drain.<br>Basically a simple fadeout of the stream as it gets to the water.",
+    "DrainFadeRadius": 130,
+    "DrainFadeRadiusDescription": "How big the fade circle is.<br>Uses a gradient circle to fade out the stream mouth into the drain.<br>Basically a simple fadeout of the stream as it gets to the water."
   },
-  "BendPoolDescription": "Configuration for bend pool effect where curved sections of streams are carved deeper, creating pools."
+  "DrainFadeDescription": "Configuration for fading out the stream as it approaches a drain."
 }

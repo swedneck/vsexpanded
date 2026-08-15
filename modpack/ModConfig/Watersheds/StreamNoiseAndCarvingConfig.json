@@ -1,0 +1,100 @@
+{
+  "MoundCanyoning": {
+    "Enabled": false,
+    "EnabledDescription": "Enables canyoning of terrain mounds/hills within stream areas.<br>This is an asymmetrical noise reduction specifically set up to target small mounds that get in the way of rivers.<br>The terrain sampling on the watershed model helps to avoid most rough terrain and bumps, but rarely some get through so this is used to carve through them.<br>It carves canyons into the terrain a little bit, but its worth it to prevent streams from being split apart by a mound.",
+    "Strength": 12,
+    "StrengthDescription": "Strength of mound canyoning in stream areas."
+  },
+  "MoundCanyoningDescription": "Configuration for canyoning terrain mounds/hills within stream areas.",
+  "LandformCanyoning": {
+    "Enabled": false,
+    "EnabledDescription": "Enables canyoning of landform features (hills/mounds) in stream areas.<br>This is the older landform component of the mound canyoning.<br>While the more general asymmetric noise canyoning does a better job of carving down mounds, it seems landform noise still gets in the way a little bit.<br>Haven't touched this much since I got the asymmetric noise canyoning working, it needs another look at some point.",
+    "Strength": 0.02,
+    "StrengthDescription": "Strength of landform canyoning in stream areas.",
+    "Power": 2,
+    "PowerDescription": "Power curve for landform canyoning scaling.",
+    "UseExponential": true,
+    "UseExponentialDescription": "Use exponential scaling for landform canyoning instead of linear."
+  },
+  "LandformCanyoningDescription": "Configuration for canyoning down landform hills/mounds in stream areas.",
+  "StreambankHeightVariation": {
+    "Enabled": true,
+    "EnabledDescription": "Enables natural height variation along streambanks via adding extra noise.",
+    "FactorsAtSource": [
+      0,
+      0,
+      0,
+      1,
+      0.75,
+      0.5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "FactorsAtSourceDescription": "Per-octave streambank height variation factors at stream sources.",
+    "FactorsAtMouth": [
+      0,
+      0,
+      0,
+      1,
+      0.75,
+      0.5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "FactorsAtMouthDescription": "Per-octave streambank height variation factors at stream mouths.",
+    "MaxVariation": 3,
+    "MaxVariationDescription": "Maximum streambank height variation for each octave."
+  },
+  "StreambankHeightVariationDescription": "Configuration for natural height variation along streambanks via adding extra noise.",
+  "CanyonRockiness": {
+    "Enabled": true,
+    "EnabledDescription": "Enables rocky/cliffy variation on canyon walls via adding extra noise.",
+    "FactorsAtSource": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3.5,
+      3,
+      2.5,
+      2,
+      0.75
+    ],
+    "FactorsAtSourceDescription": "Per-octave canyon wall rockiness factors at stream sources.",
+    "FactorsAtMouth": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3.5,
+      3,
+      2.5,
+      2,
+      0.75
+    ],
+    "FactorsAtMouthDescription": "Per-octave canyon wall rockiness factors at stream mouths.",
+    "MaxRockiness": 0.8,
+    "MaxRockinessDescription": "Maximum canyon wall rockiness for each octave."
+  },
+  "CanyonRockinessDescription": "Configuration for rocky/cliffy variation on canyon walls via adding extra noise.",
+  "StreambedSmoothing": {
+    "Enabled": true,
+    "EnabledDescription": "Enables smoothing of streambed height transitions.",
+    "LookaheadDistance": 20,
+    "LookaheadDistanceDescription": "Distance (in curve points) to look ahead when smoothing streambed heights.",
+    "SlopeDepthScaling": 9,
+    "SlopeDepthScalingDescription": "Multiplier that scales how much terrain slope affects streambed depth.<br>Higher values carve deeper streambeds where the terrain drops."
+  },
+  "StreambedSmoothingDescription": "Configuration for smoothing streambed height transitions.<br>Creates a smooth streambed.",
+  "SeaLevelBedDepthCap": {
+    "TargetBedDepthBelowSeaLevel": 9,
+    "TargetBedDepthBelowSeaLevelDescription": "Deepest the carved streambed is allowed to sit below sea level, in blocks.<br>Stream carving is scaled down just enough that the bed bottoms out at this depth,<br>so streams of any depth reach the same mouth depth instead of trenching into the sea floor.<br>Set very high (e.g. 9999) to disable the cap entirely."
+  },
+  "SeaLevelBedDepthCapDescription": "Caps how deep streambeds may carve below sea level near stream mouths.<br>Prevents deep streams from trenching through the sea floor."
+}

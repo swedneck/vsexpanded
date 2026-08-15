@@ -1,15 +1,6 @@
 {
-  "Description": "Stream sound settings.",
   "MaxVolume": 0.2,
-  "MaxVolumeDescription": "Volume of stream sounds at or inside DistanceFalloffStart.<br>0.0 is no sound, 1.0 is full volume.",
+  "MaxVolumeDescription": "Base volume of stream sounds when nearby. Distance falloff is handled by the game's positional audio.<br>0.0 is no sound, 1.0 is full volume.",
   "EnableCustomStreamSound": true,
-  "EnableCustomStreamSoundDescription": "Whether to use the custom stream sound file instead of the vanilla creek sound",
-  "LowPassFilterBase": 1.2,
-  "LowPassFilterBaseDescription": "Base low-pass filter amount applied to stream sounds at the source.<br>Lower LowPassFilterBase reduces high frequencies at the source.",
-  "LowPassFilterMinimum": 0.35,
-  "LowPassFilterMinimumDescription": "Minimum low-pass filter value after indoor dampening.",
-  "DistanceFalloffStart": 2.0,
-  "DistanceFalloffStartDescription": "Volume starts falling off at this distance (in blocks) from the stream water",
-  "DistanceFalloffEnd": 10.0,
-  "DistanceFalloffEndDescription": "Volume is 0 at this distance (in blocks) away from the stream, and gets louder as you get closer."
+  "EnableCustomStreamSoundDescription": "Whether to use the custom stream sound file instead of the vanilla creek sound"
 }

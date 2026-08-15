@@ -1,0 +1,18 @@
+{
+  "StreamBedWidthAtAnchor": 8,
+  "StreamBedWidthAtAnchorDescription": "Width in blocks of the deepest part of the main stream at the position of the anchor.<br>Must be less than StreamBankWidthAtAnchor.",
+  "StreamBankWidthAtAnchor": 18,
+  "StreamBankWidthAtAnchorDescription": "Total width in blocks of the main stream banks at position of the anchor.<br>Must be less than ValleyWidthAtAnchor and greater than BedWidthAtAnchor.",
+  "StreamValleyWidthAtAnchor": 65,
+  "StreamValleyWidthAtAnchorDescription": "Total width in blocks of the terrain guided towards a valley shape for main streams at the scaling anchor length.<br>Must be greater than BankWidthAtAnchor.<br>The valley used to be way more important than it is now, currently its almost ignored.",
+  "MinimumBedWidth": 1.85,
+  "MinimumBedWidthDescription": "Minimum width in blocks of the main stream bed at its source (narrowest point).<br>Streams taper from StreamBedWidth at the mouth to this value at the source.",
+  "MinimumBankWidth": 4,
+  "MinimumBankWidthDescription": "Minimum width in blocks of the main stream banks at the source (narrowest point).<br>Banks taper from StreamBankWidth at the mouth to this value at the source.",
+  "BedLowestDepth": 8,
+  "BedLowestDepthDescription": "Depth in blocks of the stream bed from the surrounding terrain level. Controls the maximum depth of the deepest part of streams (before the bend pooling).<br>Should be greater than BankLowestDepth for natural appearance.<br>If you make this too deep it will make the streams like ravines, cutting into the terrain.<br>If you make this too shallow you'll see a lot more broken streams on mountains/hills, with water spilling off the sides.<br>One day I might figure out a better solution to the spilling water, so you can make this shallow without worries.",
+  "BankLowestDepth": 1,
+  "BankLowestDepthDescription": "Depth in blocks of stream banks relative to surrounding terrain.<br>Creates a transition area between stream bed and valley.<br>Should be between BedLowestDepth and ValleyLowestDepth.",
+  "ValleyLowestDepth": -2,
+  "ValleyLowestDepthDescription": "Depth of the stream valley edges relative to surrounding terrain.<br>Should be less than BankLowestDepth for natural appearance.<br>Can also be negative, lifting up the area around streams to make the stream banks more defined."
+}

@@ -1,5 +1,4 @@
 {
-  "Description": "Settings for how streams path through the watershed model's waterflow.",
   "PathingAwayFromDrainScalar": 1.25,
   "PathingAwayFromDrainScalarDescription": "The multiplier on the preference that streams have for pathing away from their drains.",
   "PathingLookaheadDepth": 6,

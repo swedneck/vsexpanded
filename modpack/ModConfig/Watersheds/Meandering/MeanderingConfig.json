@@ -1,0 +1,53 @@
+{
+  "EnabledChance": 66,
+  "EnabledChanceDescription": "Percent chance for a stream to be a meandering stream.",
+  "MeanderIterations": 10,
+  "MeanderIterationsDescription": "Number of iterative passes for the progressive meandering.<br>Each iteration applies small displacements that accumulate over the iterations into larger meanders.<br>Not enough iterations and the streams will be basic, more closely resembling their base bezier curves.<br>After a certain point the iterations becomes meaningless. You can meander the streams forever.",
+  "SinuosityAtSource": 1.225,
+  "SinuosityAtSourceDescription": "Sinuosity at the stream source.<br>Sinuosity scales the amplitude of the meandering sine-based curves per iteration.<br>The sinuosity lerps from the source to the anchor based on the distance along the stream.<br>Super volatile value, completely changes how meandering looks with even a tiny change.",
+  "SinuosityAtAnchor": 1.225,
+  "SinuosityAtAnchorDescription": "Sinuosity at the anchor point.<br>Streams longer than anchor length continue extrapolating linearly.<br>1.0 means a straight line. 1.5+ gives massive meandering.<br>The sinuosity lerps from the source to the anchor based on the distance along the stream.<br>Super volatile value, completely changes how meandering looks with even a tiny change.",
+  "BeltWidthToStreamWidthRatio": 3,
+  "BeltWidthToStreamWidthRatioDescription": "Target ratio of meander belt width to stream bed width. Only used when UseConstantBeltWidthRatio is true.<br>The wavelength multipliers are automatically calculated from this ratio and the sinuosity values.",
+  "MeanderFading": {
+    "SourceDistanceAtAnchor": 250,
+    "SourceDistanceAtAnchorDescription": "Distance from the stream source (in blocks) when the stream is at the anchor's stream length, over which to fade meandering back to the original path.<br>This distance scales with stream length: short streams have proportionally shorter fade distances, long streams have proportionally longer fade distances.<br>Basically, its how big the fadeout of meandering is near the stream source.",
+    "MouthDistanceAtAnchor": 250,
+    "MouthDistanceAtAnchorDescription": "Distance from the stream drain/connection (in blocks) when the stream is at the anchor's stream length, over which to fade meandering back to a straight connection.<br>This distance scales with stream length: short streams have proportionally shorter fade distances, long streams have proportionally longer fade distances.<br>Basically, its how big the fadeout of meandering is near the stream mouth."
+  },
+  "MeanderFadingDescription": "Configuration for fading out meandering into a smooth path at the stream source and mouth.",
+  "CurvePointSmoothing": {
+    "WindowRadius": 8,
+    "WindowRadiusDescription": "Number of neighboring points on each side to include in smoothing window.<br>Controls spatial extent of smoothing effect. Applied per iteration.<br>1 gives a 3-point window (current + 2 neighbors), 2 gives a 5-point window, 3 gives a 7-point window.",
+    "Strength": 0.8,
+    "StrengthDescription": "Controls the intensity of the smoothing within the smoothing window.<br>0.0 to 1.0 is no smoothing to full smoothing, and 1.0+ is even more smoothing.<br>Adjust together with WindowRadius."
+  },
+  "CurvePointSmoothingDescription": "Configuration for smoothing out the stream path (the curve points) inbetween the iterations of meandering.",
+  "SteepTerrainStraightening": {
+    "BlendStrength": 0.5,
+    "BlendStrengthDescription": "Maximum strength of blending the meandered path back to original bezier curve path in and around steep terrain.<br>0 means no blending (full meandering everywhere). 1 means a hard switch to the bezier curve when the path gets to an area with the max steepness.<br>This prevents streams from meandering the path into nearby cliffs and hills, and keeps the stream path clean on mountains.<br>Use with HeightThreshold to define the relationship between terrain height and blend strength",
+    "HeightThreshold": 60,
+    "HeightThresholdDescription": "Height difference (in blocks) at which steep terrain blending reaches full strength.<br>The blending lerps from 0 blending at 0 height difference to the full blending strength (BlendStrength) at this configured threshold.<br>This prevents streams from meandering the path into nearby cliffs and hills, and keeps the stream path clean on mountains.<br>Use with BlendStrength to define the relationship between terrain height and blend strength",
+    "SearchRadius": 0,
+    "SearchRadiusDescription": "Manhattan distance radius (in chunks) for searching neighboring terrain when calculating max height difference.<br>0 means only use the current chunk. 1 means include immediate neighbors. 2+ means a larger search area.<br>A larger radius catches steep/rough terrain that is further from the stream path.Increase it if you find streams meandering into rough terrain, otherwise leave at 0"
+  },
+  "SteepTerrainStraighteningDescription": "Configuration for straightening streams around steep terrain to prevent meandering into cliffs and hills, and to keep mountain streams clean.",
+  "OxbowCutoff": {
+    "ProximityThreshold": 1.75,
+    "ProximityThresholdDescription": "Minimum distance between meander curves as fraction of the local meander's amplitude.<br>The cutoff distance scales with the stream width, so theres small meanders at the source, large at the mouth.",
+    "MinWavelengthArcLengthFraction": 0.6,
+    "MinWavelengthArcLengthFractionDescription": "Minimum arc length gap between segments of the stream path, as a fraction of the local wavelength.<br>Only segment pairs separated by at least this fraction of the wavelength are checked for oxbow cutoffs.<br>This prevents cutting normal stream curving, so only true oxbows (where the stream loops back on itself) are cut.<br>0.5 is half a wavelength, 0.75 is three-quarters. Higher values can cut the curve too early, straightening it out.",
+    "MaxCutAttempts": 100,
+    "MaxCutAttemptsDescription": "Maximum attempts to cut oxbows per iteration."
+  },
+  "OxbowCutoffDescription": "Configuration for cutting off a stream as it intersects with itself via meandering, creating an oxbow lake on braided rivers.",
+  "DrainMovement": {
+    "DrainMigrateRadius": 64,
+    "DrainMigrateRadiusDescription": "The stream mouths can migrate this amount of blocks away from it's original drain mouths, if their stream mouths can migrate.<br>At time of writing, this is for meandering and braided streams.",
+    "SlowdownInnerMigrateRadiusFraction": 0.4,
+    "SlowdownInnerMigrateRadiusFractionDescription": "This is the fraction of DrainMigrateRadius where a strream mouth can migrate before getting slowed down.",
+    "MouthStraighteningStrength": 0.2,
+    "MouthStraighteningStrengthDescription": "To prevent the stream meandering around/on the stream mouth we straighten it up between the stream mouth and (the scaled) mouthFadeAtAnchor.<br>0.0 is no straightening 1.0 is full strength straightening."
+  },
+  "DrainMovementDescription": "Configs for the moving the stream mouths/drain points along the coast."
+}
