@@ -11,7 +11,6 @@
   "dependencies": {
     "abyssaldepths": "1.0.18",
     "aculinaryartillery": "2.0.0-dev.21",
-    "adastra": "0.2.1",
     "aged": "2.0.5",
     "alchemy": "2.1.19",
     "algernonsterrainsampler": "1.3.0",
@@ -21,6 +20,7 @@
     "archering": "1.0.7",
     "arcticsurvival": "2.0.0",
     "artofgrowingpatch": "1.2.2",
+    "astraterra": "0.3.0",
     "attackfish": "1.0.0",
     "attributerenderinglibrary": "3.1.5",
     "attrition": "1.0.0",
