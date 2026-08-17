@@ -1,5 +1,5 @@
 {
-  "FarViewDistanceCap": 0,
-  "DetailDistance": 512,
+  "FarViewDistanceCap": 1024,
+  "DetailDistance": 256,
   "IgnoreOtherLodMods": true
 }

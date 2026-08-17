@@ -12,7 +12,7 @@
   "GenerateDefaultRadiusChunks": 32,
   "GenerateColumnsPerSecond": 16,
   "GenerateMaxInFlight": 64,
-  "PregenRadiusChunks": 0,
+  "PregenRadiusChunks": 16,
   "PregenColumnsPerSecond": 8,
   "SweepEnabled": true,
   "GenerateEnabled": true
