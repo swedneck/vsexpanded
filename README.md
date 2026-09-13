@@ -1,3 +1,6 @@
+This modpack is no longer being developed since Anego studios decided to keep a developer who included malware in their mods.  
+Feel free to fork this modpack.
+
 https://mods.vintagestory.at/vsexpanded
 
 VS Expanded is a modpack for the game Vintage Story; where i try to implement my vision for what the game could be, using a selection of existing mods and tweaked configs.
